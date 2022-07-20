@@ -77,12 +77,12 @@ conference:
         relative_url: /location/
       - name: Previous Editions
         menu:
-          - name: 2022 (current)
+          - name: 2023 (current)
             disabled: true
           - name: 2019
             absolute_url: "http://www.math.fau.edu/cmpd5/"
           - name: 2013
-            relative_url: /2018/
+            absolute_url: "https://www.math.miami.edu/~ruan/CMPD4.pdf"
 
   # Link Preview for Sharing
   link_preview:
