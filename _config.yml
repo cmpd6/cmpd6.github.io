@@ -80,8 +80,8 @@ conference:
           - name: 2022 (current)
             disabled: true
           - name: 2019
-            url: "http://www.math.fau.edu/cmpd5/"
-          - name: 2018
+            absolute_url: "http://www.math.fau.edu/cmpd5/"
+          - name: 2013
             relative_url: /2018/
 
   # Link Preview for Sharing
