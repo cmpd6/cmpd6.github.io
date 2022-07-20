@@ -1,4 +1,4 @@
 plugins: 
   - jekyll-include-cache
 
-remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@2.0.0"
+remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@3.6.0"
