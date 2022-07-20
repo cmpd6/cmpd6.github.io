@@ -1,1 +1,2 @@
-plugins: jekyll-include-cache
+plugins: 
+  - jekyll-include-cache
