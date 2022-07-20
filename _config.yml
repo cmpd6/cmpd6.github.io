@@ -63,8 +63,10 @@ conference:
     logo:
       name: CMPD6
       # img: ''
-      url: 'https://digitale-gesellschaft.ch/'
+      url: 'https://cmpd6.github.io/'
     links:
+      - name: Committees
+        relative_url: /committees/
       - name: Program
         relative_url: /program/
       - name: Talks
@@ -78,7 +80,7 @@ conference:
           - name: 2022 (current)
             disabled: true
           - name: 2019
-            relative_url: /2019/
+            url: "http://www.math.fau.edu/cmpd5/"
           - name: 2018
             relative_url: /2018/
 
@@ -109,7 +111,7 @@ conference:
       color: primary
       main_only: true
       text: |
-        The Theme was originally made for the [Winterkongress](https://www.digitale-gesellschaft.ch/kongress/), a yearly conference of the [Digital Society Switzerland](https://digitale-gesellschaft.ch/).
+        Information about the conference will be posted as it becomes available.
 
         ---
 
@@ -120,8 +122,8 @@ conference:
 
   # Live indications
   live:
-    date: 01.01.2020
-    timezone: GMT+1
+    date: 25.05.2023
+    timezone: GMT-5
     stop:       240  # in minutes
     streaming:
       enable: true
