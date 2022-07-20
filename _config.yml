@@ -3,10 +3,8 @@ preposition: at
 description: >-
   Computational and Mathematical Population Dynamics 6 in Winnipeg, Manitoba, Canada
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cmpd6.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://cmpd6.github.io" # the base hostname & protocol for the site
 
-#theme: jekyll-theme-conference
-#remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@3.6.0"
 remote_theme: "DigitaleGesellschaft/jekyll-theme-conference"
 
 # Build settings
@@ -63,7 +61,7 @@ conference:
   # Navigation bar
   navigation:
     logo:
-      name: Digital Society Switzerland
+      name: CMPD6
       # img: ''
       url: 'https://digitale-gesellschaft.ch/'
     links:
