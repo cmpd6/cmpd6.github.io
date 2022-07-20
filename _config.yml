@@ -6,7 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://example.com" # the base hostname & protocol for your site, e.g. https://example.com
 
 #theme: jekyll-theme-conference
-remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@3.6.0"
+#remote_theme: "DigitaleGesellschaft/jekyll-theme-conference@3.6.0"
+remote_theme: "DigitaleGesellschaft/jekyll-theme-conference"
 
 # Build settings
 markdown: kramdown
