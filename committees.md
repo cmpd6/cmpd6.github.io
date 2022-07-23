@@ -1,13 +1,14 @@
 ---
 layout: page
+title: Committees
 ---
 
-# Local Organisation Committee
+## Local Organisation Committee
 - Julien Arino
 - Kang-Ling Liao
 - Stéphanie Portet
 
-# Scientific Committee
+## Scientific Committee
 - Mark Lewis (University of Victoria)
 - Fabio Milner (Arizona State University)
 - Pauline van den Driessche (University of Victoria)
