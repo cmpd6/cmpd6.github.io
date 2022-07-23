@@ -10,9 +10,11 @@ title: Committees
 
 ## Scientific Committee
 - [Isashi Inaba](https://www.ms.u-tokyo.ac.jp/~inaba/index.html) (University of Tokyo)
-- [Mark Lewis] (University of Victoria)
-- [Maia Martcheva]() (University of Florida)
+- [Mark Lewis](http://grad.biology.ualberta.ca/mlewis/) (University of Victoria)
+- [Maia Martcheva](https://people.clas.ufl.edu/maia/) (University of Florida)
 - [Fabio Milner](https://math.la.asu.edu/~milner/welc_eng.html) (Arizona State University)
 - [Andrea Pugliese](https://andrea-pugliese.maths.unitn.it/) (Università di Trento)
+- [Shigui Ruan](https://www.math.miami.edu/~ruan/) (University of Miami)
+- [Necibe Tuncer](http://www.math.fau.edu/people/faculty/tuncer.php) (Florida Atlantic University)
 - [Pauline van den Driessche](https://www.math.uvic.ca/faculty/pvdd/) (University of Victoria)
-- [Yani Xiao]() (Xi'an University)
+- [Yani Xiao](https://www.researchgate.net/profile/Yanni-Xiao) (Xi'an Jiaotong University)
