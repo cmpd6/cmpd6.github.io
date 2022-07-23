@@ -112,11 +112,7 @@ conference:
       main_only: true
       text: |
         Information about the conference will be posted as it becomes available.
-
-        ---
-
-        See the [README](github.com/DigitaleGesellschaft/jekyll-theme-conference/) on the project's GitHub repository for further information on how to configure and adapt it to your needs.
-    - text: This is just some random content for demonstration purposes.
+    - text: This is just some random content for testing purposes.
       color: warning
       pages_only: true
 
