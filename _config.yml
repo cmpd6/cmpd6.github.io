@@ -62,7 +62,7 @@ conference:
   navigation:
     logo:
       name: CMPD6
-      # img: ''
+      img: 'logo_simple.png'
       url: 'https://cmpd6.github.io/'
     links:
       - name: Committees
