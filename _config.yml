@@ -1,7 +1,7 @@
 title: CMPD6
 preposition: at
 description: >-
-  Computational and Mathematical Population Dynamics 6 in Winnipeg, Manitoba, Canada
+  Computational and Mathematical Population Dynamics 6 in Winnipeg, Manitoba, Canada, 22-26 May 2023.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cmpd6.github.io" # the base hostname & protocol for the site
 
@@ -111,14 +111,14 @@ conference:
       color: primary
       main_only: true
       text: |
-        Information about the conference will be posted as it becomes available.
+        More information about the conference will be posted as it becomes available.
     - text: This is just some random content for testing purposes.
       color: warning
       pages_only: true
 
   # Live indications
   live:
-    date: 25.05.2023
+    date: 22.05.2023
     timezone: GMT-5
     stop:       240  # in minutes
     streaming:
