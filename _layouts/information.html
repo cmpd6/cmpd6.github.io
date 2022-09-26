@@ -1,0 +1,16 @@
+{% include partials/header.html %}
+
+  {% assign this_information = page %}
+
+  <h1 class="display-5 mb-3">
+    {% if page.title %}
+      {{ page.title }}
+    {% endif %}
+  </h1>
+
+  {% assign this_information = page %}
+  {% include partials/navbar_information.html %}
+
+  {{ content }}
+
+{% include partials/footer_simple.html %}

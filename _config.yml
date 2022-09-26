@@ -35,7 +35,7 @@ collections:
   rooms:
     output: true
     permalink: /:collection/:title/
-  venue:
+  information:
     output: true
     permalink: /:collection/:title/
 
@@ -57,9 +57,9 @@ defaults:
       layout: room
   - scope:
       path: ""
-      type: venue
+      type: information
     values:
-      layout: room
+      layout: information
 
 
 conference:
@@ -85,10 +85,11 @@ conference:
       #  relative_url: /talks/
       - name: Speakers
         relative_url: /speakers/
+        layout: speaker-overview
       #- name: Rooms
       #  relative_url: /rooms/
-      - name: Venue
-        relative_url: /venue/
+      - name: Information
+        relative_url: /information/
       - name: Previous Editions
         menu:
           - name: 2023 (current)
@@ -97,12 +98,14 @@ conference:
             absolute_url: "http://www.math.fau.edu/cmpd5/"
           - name: 2013
             absolute_url: "https://www.math.miami.edu/~ruan/CMPD4.pdf"
+          - name: History
+            absolute_url: "CMPD_history.html"
 
 
   # Link Preview for Sharing
   link_preview:
     # also adapt "preposition" property at top for more meaningful descriptions
-    disable: false
+    disable: true
     img:
       twitter: 'twitter_preview.png'      # inside /assets/images/
       open_graph: 'facebook_preview.png'  # inside /assets/images/
@@ -112,14 +115,14 @@ conference:
     logo:
       img: 'SkylineWinnipgeLong.png'
     links:
-      - name: Program
-        relative_url: /program/
-      - name: How to get there
-        relative_url: /venue/
+      #- name: Program
+      #  relative_url: /program/
+      #- name: How to get there
+      #  relative_url: /venue/
 
   # Information boxes
   info_bars:
-    - title: Welcome to CMPD6
+    - title: Computational and Mathematical Population Dynamics 6 (CMPD6), Winnipeg, 22-26 May 2023
       color: primary
       main_only: true
       text: |
@@ -181,13 +184,13 @@ conference:
     # Show map on location main page
     map: false
 
-  venue:
-    # Disable links to venues?
+  information:
+    # Disable links to information?
     hide: false
-    # URL of location / room overview page
-    url: '/venue'
-    # Main page title shown on location/room navigation bar
-    navbar_title: 'Venue'
+    # URL of information page
+    url: '/information'
+    # Main page title shown on information navigation bar
+    navbar_title: 'Information'
     # Show map on location main page
     map: false
 
