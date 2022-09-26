@@ -21,7 +21,7 @@ The Conference on Mathematical Population Dynamics (MPD) took place as follows:
 
 The Conference on Deterministic and Stochastic Models for Biological Interactions were: 
 - DeStoBio 1, Sofia (Bulgaria), 28-31 August 1997
-- DeStoBio 2, Purdue University, Indiana (USA), 23-27 August 2000
+- DeStoBio 2, Purdue University (Indiana, USA), 23-27 August 2000
 - DeStoBio 3, Trento (Italy), 21-25 June 2004
 
 ### CMPD conferences
