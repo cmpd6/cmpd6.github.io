@@ -100,7 +100,7 @@ conference:
           - name: 2013
             absolute_url: "https://www.math.miami.edu/~ruan/CMPD4.pdf"
           - name: History
-            absolute_url: "CMPD_history.html"
+            absolute_url: "/CMPD_history.html"
 
 
   # Link Preview for Sharing
