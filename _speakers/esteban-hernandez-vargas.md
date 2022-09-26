@@ -2,8 +2,8 @@
 name: Esteban A. Hernandez-Vargas
 first_name: Esteban
 last_name: Hernandez-Vargas
-institution: Frankfurt Institute for Advanced Studies
-institution_country: Germany
+institution: University of Idaho
+institution_country: USA
 plenary: true
 hide: false
 links:
