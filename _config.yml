@@ -10,6 +10,7 @@ remote_theme: "DigitaleGesellschaft/jekyll-theme-conference"
 # Plugins
 plugins:
   - jekyll-include-cache
+  - jekyll-sitemap
 
 # Build settings
 markdown: kramdown
