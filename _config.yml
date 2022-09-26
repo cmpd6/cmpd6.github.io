@@ -79,7 +79,7 @@ conference:
       url: 'https://cmpd6.github.io/'
     links:
       - name: Committees
-        relative_url: "committees.html"
+        relative_url: "/committees.html"
       #- name: Program
       #  relative_url: /program/
       #- name: Talks
