@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Committees
+showinfobar: false
 ---
 
 ## Local Organisation Committee

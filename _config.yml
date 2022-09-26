@@ -1,11 +1,15 @@
 title: CMPD6
 preposition: at
 description: >-
-  Computational and Mathematical Population Dynamics 6 in Winnipeg, Manitoba, Canada, 22-26 May 2023.
+  Computational and Mathematical Population Dynamics 6, Winnipeg, Manitoba, Canada, 22-26 May 2023.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://cmpd6.github.io" # the base hostname & protocol for the site
 
 remote_theme: "DigitaleGesellschaft/jekyll-theme-conference"
+
+# Plugins
+plugins:
+  - jekyll-include-cache
 
 # Build settings
 markdown: kramdown
@@ -23,12 +27,15 @@ exclude:
 # Collections and their defaults
 collections:
   talks:
-    output: true
+    output: false
     permalink: /:collection/:title/
   speakers:
     output: true
     permalink: /:collection/:title/
   rooms:
+    output: true
+    permalink: /:collection/:title/
+  venue:
     output: true
     permalink: /:collection/:title/
 
@@ -48,6 +55,11 @@ defaults:
       type: rooms
     values:
       layout: room
+  - scope:
+      path: ""
+      type: venue
+    values:
+      layout: room
 
 
 conference:
@@ -62,19 +74,21 @@ conference:
   navigation:
     logo:
       name: CMPD6
-      img: 'logo_simple.png'
+      img: 'SkylineWinnipgeShortScaled.png'
       url: 'https://cmpd6.github.io/'
     links:
       - name: Committees
         relative_url: "committees.html"
-      - name: Program
-        relative_url: /program/
-      - name: Talks
-        relative_url: /talks/
+      #- name: Program
+      #  relative_url: /program/
+      #- name: Talks
+      #  relative_url: /talks/
       - name: Speakers
         relative_url: /speakers/
-      - name: Location
-        relative_url: /location/
+      #- name: Rooms
+      #  relative_url: /rooms/
+      - name: Venue
+        relative_url: /venue/
       - name: Previous Editions
         menu:
           - name: 2023 (current)
@@ -83,6 +97,7 @@ conference:
             absolute_url: "http://www.math.fau.edu/cmpd5/"
           - name: 2013
             absolute_url: "https://www.math.miami.edu/~ruan/CMPD4.pdf"
+
 
   # Link Preview for Sharing
   link_preview:
@@ -94,16 +109,13 @@ conference:
 
   # Main landing page
   main:
-    # logo:
-    #   img: ''
+    logo:
+      img: 'SkylineWinnipgeLong.png'
     links:
       - name: Program
         relative_url: /program/
       - name: How to get there
-        relative_url: /location/
-      - name: Tickets
-        disabled: true
-        absolute_url: ''
+        relative_url: /venue/
 
   # Information boxes
   info_bars:
@@ -145,9 +157,11 @@ conference:
   talks:
     # Talk categories
     main_categories:
-      - name: Cat A
+      - name: Plenaries
         color: info
-      - name: Cat B
+      - name: Minisymposium lectures
+        color: success
+      - name: Contributed talks
         color: success
 
     # Hide icons on talk overview page
@@ -167,12 +181,21 @@ conference:
     # Show map on location main page
     map: false
 
+  venue:
+    # Disable links to venues?
+    hide: false
+    # URL of location / room overview page
+    url: '/venue'
+    # Main page title shown on location/room navigation bar
+    navbar_title: 'Venue'
+    # Show map on location main page
+    map: false
+
   program:
     # URL of program page
     url: '/program'
-
     # Time steps in program table
     time_steps: 15 # in minutes
-
     # Show intermediary time steps (next to full hours)
     show_alltimes: true
+

@@ -17,7 +17,9 @@
       {%- assign show_info_bar = true -%}
     {%- endif -%}
     {%- if page.url != "/" and info_bar.main_only != true -%}
-      {%- assign show_info_bar = true -%}
+      {%- if page.showinfobar == true -%}
+        {%- assign show_info_bar = true -%}
+      {%- endif -%}
     {%- endif -%}
 
     {%- if show_info_bar %}
