@@ -75,7 +75,7 @@ conference:
   navigation:
     logo:
       name: CMPD6
-      img: 'SkylineWinnipgeShortScaled.png'
+      img: 'SkylineWinnipgeShortScaledTitle.png'
       url: 'https://cmpd6.github.io/'
     links:
       - name: Committees
