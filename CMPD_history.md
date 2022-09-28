@@ -4,7 +4,7 @@ title: History of the CMPD conference series
 showinfobar: false
 ---
 
-The Computational and Mathematical Population Dynamics (CMPD) conference series started in 2004 when two existing conference series, MPD and DeStoBio, merged. The first CMPD, CMPD1, was held in Trento (Italy), 21-25 June 2004, also as MPD7 and DeStoBio 3. 
+The Computational and Mathematical Population Dynamics (CMPD) conference series started in Trento in 2004 when two existing conference series, MPD and DeStoBio, merged.
 
 ### MPD conferences
 
