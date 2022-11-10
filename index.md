@@ -4,12 +4,23 @@ layout: home
 
 The sixth edition of the Computational and Mathematical Population Dynamics conference (CMPD6) will take place in Winnipeg (Manitoba, Canada) from 23 to 27 May 2023.
 
+### Plenary speakers
+
+- [Folashade Agusto, The University of Kansas (USA)](/speakers/folashade-agusto/)
+- [Jim Cushing, University of Arizona (USA)](/speakers/jim-cushing/)
+- [Marisa Eisenberg, University of Michigan, Ann Arbor (USA)](/speakers/marisa-eisenberg/)
+- [Jane Heffernan, York University (Canada)](/speakers/jane-heffernan/)
+- [Esteban Hernandez-Vargas, University of Idaho (USA)](/speakers/esteban-hernandez-vargas/)
+- [Anna Marciniak-Czochra, Heidelberg University (Germany)](/speakers/anna-marciniak-czochra/)
+- [Jay Newby, University of Alberta (Canada)](/speakers/jay-newby/)
+- [Zhisheng Shuai, University of Central Florida (USA)](/speakers/zhisheng-shuai/)
+
+### Minisymposiums, important dates
+
 CMPD6 mini-symposiums will consist of two hour blocks containing four (4) talks each block. Each talk will be 25 mins + 5 mins for questions. Mini-symposium organizers have the option of scheduling 1-3 blocks (each block is two (2) hours with four (4) speakers). 
 Proposals for mini-symposiums should be submitted by 15 January 2023 using [this webpage](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu). 
 
-See details about other dates in the table below.
-
-## Important dates
+See details about all conference submssion dates in the table below.
 
 <style>
     table th + th { border-left:2px solid black; }
