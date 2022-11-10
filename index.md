@@ -6,14 +6,14 @@ The sixth edition of the Computational and Mathematical Population Dynamics conf
 
 ### Plenary speakers
 
-- [Folashade Agusto, The University of Kansas (USA)](/speakers/folashade-agusto/)
-- [Jim Cushing, University of Arizona (USA)](/speakers/jim-cushing/)
-- [Marisa Eisenberg, University of Michigan, Ann Arbor (USA)](/speakers/marisa-eisenberg/)
-- [Jane Heffernan, York University (Canada)](/speakers/jane-heffernan/)
-- [Esteban Hernandez-Vargas, University of Idaho (USA)](/speakers/esteban-hernandez-vargas/)
-- [Anna Marciniak-Czochra, Heidelberg University (Germany)](/speakers/anna-marciniak-czochra/)
-- [Jay Newby, University of Alberta (Canada)](/speakers/jay-newby/)
-- [Zhisheng Shuai, University of Central Florida (USA)](/speakers/zhisheng-shuai/)
+- [Folashade Agusto, The University of Kansas (USA)](https://eeb.ku.edu/people/folashade-agusto) - [talk info](/speakers/folashade-agusto/)
+- [Jim Cushing, University of Arizona (USA)](https://www.math.arizona.edu/~cushing/) - [talk info](/speakers/jim-cushing/)
+- [Marisa Eisenberg, University of Michigan, Ann Arbor (USA)](http://websites.umich.edu/~marisae/index.html) - [talk info](/speakers/marisa-eisenberg/)
+- [Jane Heffernan, York University (Canada)](https://jmheffer.mathstats.yorku.ca/) - [talk info](/speakers/jane-heffernan/)
+- [Esteban Hernandez-Vargas, University of Idaho (USA)](https://www.systemsmedicine.de/) - [talk info](/speakers/esteban-hernandez-vargas/)
+- [Anna Marciniak-Czochra, Heidelberg University (Germany)](http://wwwagmarciniak.iwr.uni-heidelberg.de/folder_people/Anna.Marciniak/index.html) - [talk info](/speakers/anna-marciniak-czochra/)
+- [Jay Newby, University of Alberta (Canada)](https://newby-jay.github.io/) - [talk info](/speakers/jay-newby/)
+- [Zhisheng Shuai, University of Central Florida (USA)](https://sciences.ucf.edu/math/zshuai/) - [talk info](/speakers/zhisheng-shuai/)
 
 ### Minisymposiums, important dates
 
