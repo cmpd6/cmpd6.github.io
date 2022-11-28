@@ -34,3 +34,6 @@ See details about all conference submssion dates in the table below.
 | **Mini-symposiums proposal** | 15 January 2023 | 15 February 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu) |
 | **Talks in accepted mini-symposiums** | 15 March 2023 | | To be announced |
 | **Contributed talks** | 1 March 2023 | 1 April 2023 | To be announced |
+
+### Sponsors
+CMPD6 is supported by the [Pacific Institute for the Mathematical Sciences](https://www.pims.math.ca/).
