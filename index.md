@@ -37,3 +37,5 @@ See details about all conference submssion dates in the table below.
 
 ### Sponsors
 CMPD6 is supported by the [Pacific Institute for the Mathematical Sciences](https://www.pims.math.ca/).
+
+![](https://media.pims.math.ca/logos/webvertlcasesmall.png)
