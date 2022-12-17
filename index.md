@@ -36,6 +36,4 @@ See details about all conference submssion dates in the table below.
 | **Contributed talks** | 1 March 2023 | 1 April 2023 | To be announced |
 
 ### Sponsors
-CMPD6 is supported by the [Pacific Institute for the Mathematical Sciences](https://www.pims.math.ca/).
-
 [![](https://media.pims.math.ca/logos/webvertlcasesmall.png)](https://www.pims.math.ca/)
