@@ -6,7 +6,7 @@ layout: information
 
 ## Hotels with specific rates for the conference
 
-Some rooms have been reserved set aside with U of M rates at several hotels in Winnipeg. These are on a first-come, first-served basis, after which the corporate rate will not be available anymore. 
+Some rooms have been set aside with U of M rates at several hotels in Winnipeg. These are on a first-come, first-served basis, after which the corporate rate will not be available anymore, even if the hotels still have rooms.
 
 - Four Points Sheraton South, 2935 Pembina Highway, R3T 2H5. [Map](https://goo.gl/maps/mUY8uFVVmi8YGMBKA).
     - A block of ten rooms is reserved from May 22-28 at our corporate rate ($139) – guests can book for fewer nights and still receive the rate. [Link to book with group rate, 139 CAD per night](https://www.marriott.com/events/start.mi?id=1671469313133&key=GRP). That rate is for king sized beds, they are sold out of queen sized.
@@ -29,3 +29,9 @@ Some rooms have been reserved set aside with U of M rates at several hotels in W
     - A block of ten rooms is reserved from May 22-28 at our corporate rate ($158) – guests can book for fewer nights and still receive the rate.
     - [Link to book](www.innforks.com) – use code UOFM to book by phone or online.
 
+## Hotels without specific rates for the conference (downtown Winnipeg)
+
+Access to the campus from these hotels is easy using the Winnipeg Transit Blue Line.
+
+- The Fort Garry Hotel, 222 Broadway, R3C 0R3. [Map](https://goo.gl/maps/4dqKcvRgnmrb7wDp9) & [website](https://www.fortgarryhotel.com/).
+- Hotel Fairmont Winnipeg, 2 Lombard Place, R3B 0Y3. [Map](https://goo.gl/maps/oWajyjce6QCvwb7YA) & [website](https://www.fairmont.com/winnipeg/).
