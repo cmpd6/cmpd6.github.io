@@ -9,24 +9,24 @@ layout: information
 Some rooms have been set aside with U of M rates at several hotels in Winnipeg. These are on a first-come, first-served basis, after which the corporate rate will not be available anymore, even if the hotels still have rooms.
 
 - Four Points Sheraton South, 2935 Pembina Highway, R3T 2H5. [Map](https://goo.gl/maps/mUY8uFVVmi8YGMBKA) & [website](https://www.marriott.com/en-us/hotels/ywgwf-four-points-by-sheraton-winnipeg-south/overview/).
-    - A block of ten rooms is reserved from May 22-28 at our corporate rate ($139) – guests can book for fewer nights and still receive the rate. [Link to book with group rate, 139 CAD per night](https://www.marriott.com/events/start.mi?id=1671469313133&key=GRP). That rate is for king sized beds, they are sold out of queen sized.
+    - A block of rooms is reserved from May 22-28 at our corporate rate ($139) – guests can book for fewer nights and still receive the rate. [Link to book with group rate, 139 CAD per night](https://www.marriott.com/events/start.mi?id=1671469313133&key=GRP). That rate is for king sized beds, they are sold out of queen sized.
     - Last Day to Book: April 22, 2023
     - Start Date: Saturday, May 20, 2023.
     - End Date: Sunday, May 28, 2023
 
 - Holiday Inn Winnipeg South, 1330 Pembina Highway, R3T 2B4. [Map](https://goo.gl/maps/DuYVwyveA6xPC2r76) & [website](https://www.ihg.com/holidayinn/hotels/us/en/winnipeg/ywgso/hoteldetail).
-    - A block of ten rooms is reserved from May 22-28 at our corporate rate ($116) – guests can book for fewer nights and still receive the rate. 
+    - A block of rooms is reserved from May 22-28 at our corporate rate ($116) – guests can book for fewer nights and still receive the rate. 
     - Rooms are released to the public after April 22.
     - [Link to book](https://www.holidayinn.com/redirect?path=rates&brandCode=HI&localeCode=en&regionCode=1&hotelCode=YWGSO&checkInDate=22&checkInMonthYear=042023&checkOutDate=28&checkOutMonthYear=042023&_PMID=99801505&GPC=UOM&cn=no&viewfullsite=true); or guests can call to book and mention they are with the U of M conference.
 
 - Best Western Plus Pembina, 1714 Pembina Highway, R3T 2G2. [Map](https://goo.gl/maps/wcSGjg7oqL4FE5Y7A) & [wensite](https://www.bestwestern.com/en_US/book/hotels-in-winnipeg/best-western-plus-pembina-inn-suites/propertyCode.63012.html).
-    - A block of ten rooms is reserved from May 22-28 at our corporate rate ($125) – guests can book for fewer nights and still receive the rate. 
+    - A block of rooms is reserved from May 22-28 at our corporate rate ($125) – guests can book for fewer nights and still receive the rate. 
     - Not sure when rooms will be released to the public.
     - [Link to book](https://www.bestwestern.com/en_US/book/hotel-rooms.63012.html?groupId=B90ZA8C5); or guests can call to book and mention they are with the U of M conference.
     - Contact person: front desk number is 204-269-8888
 
 - Inn at the Forks, 75 Forks Market Road, R3C 0A2. [Map](https://goo.gl/maps/RCaxUY43ddYDG4yy7) & [website](https://www.innforks.com/).
-    - A block of ten rooms is reserved from May 22-28 at our corporate rate ($158) – guests can book for fewer nights and still receive the rate.
+    - A block of rooms is reserved from May 22-28 at our corporate rate ($158) – guests can book for fewer nights and still receive the rate.
     - [Link to book](www.innforks.com) – use code UOFM to book by phone or online.
 
 ## Hotels without specific rates for the conference (downtown Winnipeg)
