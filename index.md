@@ -41,7 +41,7 @@ Submission of abstracts for talks in **accepted** minisymposia and contributed t
 
 Registration fees will include coffee breaks, lunches and a reception. We are still waiting to hear from some funders, but the maximal early registration fee will not exceed 500 CAD. An online registration link will be available soon. 
 
-We hope to be able to offer some support for students and early career researchers. In the meantime, please consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
+We hope to be able to offer some support for students and early career researchers. Information will be available later. In the meantime, please consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
 
 ### Sponsors
 [![](https://media.pims.math.ca/logos/webvertlcasesmall.png)](https://www.pims.math.ca/)
