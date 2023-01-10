@@ -15,10 +15,10 @@ The sixth edition of the Computational and Mathematical Population Dynamics conf
 - [Jay Newby, University of Alberta (Canada)](https://newby-jay.github.io/) - [talk info](/speakers/jay-newby/)
 - [Zhisheng Shuai, University of Central Florida (USA)](https://sciences.ucf.edu/math/zshuai/) - [talk info](/speakers/zhisheng-shuai/)
 
-### Minisymposiums, important dates
+### Minisymposiums, abstract submission, important dates
 
 CMPD6 mini-symposiums will consist of two hour blocks containing four (4) talks each block. Each talk will be 25 mins + 5 mins for questions. Mini-symposium organizers have the option of scheduling 1-3 blocks (each block is two (2) hours with four (4) speakers). 
-Proposals for mini-symposiums should be submitted by 15 January 2023 using [this webpage](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu). 
+Proposals for mini-symposiums should be submitted by 1 February 2023 using [this webpage](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu). Submission of abstracts for talks in **accepted** minisymposia and contributed talks is through [this page](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa). Accepted contributed talks will be grouped by topic area.
 
 See details about all conference submssion dates in the table below.
 
@@ -31,9 +31,9 @@ See details about all conference submssion dates in the table below.
 
 |   | Deadline | Results announced | Submission link |
 |---|----------|-------------------|-----------------|
-| **Mini-symposiums proposal** | 15 January 2023 | 15 February 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu) |
-| **Talks in accepted mini-symposiums** | 15 March 2023 | | To be announced |
-| **Contributed talks** | 1 March 2023 | 1 April 2023 | To be announced |
+| **Mini-symposiums proposal** | 1 February 2023 | 15 February 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu) |
+| **Talks in accepted mini-symposiums** | 15 March 2023 | | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa) |
+| **Contributed talks** | 1 March 2023 | 1 April 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa) |
 
 ### Sponsors
 [![](https://media.pims.math.ca/logos/webvertlcasesmall.png)](https://www.pims.math.ca/)
