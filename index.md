@@ -35,6 +35,8 @@ Submission of abstracts for talks in **accepted** minisymposia and contributed t
 | **Talks in accepted mini-symposiums** | 15 March 2023 | |  |
 | **Contributed talks** | 1 March 2023 | 1 April 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa) |
 
+<br><br>
+
 ### Registration fees
 
 Registration fees will include coffee breaks, lunches and a reception. We are still waiting to hear from some funders, but the maximal early registration fee will not exceed 500 CAD. An online registration link will be available soon. 
