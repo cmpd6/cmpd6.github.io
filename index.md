@@ -20,7 +20,7 @@ The sixth edition of the Computational and Mathematical Population Dynamics conf
 CMPD6 mini-symposiums will consist of two hour blocks containing four (4) talks each block. Each talk will be 25 mins + 5 mins for questions. Mini-symposium organizers have the option of scheduling 1-3 blocks (each block is two (2) hours with four (4) speakers). 
 Proposals for mini-symposiums should be submitted by 1 February 2023 using [this webpage](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu). 
 
-Submission of abstracts for talks in **accepted** minisymposia and contributed talks is through [this page](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa). Accepted contributed talks will be grouped by topic area.
+Submission of abstracts for talks in **accepted** minisymposia and contributed talks is through [this page](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa). Accepted contributed talks will be grouped by topic area. <span style="color:red">Note: we were advised today (2023-01-23) that there is currently an issue with the forms. This will be fixed later today.</span>
 
 <style>
     table th + th { border-left:2px solid black; }
@@ -31,9 +31,9 @@ Submission of abstracts for talks in **accepted** minisymposia and contributed t
 
 |   | Deadline | Results announced | Submission link |
 |---|----------|-------------------|-----------------|
-| **Mini-symposiums proposal** | **1 February 2023** | 15 February 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu) |
+| **Mini-symposiums proposal** | **1 February 2023** | 15 February 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu) <span style="color:red">(See remark in red above)</span> |
 | **Talks in accepted mini-symposiums** | 15 March 2023 | |  |
-| **Contributed talks** | 1 March 2023 | 1 April 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa) |
+| **Contributed talks** | 1 March 2023 | 1 April 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa) <span style="color:red">(See remark in red above)</span> |
 
 <br><br>
 
