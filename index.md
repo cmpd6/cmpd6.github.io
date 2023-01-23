@@ -20,7 +20,7 @@ The sixth edition of the Computational and Mathematical Population Dynamics conf
 CMPD6 mini-symposiums will consist of two hour blocks containing four (4) talks each block. Each talk will be 25 mins + 5 mins for questions. Mini-symposium organizers have the option of scheduling 1-3 blocks (each block is two (2) hours with four (4) speakers). 
 Proposals for mini-symposiums should be submitted by 1 February 2023 using [this webpage](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu). 
 
-Submission of abstracts for talks in **accepted** minisymposia and contributed talks is through [this page](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa). Accepted contributed talks will be grouped by topic area. <span style="color:red">Note: we were advised today (2023-01-23) that there is currently an issue with the forms. This will be fixed later today.</span>
+Submission of abstracts for talks in **accepted** minisymposia and contributed talks is through [this page](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa). Accepted contributed talks will be grouped by topic area. <span style="color:red">Links are again active.</span>
 
 <style>
     table th + th { border-left:2px solid black; }
@@ -31,9 +31,9 @@ Submission of abstracts for talks in **accepted** minisymposia and contributed t
 
 |   | Deadline | Results announced | Submission link |
 |---|----------|-------------------|-----------------|
-| **Mini-symposiums proposal** | **1 February 2023** | 15 February 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu) <span style="color:red">(See remark in red above)</span> |
+| **Mini-symposiums proposal** | **1 February 2023** | 15 February 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu)  |
 | **Talks in accepted mini-symposiums** | 15 March 2023 | |  |
-| **Contributed talks** | 1 March 2023 | 1 April 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa) <span style="color:red">(See remark in red above)</span> |
+| **Contributed talks** | 1 March 2023 | 1 April 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa)  |
 
 <br><br>
 
@@ -44,4 +44,4 @@ Registration fees will include coffee breaks, lunches and a reception. We are st
 We hope to be able to offer some support for students and early career researchers. Information will be available later. In the meantime, please consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
 
 ### Sponsors
-[![](https://media.pims.math.ca/logos/webvertlcasesmall.png)](https://www.pims.math.ca/)
+[![](https://media.pims.math.ca/logos/webvertlcasesmall.png)](https://www.pims.math.ca/) [![](https://caims.ca/wp-content/uploads/2018/06/caims-logo.svg)](https://caims.ca/)
