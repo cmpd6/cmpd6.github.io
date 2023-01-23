@@ -44,4 +44,4 @@ Registration fees will include coffee breaks, lunches and a reception. We are st
 We hope to be able to offer some support for students and early career researchers. Information will be available later. In the meantime, please consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
 
 ### Sponsors
-[![](https://media.pims.math.ca/logos/webvertlcasesmall.png)](https://www.pims.math.ca/) [![](https://caims.ca/wp-content/uploads/2018/06/caims-logo.svg | width=100)](https://caims.ca/)
+[![](https://media.pims.math.ca/logos/webvertlcasesmall.png)](https://www.pims.math.ca/) [![](https://caims.ca/wp-content/uploads/2018/06/caims-logo.svg|width=100px)](https://caims.ca/)
