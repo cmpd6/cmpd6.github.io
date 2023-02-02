@@ -29,6 +29,10 @@ Some rooms have been set aside with U of M rates at several hotels in Winnipeg. 
     - A block of rooms is reserved from May 22-28 at our corporate rate ($158) – guests can book for fewer nights and still receive the rate.
     - [Link to book](www.innforks.com) – use code UOFM to book by phone or online.
 
+- Alt Hotel Winnipeg, 310 Donald Street, R3B 2B9. [Map](https://goo.gl/maps/TeLe14rfmPn33ZnT7) & [website](https://www.germainhotels.com/en/alt-hotel/winnipeg).
+    - U of M rates start at $144 + tax. 
+    - [Link to book](https://reservations.germainhotels.com/bookings.jsp?hotelid=97435&identifier=1795997) or call the hotel.
+
 ## Hotels without specific rates for the conference (downtown Winnipeg)
 
 Access to the campus from these hotels is easy using the [Winnipeg Transit Blue Line](https://winnipegtransit.com/routes/BLUE/details?variant=BLUE-0-U).
@@ -36,5 +40,4 @@ Access to the campus from these hotels is easy using the [Winnipeg Transit Blue 
 - The Fort Garry Hotel, 222 Broadway, R3C 0R3. [Map](https://goo.gl/maps/4dqKcvRgnmrb7wDp9) & [website](https://www.fortgarryhotel.com/).
 - Hotel Fairmont Winnipeg, 2 Lombard Place, R3B 0Y3. [Map](https://goo.gl/maps/oWajyjce6QCvwb7YA) & [website](https://www.fairmont.com/winnipeg/).
 - Delta Hotels Winnipeg, 350 St Mary Avenue, R3C 3J2. [Map](https://goo.gl/maps/YFWLnP9MrDRvW7uAA) & [website](https://www.marriott.com/en-us/hotels/ywgdw-delta-hotels-winnipeg/overview/).
-- Alt Hotel Winnipeg, 310 Donald Street, R3B 2B9. [Map](https://goo.gl/maps/TeLe14rfmPn33ZnT7) & [website](https://www.germainhotels.com/en/alt-hotel/winnipeg).
 - Humphry Inn and Suites, 260 Main Street, R3C 1A9. [Map](https://goo.gl/maps/ViyADPhpWrf9Akej8) & [website](https://www.humphryinn.com/).
