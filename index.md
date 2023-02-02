@@ -31,8 +31,8 @@ Submission of abstracts for talks in **accepted** minisymposia and contributed t
 
 |   | Deadline | Results announced | Submission link |
 |---|----------|-------------------|-----------------|
-| **Mini-symposiums proposal** | **1 February 2023** | 15 February 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu)  |
-| **Talks in accepted mini-symposiums** | 15 March 2023 | |  |
+| **Mini-symposiums proposal** | **1 March 2023** | 15 March 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_ekrrK2MDLYVVYMu)  |
+| **Talks in accepted mini-symposiums** | 1 April 2023 | |  |
 | **Contributed talks** | 1 March 2023 | 1 April 2023 | [Link](https://ubc.ca1.qualtrics.com/jfe/form/SV_2obQO8rCLMNNSWa)  |
 
 <br><br>
