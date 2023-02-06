@@ -9,7 +9,7 @@ showinfobar: false
 - [Kang-Ling Liao](https://kang-lingliao.wixsite.com/mysite-1/home)
 - [Stéphanie Portet](https://server.math.umanitoba.ca/~sportet/index.html)
 
-(To reach all members of the local organising committee at once, please use [this email](mailto:comp.math.pop.dyn.6@gmail.com).)
+(To reach all members of the local organising committee at once, please email [comp.math.pop.dyn.6@gmail.com](mailto:comp.math.pop.dyn.6@gmail.com).)
 
 ## Scientific Committee
 - [Jennifer Flegg](https://blogs.unimelb.edu.au/jennifer-flegg/) (University of Melbourne)
