@@ -39,7 +39,10 @@
             {% if speaker.plenary %} 
               (P)
             {% endif %}
-            {% if speaker.minisymposium %} 
+            {% if speaker.minisymposium2 %} 
+              (<a href="/minisymposia/{{ speaker.minisymposium_title | prepend: site.baseurl }}">MS</a>,
+              <a href="/minisymposia/{{ speaker.minisymposium2_title | prepend: site.baseurl }}">MS</a>)
+            {% elsif speaker.minisymposium %} 
               (<a href="/minisymposia/{{ speaker.minisymposium_title | prepend: site.baseurl }}">MS</a>)
             {% endif %}
           {% endif %}
