@@ -40,7 +40,7 @@ Submissions are evaluated as they are submitted with acceptance notification fol
 
 ### Registration fees
 
-Registration fees will include coffee breaks, lunches and a reception.
+Registration fees include coffee breaks, lunches and a reception.
 
 <style>
     table th + th { border-left:2px solid black; }
@@ -55,6 +55,8 @@ Registration fees will include coffee breaks, lunches and a reception.
 | Before 15 April | Students and postdocs | 350 CAD |
 | 16 April and later | Regular | 600 CAD |
 | 16 April and later | Students and postdocs | 450 CAD |
+
+<br>
 
 We hope to be able to offer some support for students and early career researchers. Information will be available later. In the meantime, please consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
 

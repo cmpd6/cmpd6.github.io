@@ -15,31 +15,36 @@
     {% assign speakers = site.speakers | sort_natural: 'last_name' %}
     {% for speaker in speakers %}
 
-      {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
-      {% if cur_letter != last_letter %}
-        {% if cur_letter %}
-            </ul>
-          </div>
-        {% endif %}
-
-        {% assign cur_letter = last_letter %}
-        <div class="speakergroup">
-          <h3>{{ cur_letter }}</h3>
-          <ul class="list-unstyled">
-      {% endif %}
-
-      <li class="font-weight-light">
-        {% if speaker.hide %}
-          {{ speaker.first_name }} {{ speaker.last_name }}
-        {% else %}
-          <a href="{{ speaker.url | prepend: site.baseurl }}">
-            {{ speaker.first_name }} {{ speaker.last_name }}
-          </a>
-          {% if speaker.plenary %} 
-            (plenary)
+      {% unless speaker.hide %}
+        {% assign last_letter = speaker.last_name | slice: 0 | capitalize %}
+        {% if cur_letter != last_letter %}
+          {% if cur_letter %}
+              </ul>
+            </div>
           {% endif %}
+
+          {% assign cur_letter = last_letter %}
+          <div class="speakergroup">
+            <h3>{{ cur_letter }}</h3>
+            <ul class="list-unstyled">
         {% endif %}
-      </li>
+
+        <li class="font-weight-light">
+          {% if speaker.hide %}
+            {{ speaker.first_name }} {{ speaker.last_name }}
+          {% else %}
+            <a href="{{ speaker.url | prepend: site.baseurl }}">
+              {{ speaker.first_name }} {{ speaker.last_name }}
+            </a>
+            {% if speaker.plenary %} 
+              (P)
+            {% endif %}
+            {% if speaker.minisymposium %} 
+              (<a href="/minisymposia/{{ speaker.minisymposium_title | prepend: site.baseurl }}">MS</a>)
+            {% endif %}
+          {% endif %}
+        </li>
+      {% endunless %}
 
     {% endfor %}
 

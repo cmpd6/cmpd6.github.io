@@ -1,0 +1,33 @@
+{% include partials/header.html %}
+
+  <h1 class="display-5 mb-4">
+    {% if page.title %}
+      {{ page.title }}
+    {% else %}
+      {{ site.data.lang[site.conference.lang].symposium.overview | default: "Minisymposia" }}
+    {% endif %}
+  </h1>
+
+  {{ content }}
+
+  <div>
+    {% assign symposia = site.minisymposia | sort_natural: 'title' %}
+    {% for symposium in symposia %}
+
+      <li class="font-weight-light">
+        {% if symposium.hide %}
+          {{ symposium.name }}
+        {% else %}
+          <a href="{{ symposium.url | prepend: site.baseurl }}">
+            {{ symposium.name }}
+          </a>
+        {% endif %}
+      </li>
+
+    {% endfor %}
+
+      </ul>
+    </div>
+  </div>
+
+{% include partials/footer.html %}

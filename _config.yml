@@ -39,6 +39,9 @@ collections:
   information:
     output: true
     permalink: /:collection/:title/
+  minisymposia:
+    output: true
+    permalink: /:collection/:title/
 
 defaults:
   - scope:
@@ -51,6 +54,11 @@ defaults:
       type: speakers
     values:
       layout: speaker
+  - scope:
+      path: ""
+      type: minisymposia
+    values:
+      layout: minisymposium
   - scope:
       path: ""
       type: rooms
@@ -87,6 +95,9 @@ conference:
       - name: Speakers
         relative_url: /speakers/
         layout: speaker-overview
+      - name: Minisymposia
+        relative_url: /minisymposia/
+        layout: minisymposia-overview
       #- name: Rooms
       #  relative_url: /rooms/
       - name: Information

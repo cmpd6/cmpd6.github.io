@@ -1,0 +1,29 @@
+{%- assign symposium = page -%}
+
+{%- unless symposium.hide -%}
+  {%- include partials/header.html -%}
+
+  <p class="h6">
+    {{ site.data.lang[site.conference.lang].symposium.title | default: "symposium" }}
+  </p>
+
+  <h2 class="font-weight-light mb-3">
+    {{ symposium.title }}
+  </h2>
+
+  <div>
+    {% for organiser in symposium.organisers %}
+      - {{ organiser }}
+    {% endif %}
+  </div>
+
+  {{ content }}
+
+  <p class="d-print-none mt-5">
+    <a href="{{ page.collection | prepend: '/' | prepend: site.baseurl }}" class="btn btn-light">
+      <i class="fas fa-users"></i>&nbsp;{{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
+    </a>
+  </p>
+
+  {%- include partials/footer.html -%}
+{%- endunless -%}

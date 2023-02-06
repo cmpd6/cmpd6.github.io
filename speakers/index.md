@@ -2,4 +2,4 @@
 layout: speaker-overview
 ---
 
-For now, this list only includes *plenary speakers* who have confirmed their participation to the conference. This list will be expanded progressively.
+This page lists accepted minisymposia talks (MS) and contributed talks (C), as well as plenary talks (P). It will be expanded as more talks are accepted.
