@@ -9,10 +9,13 @@
 
   <h1 class="font-weight-light mb-3">
     {{ speaker.first_name }} {{ speaker.last_name }}
-    {% if speaker.plenary == true %}
-      (plenary speaker)
-    {% endif %}
   </h1>
+
+  <h2 class="font-weight-light mb-3">
+    {% if speaker.plenary == true %}
+      (Plenary speaker)
+    {% endif %}
+  </h2>
 
   {% if speaker.institution %} 
     ({{ speaker.institution }})
