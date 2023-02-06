@@ -42,7 +42,7 @@ Submissions are evaluated as they are submitted with acceptance notification fol
 
 ### Registration fees
 
-Registration fees will include coffee breaks, lunches and a reception. We are still waiting to hear from some funders, but the maximal early registration fee will not exceed 500 CAD. An online registration link will be available soon. 
+Registration fees will include coffee breaks, lunches and a reception. Early registration fees (before 15 April) will be 450 CAD for regular faculty and 350 CAD for students and postdoctoral fellows. After 15 April, fees will be 600 CAD and 450 CAD, respectively.
 
 We hope to be able to offer some support for students and early career researchers. Information will be available later. In the meantime, please consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
 
