@@ -21,7 +21,7 @@ Vector-borne diseases, such as malaria, Dengue, Zika, West Nile, Leishmaniasis, 
 ### Speakers
 
 #### CONFIRMED
-- Hayriye Gulbudak (University sof Louisiana, Lafayette)
+- Hayriye Gulbudak (University of Louisiana, Lafayette)
 - Abba Gumel (University of Maryland)
 - Fabio Milner (Arizona State University)
 - Necibe Tuncer (Florida Atlantic University)
