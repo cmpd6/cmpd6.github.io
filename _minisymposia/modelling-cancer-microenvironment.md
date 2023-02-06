@@ -29,7 +29,7 @@ In this Minisymposium we will use these mathematical models to better understand
 - Ernesto Augusto Bueno Da Fonseca Lima (ernesto.lima@utexas.edu): Development and calibration of a stochastic, multiscale agent-based model for predicting tumor and vasculature growth
 - Kathleen Wilkie (kpwilkie@ryerson.ca) :
 - Furkan Kurtoglu (fkurtog@iu.edu): Agent-based modeling of Colorectal Cancer cells in the 3D domain including metabolism.
-- Nadia Loy (nadia.loy@polito.it): A NON-LOCAL KINETIC MODEL FOR CELL MIGRATION : A STUDY OF THE INTERPLAY BETWEEN CONTACT GUIDANCE AND STERIC HINDRANCE
+- Nadia Loy (nadia.loy@polito.it): A non-local kinetic model for cell migration : a study of the interplay between contact guidance and steric hindrance
 - Ryan Thiessen (rt5@ualberta.ca): Travelling waves of a new glioma invasion model.
 
 
