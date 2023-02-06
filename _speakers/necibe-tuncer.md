@@ -8,7 +8,11 @@ email:
 plenary: false
 minisymposium: true
 minisymposium_title: vector-borne-disease-dynamics
+minisymposium2: true
+minisymposium2_title: within-between-host-models
 hide: false
 ---
 
-## 
+## TBA
+
+## Structural and Practical Identifiability Analysis of a Multi-Scale Infectious Disease Model
