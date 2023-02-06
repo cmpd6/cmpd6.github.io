@@ -38,11 +38,23 @@ Submission of abstracts for talks in **accepted** minisymposia and contributed t
 <br>
 Submissions are evaluated as they are submitted with acceptance notification following soon.
 
-<br><br>
-
 ### Registration fees
 
-Registration fees will include coffee breaks, lunches and a reception. Early registration fees (before 15 April) will be 450 CAD for regular faculty and 350 CAD for students and postdoctoral fellows. After 15 April, fees will be 600 CAD and 450 CAD, respectively.
+Registration fees will include coffee breaks, lunches and a reception.
+
+<style>
+    table th + th { border-left:2px solid black; }
+    table td + td { border-left:2px solid black; }
+    th {padding:5px 10px 5px 10px;}
+    td {padding:5px 10px 5px 10px;}
+</style>
+
+| Date | Attendee type | Fee |
+|------|---------------|-----|
+| Before 15 April | Regular | 450 CAD |
+| Before 15 April | Students and postdocs | 350 CAD |
+| 16 April and later | Regular | 600 CAD |
+| 16 April and later | Students and postdocs | 450 CAD |
 
 We hope to be able to offer some support for students and early career researchers. Information will be available later. In the meantime, please consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
 
