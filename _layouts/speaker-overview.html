@@ -35,6 +35,9 @@
           <a href="{{ speaker.url | prepend: site.baseurl }}">
             {{ speaker.first_name }} {{ speaker.last_name }}
           </a>
+          {% if speaker.plenary %} 
+            (plenary)
+          {% endif %}
         {% endif %}
       </li>
 
