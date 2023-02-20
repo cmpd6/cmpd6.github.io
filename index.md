@@ -40,7 +40,7 @@ Submissions are evaluated as they are submitted with acceptance notification fol
 
 ### Registration fees
 
-Registration fees include coffee breaks, lunches and a reception.
+Registration fees include coffee breaks, lunches and a reception. Registration is now open through the PIMS [website here](https://www.pims.math.ca/scientific-event/230523-cmpd). Please note that the PIMS website does not allow to specify dietary restrictions; if you wish to make one known, please email the details to [mailto:comp.math.pop.dyn.6@gmail.com](comp.math.pop.dyn.6@gmail.com) with the title [Dietary restrictions].
 
 <style>
     table th + th { border-left:2px solid black; }
