@@ -58,7 +58,7 @@ Registration fees include coffee breaks, lunches and a reception. Registration i
 
 <br>
 
-We hope to be able to offer some support for students and early career researchers. Information will be available later. In the meantime, please consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
+We offer some support for students and early career researchers. Information is available [here](https://cmpd6.github.io/information/travel-awards/). You could also consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
 
 ### Sponsors
 [![](/assets/images/logo_PIMS.png)](https://www.pims.math.ca/) &nbsp;&nbsp; [![](/assets/images/logo_CAIMS.png)](https://caims.ca/) &nbsp;&nbsp; [![](/assets/images/Fields_Logo_Small.jpg)](http://www.fields.utoronto.ca/) &nbsp;&nbsp; [MfPH](http://www.fields.utoronto.ca/activities/public-health)

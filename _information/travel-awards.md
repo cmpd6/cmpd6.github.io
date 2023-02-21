@@ -4,7 +4,7 @@ title_short: Travel awards
 layout: information
 ---
 
-Sponsored by [CAIMS](), the Department of Mathematics and the Faculty of Science at the University of Manitoba, the CMPD6 provides grants of up to $250 to facilitate attendance and participation at the conference.
+Sponsored by [CAIMS](https://caims.ca/), the [Department of Mathematics](https://umanitoba.ca/science/mathematics) and the [Faculty of Science](https://umanitoba.ca/science/) at the University of Manitoba, the CMPD6 provides grants of up to $250 to facilitate attendance and participation at the conference.
 
 ## Eligibility
 - Students, post-docs, and non-tenured junior faculty (less than 3 years) who do not have sufficient travel funds from other sources.  

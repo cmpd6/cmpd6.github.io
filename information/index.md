@@ -1,4 +1,5 @@
 ---
+title: Information
 layout: information
 ---
 
