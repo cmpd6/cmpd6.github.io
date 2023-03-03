@@ -5,7 +5,5 @@ last_name: Shuai
 institution: University of Central Florida
 institution_country: USA
 plenary: true
-links:
-  - name: Web page
-    absolute_url: https://sciences.ucf.edu/math/zshuai/
+web_page: https://sciences.ucf.edu/math/zshuai/
 ---

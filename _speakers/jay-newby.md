@@ -5,7 +5,5 @@ last_name: Newby
 institution: University of Alberta
 institution_country: Canada
 plenary: true
-links:
-  - name: Web page
-    absolute_url: https://newby-jay.github.io/
+web_page: https://newby-jay.github.io/
 ---

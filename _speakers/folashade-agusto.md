@@ -6,7 +6,5 @@ institution: The University of Kansas
 institution_country: USA
 plenary: true
 hide: false
-links:
-  - name: Web page
-    absolute_url: https://eeb.ku.edu/people/folashade-agusto
+web_page: https://eeb.ku.edu/people/folashade-agusto
 ---

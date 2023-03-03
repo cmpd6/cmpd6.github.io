@@ -5,8 +5,6 @@ last_name: Cushing
 institution: University of Arizona
 institution_country: USA
 plenary: true
-links:
-  - name: Web page
-    absolute_url: https://www.math.arizona.edu/~cushing/
+web_page: https://www.math.arizona.edu/~cushing/
 ---
 

@@ -6,7 +6,5 @@ institution: TBD
 institution_country: TBD
 plenary: false
 hide: true
-links:
-  - name: Web page
-    absolute_url: TBD
+web_page: TBD
 ---

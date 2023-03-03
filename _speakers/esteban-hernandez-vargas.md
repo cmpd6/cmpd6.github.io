@@ -6,7 +6,5 @@ institution: University of Idaho
 institution_country: USA
 plenary: true
 hide: false
-links:
-  - name: Web page
-    absolute_url: https://www.systemsmedicine.de/
+web_page: https://www.systemsmedicine.de/
 ---

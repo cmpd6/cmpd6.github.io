@@ -1,0 +1,177 @@
+StartDate,Q2,Q3,Q4,Q5,Q6,Q10,Q11,Q8,Q9,,,,,
+Start Date,First Name,Last Name,Email,Current level of study,Institutional Affiliation,Minisymposium Title,"Mini-symposium organizers, names, affiliations and e-mails",Please provide a brief synopsis of mini-symposium including justification of how the topic relates to population dynamics.,Please provide a list of speakers with tentative titles of talks,Received,Steph,Kang-Ling,Julien,Acceptance
+1/31/23 15:40,Fabio,Milner,milner@asu.edu,,Arizona State University,Vector-Borne Disease Dynamics,"Abba Gumel, U. of Maryland, agumel@umd.edu
+Fabio Milner, Arizona State U., fmilner@asu.edu","Vector-borne diseases, such as malaria, Dengue, Zika, West Nile, Leishmaniasis, Yellow Fever and Lyme disease, constitute about 17% of infectious diseases of humans. Numerous factors, such as climate change, land-use changes, human mobility, urbanization, resistance to insecticide used in vector control and resistance of disease parasites to drug therapies etc., play a major role in the population abundance of the vectors of these diseases, and, consequently, the diseases they cause.  This special session will bring together a group of established and up-and-coming modelers and public health practitioners to discuss the state-of-the-art advances made in the mathematical modeling of vector-borne diseases of major public health significance, and to discuss some of the current challenges faced.","CONFIRMED
+Hayriye Gulbudak (University sof Louisiana, Lafayette)
+Abba Gumel (University of Maryland)
+Fabio Milner (Arizona State University)
+Necibe Tuncer (Florida Atlantic University)
+Jorge Velasco-Hernandez (UNAM, Mexico)
+
+NOT YET CONFIRMED
+Folashade Agusto (University of Kansas)
+Lauren Childs (Virginia Tech)
+Zhilan Feng (Purdue University)
+John Glasser (CDC)
+Jane Heffernan (York University, Canada)
+Christopher Kribs (University of Texas, Arlington)
+Joceline Lega (University of Arizona)
+Suzanne Lenhart (University of Tennessee)
+Jemal Mohammed-Awel (Morgan State University)
+Calistus Ngonghala (University of Florida)
+Zhuolin Qu (University of Texas at San Antonio)
+Zhisheng Shuai (University of Central Florida)
+Miranda Teboh-Ewungkem (Lehigh University)
+James Watmough (University of New Brunswick, Canada)
+Ping Yan (Public Health Agency of Canada
+Huaiping Zhu (York University, Canada).",Feb 3rd,x,x,x,sent on Feb 6th
+2/1/23 8:21,Nourridine,Siewe,nxssma@rit.edu,,Rochester Institute of Technology,Within-host and between-host mathematical models of biological dynamics,"Nourridine Siewe: Rochester Institute of Technology, nxssma@rit.edu
+
+Ephraim Agyingi: Rochester Institute of Technology, eoasma@rit.edu","Purpose
+The purpose of this special session is to bring together a variety of researchers in within-host and between-host modeling of complex biological systems to report on recent advances in their respective areas and discuss some interesting problems arising in the intersection of these and related areas.  
+
+Some of the possible topics include pharmacokinetic/pharmacodynamic modeling (PK/PD) and drug resistance modeling, methods of parameter estimations and simulations techniques.
+","Blessing Emerinini (Rochester Institute of Technology): Data Assimilation of Quorum Sensing Regulation of Bacteria-Phage Interaction in Biofilm
+
+Necibe Tuncer (Florida Atlantic University): Structural and Practical Identifiability Analysis of a Multi-Scale Infectious Disease Model
+
+Sarafa Iyaniwura (Los Alamos National Laboratory): Understanding the efficacy of a new class of drugs for treating chronic hepatitis B virus infection using a multiscale mathematical model
+
+Nourridine Siewe (may give a talk or not, depending on availability,        Rochester Institute of Technology): Breast cancer exosomal microRNAs facilitate premetastatic niche formation in the bone: A
+mathematical model
+
+Ephraim Agyingi (may give a talk or not, depending on availability, Rochester Institute of Technology): Modeling immune system priming: a miracle that saved Sub-Sahara Africa from COVID-19",Feb 3rd,x,x,x,sent on Feb 6th
+1/31/23 17:25,Ryan ,Thiessen,rt5@ualberta.ca,Graduate/ PhD,University of Alberta,Modelling the Cancer Microenvironment,"Ryan Thiessen, University of Alberta, rt5@ualberta.ca.
+Thomas Hillen, University of Alberta, thillen@ualberta.ca.","The impact of the microenvironment on cancer growth is one of the hallmarks of cancer, as identified in three seminal papers by Hanahan and Weinberg. The tumor microenvironment refers to different cell populations, such as healthy stroma cells and immune cells, extra cellular matrix proteins, nutrients and cell signalling molecules, and blood vessels. Corresponding mathematical models are spatially dependent population models, which are implemented as individual based models (IBM), stochastic models, or as partial differential equations (PDEs). 
+
+
+In this Minisymposium we will use these mathematical models to better understand the interactions of tumor tissue and its surrounding healthy microenvironment, to answer questions about local invasions of cancer cells, mechanical interactions of tumor tissue with its surroundings, competition between healthy and cancerous tissue, cancer metastasis, and the interaction with the immune response.  
+","Tracy Stepien (tstepien@ufl.edu): Deciphering glioma microenvironment entry mechanisms of myeloid-derived suppressor cells under combination immunotherapy treatment
+
+Erica Rutter (erutter2@ucmerced.edu): Estimating Heterogeneity in Cancer
+
+Morgan Craig (morgan.craig@umontreal.ca): Treating glioblastoma with immunotherapies: the role of the tumour microenvironment on therapeutic success
+
+Ernesto Augusto Bueno Da Fonseca Lima (ernesto.lima@utexas.edu): Development and calibration of a stochastic, multiscale agent-based model for predicting tumor and vasculature growth
+
+Kathleen Wilkie (kpwilkie@ryerson.ca) :
+
+Furkan Kurtoglu (fkurtog@iu.edu): Agent-based modeling of Colorectal Cancer cells in the 3D domain including metabolism.
+
+Nadia Loy (nadia.loy@polito.it): A NON-LOCAL KINETIC MODEL FOR CELL MIGRATION : A
+STUDY OF THE INTERPLAY BETWEEN CONTACT GUIDANCE
+AND STERIC HINDRANCE
+
+Ryan Thiessen (rt5@ualberta.ca): Travelling waves of a new glioma invasion model.
+
+",Feb 3rd,x,x,x,sent on Feb 6th
+1/31/23 8:19,Suzan,Farhang Sardroodi,Suzan.Farhangsardroodi@umanitoba.ca,Postdoctoral scholar,"Department of Mathematics, University of Manitoba",Mathematical and computational approaches to modelling immunology,"suzan Farhang Sardroodi, Morgan Craig (assistant professor, university of Montreal (morgan.craig@umontreal.ca)), Jane Heffernan (associate professor, York university (jmheffer@yorku.ca)) Samaneh Gholami (Postdoc, York University (s.gh3495@gmail.com))","Mathematical and computational immunology is a rapidly evolving field dealing with the application of mathematical and computational methods to explore the structure, dynamics, organization, and regulation
+of the immune system in health and disease. Mathematical and computational immunology provides qualitative and quantitative assessments of various immune processes across multiple scales and in various contexts, including cancer and host-pathogen responses. The advances in genetics and biochemistry that have taken place over the last 10 years have led to significant progress in experimental and clinical
+immunology. In turn, this has furthered the development of new mathematical and computational models with which we can qualitatively and quantitatively investigate various open questions in immunology, particularly those that may be difficult to answer experimentally or clinically. Thus, as part of the test predict
+test paradigm and with cutting-edge wet-lab immunology, mathematical and computational immunology is well-positioned to elucidate a range of questions about cancer development, new
+cancer immunotherapies and their administration, and features distinguishing immunopathological responses to pathogens.
+This mini-symposium will address such multi scale mathematical and computational immunology models through two themes: interactions between cancers and the immune system, and interactions between
+pathogens and the immune system. Our goal is to bring together participants across career stages and points of reference to foster new, innovative approaches to understanding human immune responses and advance this nascent field.","                                         List of Speakers
+Block 1: Interactions between cancers and the immune system
+
+1) Kathleen Wilkie (Assistant Professor, Toronto Metropolitan University): “Models of cancer immunotherapy”
+
+2) Rebecca Bekker (Ph.D. Candidate, Moffitt Cancer Center): “Holes in TIME: the Immunological Consequences of Spatially Fractionated Radiotherapy”
+
+3) Benedict Anchang (Stadtman, Tenure-Track Investigator, National Institute of Environmental Health Science, NIH): “Multicellular interactions and multiscale modelling of COVID-19 Immune response under epistatic signalling”
+
+4) Sana Jahedi (Postdoctoral Researcher, McMaster University): “Modeling Oncologic Viruses”
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Block 2: Interactions between pathogens and the immune system
+
+1) Jessica Conway (Penn State): “Heterogeneity in HIV viral rebound”
+
+2) Ruian Ke (Los Alamos): “Modeling SARS-CoV-2 infection dynamics and the immune responses”
+
+3) Xiaoyan Deng (Ph.D. Candidate, University of Montreal): “Predicting heterogeneous cellular immunological memory responses in COVID-19 using a virtual patient cohort”
+
+4) Chapin Korosec (Postdoctoral Researcher, York University): “Longitudinal immunological outcomes from three doses of COVID-19 vaccines in people with HIV: antibodies, memory-B cells, cytokines, and a novel within-host immunological model”",Feb 3rd,x,x,x,sent on Feb 6th
+2023-02-21 14:48,Marek,Kimmel,kimmel@rice.edu,Faculty,"Departments of Statistics and Bioengineering, Rice University",Stochastic population models: Theory and applications in Cancer Research,"Marek Kimmel
+ Departments of Statistics and Bioengineering, Rice University
+ kimmel@rice.edu","Stochastic population models include classical processes of population genetics such as Wright-Fisher or Moran model, models of proliferation such as branching and birth and death processes, as well more involved Markov chains, diffusion and spatial models. Application of such models in cancer research has been facilitated by a recent explosion of DNA sequencing and other molecular-level techniques. We will address both methodological mathematical problems such as identifiability of partly observed birth and death processes (Brandon Legried) and dynamics of countable-type branching processes describing a range of selection modes in proliferating cell populations (Ren-Yi Wang), as well as more more applied issues. One problem of current importance is estimation of dynamics of mutant clones evolving in healthy bone marrow over lifetime. This so-called Clonal Hematopoiesis (CH) is implicated in transition to leukemias and other adverse health outcomes (Xiaochen Long). Another issue is retrospective estimation of growth and mutation rates in surgically excised tumors, which may have prognostic importance (Marek Kimmel). These two talks will be illustrated with biological data.","Marek Kimmel (Rice)
+ Inference of clonal dynamics of tumors based on DNA sequencing with prognostic potential
+ 
+ Brandon Legried (Georgia Tech)
+ Inferring phylogenetic birth-death models from extant lineages through time
+ 
+ Xiaochen Long (Rice)
+ Hierarchical branching process model for clonal hematopoiesis
+ 
+ Ren-Yi Wang (Rice)
+ Analysis of a countable-type branching process model for the Tug-of-War cancer cell dynamics",March 1st,accept,accept,,
+2023-02-22 08:31,Stanca,Ciupe,stanca@vt.edu,Faculty,Virginia Tech,Multiscale models of infectious diseases,"Stanca M. Ciupe, Department of Mathematics, Virginia Tech, USA, stanca@vt.edu
+ Jonathan Forde, Department of Mathematics and Computer Science, Hobart and William Smith Colleges, USA, forde@hws.edu","Emerging and re-emerging infectious diseases present a continuous risk to global public health. Over the last two decades we have seen several pandemics across the world, with SARS-CoV-2, HIV, malaria and TB still ongoing. Disease transmission, immune responses, and interventions have been widely studied at different population scales, from molecular to cellular to epidemiological to ecological level. Despite decades of research at each scale, it remains unclear how individual infections or immune response kinetics influence disease incidence at the population level and how population immunity and genetic characteristics affect pathogen evolution inside an infected individual. To advance our understanding of immunobiology and infection we bring together mathematical modelers to determine how to best predict infection, infection pathogenesis and their interaction across biological scales.","1. Jessica Conway, Penn State University, USA. Modeling PrEP-on-demand strategies to prevent HIV transmission
+ 2. Stanca Ciupe, Virginia Tech, USA. Multiscale models of SARS-CoV-2 infection
+ 3. Tin Phan, Los Alamos National Labs, USA. Integrating wastewater surveillance data with epidemic models: challenges and opportunities
+ 4. Stacy Smith?, University of Ottawa, Canada. Coupling the within-host process and between-host transmission of COVID-19 suggests vaccination and school closures are critical
+ 5. Erica Rutter, Merced University, USA. Global Sensitivity Analysis of a Structured Model of COVID-19 Transmission on a College Campus
+ 6. Jonathan Forde, Hobart and William Smith Colleges, USA Modeling the challenges of optimal resource deployment for epidemic prevention
+ 7. Suzan Farhang Sardroodi. University of Manitoba, Canada.
+ Mechanistic models of the humoral immune response to COVID-19 vaccination
+ 8. Fabian Cardozo Ojeda, Fred Hutch Institute, USA. Mathematical modeling of gene and cell therapy for HIV cure",March 1st,accept,accept,,
+2023-02-24 12:28,Zhisheng,Shuai,shuai@ucf.edu,Faculty,University of Central Florida,Recent Advances in Modelling Infectious Diseases,"Michael Li, University of Alberta
+ Zhisheng Shuai, University of Central Florida
+ Marie Betsy Varughese, Alberta Health","Mathematical modeling plays a crucial role in informing public health decisions related to the response to infectious diseases, both new and re-emerging. This includes predictions of case numbers and fatalities, evaluations of the impact of interventions, and decision-making about vaccination and other disease control strategies. The COVID-19 pandemic has underlined the necessity for robust modeling tools that can accurately reflect the complexity of interactions between the disease, population, pathogen, and interventions. This minisymposium will bring together a diverse group of experts to discuss the ongoing challenges and the latest developments in modelling infectious diseases.","Confirmed Speakers (15)
+ Julien Arino (University of Manitoba): Role of case introductions in the community spread of infectious diseases
+ Jacques Bélair (University of Montreal): Perception and behaviour in disease propagation
+ Abba Gumel (University of Maryland): TBA
+ Donglin Han (University of Alberta): TBA
+ Jane Heffernan (York University): TBA
+ Jude Kong (York University): TBA
+ Junling Ma (University of Victoria): Modeling contact tracing during the COVID-19 pandemic
+ Connell McCluskey (Wilfrid Laurier University): Analysis of disease models with immigration of infected individuals
+ Weston Roda (University of Alberta): TBA
+ Pauline van den Driessche (University of Victoria): Disease-induced hydra effect
+ Marie Betsy Varughese (Alberta Health): Incorporating health seeking behaviour in deterministic modelling
+ Jorge Velasco-Hernandez (Instituto de Matematicas UNAM-Juriquilla): On infectious diseases and the mitigation of their impact: an optimal strategy for NPIs
+ Amy Veprauskas (University of Louisiana, Lafayette): Examining the invasion and establishment of a pathogen in a tick-host system
+ Huaiping Zhu (York University): Modelling and dynamics of the impact of opinion and behavior of mask wearing on the transmission for COVID-19
+ James Watmough (University of New Brunswick): Alternate stable states, resilience, invasions and the mathematics of ecosystems and immune systems",March 1st,accept,accept,,
+2023-02-24 13:04,Kang-Ling,Liao,Kang-Ling.Liao@umanitoba.ca,Faculty,"Mathematics, University of Manitoba",Mathematical modeling and analysis in cancer immunotherapy,"Kang-Ling Liao
+ Department of Mathematics, University of Manitoba
+ Kang-Ling.Liao@umanitoba.ca","Cancer immunotherapy is a novel cancer treatment that activates and restores immune cells to recognize and kill cancer cells. The treatment includes four strategies: immune-checkpoint inhibitors (ICIs), cytokines, oncolytic virotherapy (OV), and chimeric antigen receptor T cell treatment (CAR-T cell). There have been many promising developments in cancer immunotherapy, but it is difficult to predict tumor response to a particular treatment. Combining modeling, analysis, and experiments is an innovative approach to overcome these difficulties and help design optimal dosage and treatment schedules. The focus of this session will be on applications of combination of modeling and analysis to the understanding the cell population and design of immunotherapy in cancer.","Harsh Vardhan Jain 
+ Tentative title: A quantitative evaluation of an anti-cancer vaccine for treating advanced prostate cancer
+ 
+ Kang-Ling Liao
+ Tentative title: The opposite functions and treatment outcomes of CD200-CD200R in cancer
+ 
+ Leili Shahriyari 
+ Tentative title: Digital twins of cancer patients: a step toward personalized treatments
+ 
+ Nourridine Siewe 
+ Tentative title: TBA",March 1st,accept,accept,,
+2023-02-28 14:06,Hiroshi,Nishiura,nishiurah@gmail.com,Faculty,Kyoto University School of Public Health,Real time epidemiology in various geographic scales,"Hiroshi Nishiura
+ Kyoto University School of Public Health
+ nishiurah@gmail.com
+ 
+ Gerardo Chowell
+ School of Public Health, Georgia State University
+ gchowell@gsu.edu","Mobility restrictions to limit human movement were widely practiced to reduce contact with others and prevent the spatial spread of coronavirus disease 2019 (COVID-19). To monitor the possible effectiveness, mobility data were collected as a crucial element for understanding the dynamics of COVID-19, but the usefulness of such datasets for epidemiological evaluation over time has been questioned. In this minisymposium, we will use mathematical and statistical models to better understand the spatiotemporal spread of emerging infectious diseases in real time, using mobility data and epidemiological data. We show that monitoring the night-time population and clusters of cases continues to be crucial for understanding and forecasting the short-term future.","Asami Anzai (anzai.asami.2x@kyoto-u.ac.jp): Epidemiological impact of travel enhancement on the importation dynamics of COVID-19 in Japan, 2020
+ Amanda Bleichrodt (ableichrodt1@student.gsu.edu): Real-time forecasting the trajectory of monkeypox outbreaks at the national and global levels, July–October 2022
+ Hiroshi Nishiura (nishiura.hiroshi.5r@kyoto-u.ac.jp): Night-time population consistently explains the transmission dynamics of coronavirus disease 2019 in three megacities in Japan
+ Katsuma Hayashi (hayashi.katsuma.7w@kyoto-u.ac.jp): Reconstructing the chronology of clustering from cluster surveillance of COVID-19",March 1st,accept,accept,,
+2023-02-28 15:08,Jacques,Bélair,jacques.belair@umontreal.ca,Faculty,Université de Montréal,Delay-differential equations in applications,Jacques Bélair - see above,"Delay differential equations are ubiquitous in structured population modeling, as soon as transition or maturation times are nontrivial and incorporated into the regulatory dynamics: to quote a pioneering mathematical biologist from the last century, ""in all biological phenomena it is necessary to examine not only immediate actions but also those depending on the past"". The speakers will present examples of diverse biological phenomena naturally giving rise to delayed systems of differential equations, and illustrate the range of analytical and computational techniques that may developed to gain insight in the behaviour of their solutions.","Jacques Bélair, ""A population model with a state-dependant delay""
+ Morgan Craig, ""Delays in Immunology""
+ Huaiping Zhu
+ Guihong Fan",March 1st,accept,accept,,
+2023-03-01 00:13,Andrea,Pugliese,andrea.pugliese@unitn.it,Faculty,"University of Trento, Italy",Bridging the scale from within-host to epidemic models,"Andrea Pugliese, University of Trento, Italy, andrea.pugliese@unitn.it
+ Lorenzo Pellis, University of Manchester, UK, lorenzo.pellis@manchester.ac.uk","Epidemic dynamics clearly depends on time-course of infection and immunity within individuals. Another important factor in epidemic dynamics is pathogen evolution whose dynamics depends on within-host processes and between-host transmission.
+ This minisymposium presents some recent approaches to analyse aspects and special cases of the complex and multi-scale interactions between these processes.","Lorenzo Pellis (joint work with Helena Stage, Katrina Lythgoe, Christophe Fraser), Multi-scale time-since-infection models in evolutionary epidemiology
+ Veronika Zarnitsyna (Emory University), Competing Heterogeneities in Vaccine Efficacy Estimation
+ Nicola Mulberry (Simon Fraser University), A nested model for pneumococcal population dynamics
+ Hayriye Guldubak (UL Lafayette), Extrapolating vaccine e?ect to epidemiological impacts in an immuno-epidemiological Dengue vaccination model structured by host antibody level
+ 
+ In case some speaker cannot come, I would give a presentation on 
+ Modelling waning and partial immunity from within-host processes to epidemic dynamics",March 1st,accept,accept,,
+2023-03-01 15:39,Azmy,Ackleh,azmy.ackleh@louisiana.edu,Faculty,University of Louisiana at Lafayette,Ecological and Epidemiological Models with Dispersal,"Azmy S. Ackleh, University of Louisiana at Lafayette
+ Amy Veprauskas, University of Louisiana at Lafayette","Dispersal is an important ecological process that can significantly affect population dynamics. A myriad of ecological and epidemiological models with dispersal have been developed. Such models are able to provide insights into many important phenomena including species invasion, disease spread and how habitat fragmentation affects species persistence. These models encompass many different modeling approaches including difference equations with discrete patches where time and space are considered discrete, partial differential equations with diffusion where time and space are considered continuous, differential equations with discrete patches where time is considered continuous and space is considered discrete, integrodifference equations where space is treated continuously while time is discrete. 
+ 
+ The purpose of this minisymposium is to bring together researchers to present recent advances on ecological and epidemiological models with dispersal.","Azmy S. Ackleh (confirmed), University of Louisiana at Lafayette 
+ Stephen Cantrell (confirmed), University of Miami 
+ Paul Salceanu (confirmed), University of Louisiana at Lafayette 
+ Amy Veprauskas (confirmed), University of Louisiana at Lafayette",March 2nd,accept,,,

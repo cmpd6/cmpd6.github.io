@@ -2,7 +2,7 @@
 layout: page
 name: Mathematical and computational approaches to modelling immunology
 title: Mathematical and computational approaches to modelling immunology
-organisers: Suzan Farhang Sardroodi; Morgan Craig; Jane Heffernan; Samaneh Gholami
+organisers: Suzan Farhang Sardroodi, Morgan Craig, Jane Heffernan, Samaneh Gholami
 ---
 
 ### Organisers

@@ -6,7 +6,5 @@ institution: University of Michigan, Ann Arbor
 institution_country: USA
 plenary: true
 hide: false
-links:
-  - name: Web page
-    absolute_url: http://websites.umich.edu/~marisae/index.html
+web_page: http://websites.umich.edu/~marisae/index.html
 ---
