@@ -4,9 +4,10 @@ name: Delay-differential equations in applications
 title: Delay-differential equations in applications
 hide: no
 ---
+
 ### Organisers
 
-Jacques Bélair - see above
+- Jacques Bélair
 
 ### Description
 

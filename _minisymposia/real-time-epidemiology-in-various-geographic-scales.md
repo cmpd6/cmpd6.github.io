@@ -6,13 +6,8 @@ hide: no
 ---
 ### Organisers
 
-Hiroshi Nishiura
- Kyoto University School of Public Health
- nishiurah@gmail.com
- 
- Gerardo Chowell
- School of Public Health, Georgia State University
- gchowell@gsu.edu
+- Hiroshi Nishiura, Kyoto University School of Public Health, nishiurah@gmail.com
+- Gerardo Chowell, School of Public Health, Georgia State University, gchowell@gsu.edu
 
 ### Description
 

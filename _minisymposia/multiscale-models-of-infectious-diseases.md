@@ -6,8 +6,8 @@ hide: no
 ---
 ### Organisers
 
-Stanca M. Ciupe, Department of Mathematics, Virginia Tech, USA, stanca@vt.edu
- Jonathan Forde, Department of Mathematics and Computer Science, Hobart and William Smith Colleges, USA, forde@hws.edu
+- Stanca M. Ciupe, Department of Mathematics, Virginia Tech, USA, stanca@vt.edu
+- Jonathan Forde, Department of Mathematics and Computer Science, Hobart and William Smith Colleges, USA, forde@hws.edu
 
 ### Description
 

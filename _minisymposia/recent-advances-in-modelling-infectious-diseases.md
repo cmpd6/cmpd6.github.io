@@ -4,11 +4,12 @@ name: Recent Advances in Modelling Infectious Diseases
 title: Recent Advances in Modelling Infectious Diseases
 hide: no
 ---
+
 ### Organisers
 
-Michael Li, University of Alberta
- Zhisheng Shuai, University of Central Florida
- Marie Betsy Varughese, Alberta Health
+- Michael Li, University of Alberta
+- Zhisheng Shuai, University of Central Florida
+- Marie Betsy Varughese, Alberta Health
 
 ### Description
 

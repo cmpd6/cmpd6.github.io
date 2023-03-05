@@ -4,11 +4,10 @@ name: Mathematical modeling and analysis in cancer immunotherapy
 title: Mathematical modeling and analysis in cancer immunotherapy
 hide: no
 ---
+
 ### Organisers
 
-Kang-Ling Liao
- Department of Mathematics, University of Manitoba
- Kang-Ling.Liao@umanitoba.ca
+- Kang-Ling Liao, Department of Mathematics, University of Manitoba, Kang-Ling.Liao@umanitoba.ca
 
 ### Description
 

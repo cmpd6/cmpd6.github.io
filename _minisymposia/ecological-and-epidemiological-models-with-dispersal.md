@@ -6,8 +6,8 @@ hide: no
 ---
 ### Organisers
 
-Azmy S. Ackleh, University of Louisiana at Lafayette
- Amy Veprauskas, University of Louisiana at Lafayette
+- Azmy S. Ackleh, University of Louisiana at Lafayette
+- Amy Veprauskas, University of Louisiana at Lafayette
 
 ### Description
 
