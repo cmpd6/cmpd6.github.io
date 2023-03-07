@@ -15,4 +15,9 @@ Dispersal is an important ecological process that can significantly affect popul
  
  The purpose of this minisymposium is to bring together researchers to present recent advances on ecological and epidemiological models with dispersal.
 
+### Speakers
 
+- Azmy S. Ackleh (confirmed), University of Louisiana at Lafayette 
+- Stephen Cantrell (confirmed), University of Miami 
+- Paul Salceanu (confirmed), University of Louisiana at Lafayette 
+- Amy Veprauskas (confirmed), University of Louisiana at Lafayette
