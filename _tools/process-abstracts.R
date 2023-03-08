@@ -28,6 +28,9 @@ process_yml_header = function(fqfn) {
   return(yaml_fields)
 }
 
+# Are we testing (i.e., exporting to the working directory) or in production?
+TESTING = TRUE
+
 ## ABSTRACTS
 # Get list of abstracts from csv file
 abstracts = read.csv("CMPD6-abstracts.csv", skip = 1)
@@ -163,7 +166,12 @@ for (i in 1:dim(abstracts)[1]) {
     file_name = sprintf("%s-%s.md",
                         tolower(gsub(" ", "-", abstracts$first_name[i])),
                         tolower(gsub(" ", "-", abstracts$last_name[i])))
-    #write_yaml(OUT, file = file_name)
-    write(OUT, file = sprintf("../_speakers/%s", file_name))
+    if (TESTING) {
+      #write_yaml(OUT, file = file_name)
+      cat(OUT, file = file_name, sep = "\n")
+    } else {
+      #write(OUT, file = sprintf("../_speakers/%s", file_name))
+      cat(OUT, file = sprintf("../_speakers/%s", file_name), sep = "\n")
+    }
   }
 }
