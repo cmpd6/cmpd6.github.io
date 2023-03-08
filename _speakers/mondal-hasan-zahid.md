@@ -2,13 +2,11 @@
 first_name: Mondal Hasan
 last_name: Zahid
 name: Mondal Hasan Zahid
-institution_country: .na
+institution: University of Florida
 email: mondalhasanzahid@ufl.edu
 plenary: no
 minisymposium: yes
-minisymposium_title: modelling-cancer-microenvironment
 hide: no
-
 ---
 
 ## The biting rate of Aedes aegypti and its variability: A systematic review (1970 - 2022)

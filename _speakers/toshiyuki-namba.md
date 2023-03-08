@@ -2,12 +2,11 @@
 first_name: Toshiyuki
 last_name: Namba
 name: Toshiyuki Namba
-institution_country: .na
+institution: Osaka Metropolitan University
 email: tnamba@omu.ac.jp
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## Unexpected coexistence and extinction in an intraguild predation system

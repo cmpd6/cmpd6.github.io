@@ -2,13 +2,12 @@
 first_name: Anuraag
 last_name: Bukkuri
 name: Anuraag Bukkuri
-institution_country: .na
+institution: Moffitt Cancer Center and Lund University
 email: anuraag.bukkuri@moffitt.org
 web_page: https://sites.google.com/view/anuraag-bukkuri/
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## Models of Resistance in State-Structured Cancer Populations

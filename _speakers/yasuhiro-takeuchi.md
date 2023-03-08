@@ -2,12 +2,11 @@
 first_name: Yasuhiro
 last_name: Takeuchi
 name: Yasuhiro Takeuchi
-institution_country: .na
+institution: Aoyama Gakuin University
 email: takeuchi@math.aoyama.ac.jp
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## Stability analysis of a single-species logistic model with time delay and constant inflow

@@ -2,12 +2,11 @@
 first_name: Loïc
 last_name: Louison
 name: Loïc Louison
-institution_country: .na
+institution: Université de Guyane
 email: loic.louison@univ-guyane.fr
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## A Population Harvesting Model with Time and size Competition Dependence Function

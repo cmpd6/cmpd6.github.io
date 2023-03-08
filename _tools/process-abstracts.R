@@ -29,7 +29,7 @@ process_yml_header = function(fqfn) {
 }
 
 # Are we testing (i.e., exporting to the working directory) or in production?
-TESTING = TRUE
+TESTING = FALSE
 
 ## ABSTRACTS
 # Get list of abstracts from csv file
@@ -117,61 +117,81 @@ for (i in 1:dim(abstracts)[1]) {
   idx_firstname = which(abstract_files$first_name == abstracts$first_name[i])
   idx_lastname = which(abstract_files$last_name == abstracts$last_name[i])
   idx_presenter = intersect(idx_firstname, idx_lastname)
+  # We store the information for the current presentation in a list
+  presenter = list()
   if (length(idx_presenter) == 0) {
+    ## New presentation
     # We don't seem to have a file for this person, let's populate what is needed
-    presenter = list()
     presenter$first_name = abstracts$first_name[i]
     presenter$last_name = abstracts$last_name[i]
     presenter$name = paste(presenter$first_name,presenter$last_name)
-    presenter$institution = abstracts$institution[i]
+    presenter$institution = abstracts$affiliation[i]
     presenter$institution_country = NA
     presenter$email = abstracts$email[i]
     if (nchar(abstracts$web_page[i])>0) {
       presenter$web_page = abstracts$web_page[i]
     }
-    # Remember to change the following in the file for a plenary,
-    # I am not checking here
-    presenter$plenary = FALSE
-    # Type of talk
-    if (abstracts$type_of_talk[i] == "Contributed Talk") {
-      presenter$minisymposium = FALSE
-    } else if (abstracts$type_of_talk[i] == "I am presenting as part of a minisymposium") {
-      presenter$minisymposium = TRUE
-      # We find the minisymposium
-      minisymp_title = gsub("-\t", "", abstracts$minisymposium_name[i])
-      minisymp_idx = which(minisymposium_files$title == minisymp_title)
-      if (length(minisymp_idx)>0) {
-        presenter$minisymposium_title = 
-          gsub(".md", "", 
-               minisymposium_files$file_name[minisymp_idx])
-      }
+  } else {
+    # We already have a file. We check if the csv contains more information
+    # and if so, add it
+    presenter$first_name = abstracts$first_name[i]
+    presenter$last_name = abstracts$last_name[i]
+    presenter$name = paste(presenter$first_name,presenter$last_name)
+    presenter$institution = abstracts$affiliation[i]
+    if (!is.na(abstract_files$institution_country[idx_presenter])) {
+      presenter$institution_country = 
+        abstract_files$institution_country[idx_presenter]
+    } 
+    if (nchar(abstracts$email[i])>0) {
+      presenter$email = abstracts$email[i]
     }
-    presenter$hide = FALSE
-    ## END of YAML HEADER, put it in the output
-    OUT = paste0("---\n", 
-                 as.yaml(presenter),
-                 "\n---\n")
-    # Things that go in the md part of the file, not the yaml header
-    if (nchar(abstracts$talk_title[i])>0) {
-      OUT = paste0(OUT, "\n## ",
-                   abstracts$talk_title[i],
-                   "\n\n")
+    if (nchar(abstracts$web_page[i])>0) {
+      presenter$web_page = abstracts$web_page[i]
     }
-    if (nchar(abstracts$talk_abstract[i])>0) {
-      OUT = paste0(OUT,
-                   abstracts$talk_abstract[i],
-                   "\n\n")
+  }
+  ## COMMON INFO
+  # Remember to change the following in the file for a plenary,
+  # I am not checking here
+  presenter$plenary = FALSE
+  # Type of talk
+  if (abstracts$type_of_talk[i] == "Contributed Talk") {
+    presenter$minisymposium = FALSE
+  } else if (abstracts$type_of_talk[i] == "I am presenting as part of a minisymposium") {
+    presenter$minisymposium = TRUE
+    # We find the minisymposium
+    minisymp_title = gsub("-\t", "", abstracts$minisymposium_name[i])
+    minisymp_idx = which(minisymposium_files$title == minisymp_title)
+    if (length(minisymp_idx)>0) {
+      presenter$minisymposium_title = 
+        gsub(".md", "", 
+             minisymposium_files$file_name[minisymp_idx])
     }
-    # Prepare save of file
-    file_name = sprintf("%s-%s.md",
-                        tolower(gsub(" ", "-", abstracts$first_name[i])),
-                        tolower(gsub(" ", "-", abstracts$last_name[i])))
-    if (TESTING) {
-      #write_yaml(OUT, file = file_name)
-      cat(OUT, file = file_name, sep = "\n")
-    } else {
-      #write(OUT, file = sprintf("../_speakers/%s", file_name))
-      cat(OUT, file = sprintf("../_speakers/%s", file_name), sep = "\n")
-    }
+  }
+  presenter$hide = FALSE
+  ## END of YAML HEADER, put it in the output
+  OUT = paste0("---\n", 
+               as.yaml(presenter),
+               "---\n")
+  # Things that go in the md part of the file, not the yaml header
+  if (nchar(abstracts$talk_title[i])>0) {
+    OUT = paste0(OUT, "\n## ",
+                 abstracts$talk_title[i],
+                 "\n\n")
+  }
+  if (nchar(abstracts$talk_abstract[i])>0) {
+    OUT = paste0(OUT,
+                 abstracts$talk_abstract[i],
+                 "\n\n")
+  }
+  # Prepare save of file
+  file_name = sprintf("%s-%s.md",
+                      tolower(gsub(" ", "-", abstracts$first_name[i])),
+                      tolower(gsub(" ", "-", abstracts$last_name[i])))
+  if (TESTING) {
+    #write_yaml(OUT, file = file_name)
+    cat(OUT, file = file_name, sep = "\n")
+  } else {
+    #write(OUT, file = sprintf("../_speakers/%s", file_name))
+    cat(OUT, file = sprintf("../_speakers/%s", file_name), sep = "\n")
   }
 }

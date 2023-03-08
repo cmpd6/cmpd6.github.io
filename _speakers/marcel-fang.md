@@ -2,12 +2,11 @@
 first_name: Marcel
 last_name: Fang
 name: Marcel Fang
-institution_country: .na
+institution: Sorbonne Université & INRIA, France
 email: marcel.fang@inria.fr
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## A two-stage SEIRS reinfection model with multiple endemic equilibria

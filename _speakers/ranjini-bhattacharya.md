@@ -2,12 +2,11 @@
 first_name: Ranjini
 last_name: Bhattacharya
 name: Ranjini Bhattacharya
-institution_country: .na
+institution: Moffitt Cancer Center
 email: ranjini.bhattacharya@moffitt.org
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## Angiogenesis in Cancer: A Tragedy of Commons

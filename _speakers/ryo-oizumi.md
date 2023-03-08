@@ -2,13 +2,13 @@
 first_name: Ryo
 last_name: Oizumi
 name: Ryo Oizumi
-institution_country: .na
+institution: Senior Researcher, Department of Population Structure Research, National
+  Institute of Population and Social Security Research
 email: ooizumi-ryou@ipss.go.jp
 web_page: https://researchmap.jp/39207649?lang=en
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## Analytical Representation of Eigensystem in Multiregional Leslie Matrix Model: Application to Sensitivity Analysis of Population Declining in Japan

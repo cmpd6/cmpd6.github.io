@@ -2,12 +2,11 @@
 first_name: Anuraj
 last_name: Singh
 name: Anuraj Singh
-institution_country: .na
+institution: ABV-Indian Institute of Information Technology and Management
 email: anuraj@iiitm.ac.in
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## Resonance and bifurcation in a discrete-time predator–prey system 

@@ -2,12 +2,11 @@
 first_name: Sonja
 last_name: Türpitz
 name: Sonja Türpitz
-institution_country: .na
+institution: Friedrich Schiller University Jena, Germany
 email: sonja.tuerpitz@uni-jena.de
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## Considering Subpopulations in Modelling Facultative Mutualism Reveals a New Approach to Model Interspecific Interactions

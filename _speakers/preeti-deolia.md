@@ -2,13 +2,12 @@
 first_name: Preeti
 last_name: Deolia
 name: Preeti Deolia
-institution_country: .na
-email: preeti@iiitm.ac.in
+institution: 'Atal Bihari Vajpayee-Indian Institute of Information Technology and
+  Management, Gwalior '
+email: 'preeti@iiitm.ac.in preetidyolia@gmail.com '
 plenary: no
-minisymposium: yes
-minisymposium_title: modelling-cancer-microenvironment
+minisymposium: no
 hide: no
-
 ---
 
 ## Epidemiology of Age in COVID-19: A model with m-heterogeneous contact rates and saturated treatment function

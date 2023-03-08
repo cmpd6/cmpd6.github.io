@@ -2,13 +2,13 @@
 first_name: Clotilde
 last_name: Djuikem
 name: Clotilde Djuikem
-institution_country: .na
+institution: Université Côte d’Azur, Inria, INRAE, CNRS, Université Paris Sorbonne,
+  BIOCORE, France
 email: clotilde.djuikem@inria.fr
 web_page: https://djuikem-clotilde.netlify.app/
 plenary: no
 minisymposium: no
 hide: no
-
 ---
 
 ## Impulsive modelling of rust dynamics and predator releases
