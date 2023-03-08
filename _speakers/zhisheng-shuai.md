@@ -7,3 +7,5 @@ institution_country: USA
 plenary: true
 web_page: https://sciences.ucf.edu/math/zshuai/
 ---
+
+## Heterogeneity and Aggregation in Modeling Infectious Diseases
