@@ -5,18 +5,26 @@
 
   <h3 class="font-weight-light mb-3">
     {% if speaker.plenary == true %}
-      Plenary speaker
+      (Plenary speaker)
     {% else %} 
-      Speaker
+      (Speaker)
     {% endif %}
   </h3>
-  
+
   <h1 class="font-weight-light mb-3">
-    {{ speaker.first_name }} {{ speaker.last_name }}
+    {% if speaker.web_page %}
+      <a href="{{ speaker.web_page }}">
+        {{ speaker.first_name }} {{ speaker.last_name }}
+      </a>
+    {% else %}
+      {{ speaker.first_name }} {{ speaker.last_name }}
+    {% endif %}
   </h1>
 
   {% if speaker.institution %} 
-    {{ speaker.institution }}
+    <h2 class="font-weight-light mb-3">
+      {{ speaker.institution }}
+    </h2>
   {% endif %}
 
   {{ content }}
