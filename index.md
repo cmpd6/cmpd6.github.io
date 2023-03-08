@@ -59,7 +59,7 @@ Registration fees include coffee breaks, lunches and a reception. Registration i
 <br>
 We offer some support for students and early career researchers. Information is available [here](https://cmpd6.github.io/information/travel-awards/). You could also consider travel funding from [SMB](https://www.smb.org/travel-grants/) or (for US-based researchers) [AMS](https://www.ams.org/programs/travel-grants/AMS-SimonsTG).
 
-Thanks to additional funding from the University of Manitoba, we can offer a greatly reduced rate ($50) for UM students and postdocs. This will be an option on the registration page, please use your UM email to register.
+Thanks to additional funding from the University of Manitoba, we can offer a greatly reduced rate ($50) for some UM students and postdocs. This will be an option on the registration page, please use your UM email to register. Note that this will be offered on a first-come, first-served basis, so register early if you plan to use this award.
 
 ### Sponsors
 [![](/assets/images/logo_PIMS.png)](https://www.pims.math.ca/) &nbsp;&nbsp; [![](/assets/images/logo_CAIMS.png)](https://caims.ca/) &nbsp;&nbsp; [![](/assets/images/Fields_Logo_Small.jpg)](http://www.fields.utoronto.ca/) &nbsp;&nbsp; [MfPH](http://www.fields.utoronto.ca/activities/public-health) &nbsp;&nbsp; [<img src="/assets/images/UM-logo-vertical.png"  style="height:70px;">](https://umanitoba.ca/) &nbsp;&nbsp; [<img src="/assets/images/UM-Science-logo-vert.png"  style="height:70px;">](https://umanitoba.ca/science/)
