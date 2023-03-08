@@ -3,19 +3,17 @@
 {%- unless speaker.hide -%}
   {%- include partials/header.html -%}
 
-  <p class="h6">
-    {{ site.data.lang[site.conference.lang].speaker.title | default: "Speaker" }}
-  </p>
-
+  <h3 class="font-weight-light mb-3">
+    {% if speaker.plenary == true %}
+      Plenary speaker
+    {% else %} 
+      Speaker
+    {% endif %}
+  </h3>
+  
   <h1 class="font-weight-light mb-3">
     {{ speaker.first_name }} {{ speaker.last_name }}
   </h1>
-
-  <h3 class="font-weight-light mb-3">
-    {% if speaker.plenary == true %}
-      (Plenary speaker)
-    {% endif %}
-  </h3>
 
   {% if speaker.institution %} 
     {{ speaker.institution }}
