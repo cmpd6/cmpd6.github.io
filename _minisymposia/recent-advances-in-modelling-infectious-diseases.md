@@ -3,6 +3,26 @@ layout: page
 name: Recent Advances in Modelling Infectious Diseases
 title: Recent Advances in Modelling Infectious Diseases
 hide: no
+organisers:
+    - Michael Li
+    - Zhisheng Shuai
+    - Marie Betsy Varughese
+speakers:
+    - Julien Arino
+    - Jacques Bélair
+    - Abba Gumel
+    - Donglin Han
+    - Jane Heffernan
+    - Jude Kong
+    - Junling Ma
+    - Connell McCluskey
+    - Weston Roda
+    - Pauline van den Driessche
+    - Marie Betsy Varughese
+    - Jorge Velasco-Hernandez
+    - Amy Veprauskas
+    - James Watmough
+    - Huaiping Zhu
 ---
 
 ### Organisers
