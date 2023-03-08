@@ -75,7 +75,7 @@ conference:
 
   # Language
   lang: en
-    overview: Back to list
+    overview: "Back to list"
 
   # Show theme errors:
   show_errors: True
