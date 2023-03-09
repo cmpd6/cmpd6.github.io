@@ -1,5 +1,6 @@
 ---
 layout: speaker-overview
+title: Participants/Speakers
 ---
 
 This page lists participants to the conference, together with information about their "roles": plenary (P), minisymposia (MS) and contributed talks (C) speakers, minisymposium organisers (SO), Scientific (SC) or Local Organising (LO) committees members. 
