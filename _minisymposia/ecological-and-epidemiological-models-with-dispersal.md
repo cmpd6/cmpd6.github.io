@@ -3,6 +3,14 @@ layout: page
 name: Ecological and Epidemiological Models with Dispersal
 title: Ecological and Epidemiological Models with Dispersal
 hide: no
+organisers:
+    - Azmy S. Ackleh
+    - Amy Veprauskas
+speakers:
+    - Azmy S. Ackleh 
+    - Stephen Cantrell 
+    - Paul Salceanu 
+    - Amy Veprauskas
 ---
 ### Organisers
 

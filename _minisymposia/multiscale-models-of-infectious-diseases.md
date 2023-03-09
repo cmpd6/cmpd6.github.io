@@ -3,6 +3,18 @@ layout: page
 name: Multiscale models of infectious diseases
 title: Multiscale models of infectious diseases
 hide: no
+organisers:
+    - Stanca M. Ciupe
+    - Jonathan Forde
+speakers:
+    - Jessica Conway
+    - Stanca Ciupe
+    - Tin Phan
+    - Stacy Smith?
+    - Erica Rutter
+    - Jonathan Forde
+    - Suzan Farhang Sardroodi
+    - Fabian Cardozo Ojeda
 ---
 ### Organisers
 

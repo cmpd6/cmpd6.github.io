@@ -2,7 +2,15 @@
 layout: page
 name: Vector-Borne Disease Dynamics
 title: Vector-Borne Disease Dynamics
-organisers: Abba Gumel, Fabio Milner
+organisers: 
+    - Abba Gumel
+    - Fabio Milner
+speakers:
+    - Hayriye Gulbudak
+    - Abba Gumel
+    - Fabio Milner
+    - Necibe Tuncer
+    - Jorge Velasco-Hernandez
 ---
 
 ### Organisers

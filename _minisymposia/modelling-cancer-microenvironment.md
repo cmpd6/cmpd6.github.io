@@ -2,7 +2,18 @@
 layout: page
 name: Modelling the Cancer Microenvironment
 title: Modelling the Cancer Microenvironment
-organisers: Ryan Thiessen; Thomas Hillen
+organisers: 
+    - Ryan Thiessen
+    - Thomas Hillen
+speakers:
+    - Tracy Stepien
+    - Erica Rutter
+    - Morgan Craig
+    - Ernesto Augusto Bueno Da Fonseca Lima
+    - Kathleen Wilkie
+    - Furkan Kurtoglu
+    - Nadia Loy
+    - Ryan Thiessen
 ---
 
 ### Organisers

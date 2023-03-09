@@ -3,6 +3,14 @@ layout: page
 name: Real time epidemiology in various geographic scales
 title: Real time epidemiology in various geographic scales
 hide: no
+organisers:
+    - Hiroshi Nishiura
+    - Gerardo Chowell
+speakers:
+    - Asami Anzai
+    - Amanda Bleichrodt
+    - Hiroshi Nishiura
+    - Katsuma Hayashi
 ---
 ### Organisers
 

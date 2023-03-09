@@ -3,6 +3,13 @@ layout: page
 name: Mathematical modeling and analysis in cancer immunotherapy
 title: Mathematical modeling and analysis in cancer immunotherapy
 hide: no
+organisers:
+    - Kang-Ling Liao
+speakers:
+    - Harsh Vardhan Jain
+    - Kang-Ling Liao
+    - Leili Shahriyari
+    - Nourridine Siewe
 ---
 
 ### Organisers

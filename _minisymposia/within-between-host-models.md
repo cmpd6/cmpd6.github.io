@@ -2,7 +2,15 @@
 layout: page
 name: Within-host and between-host mathematical models of biological dynamics
 title: Within-host and between-host mathematical models of biological dynamics
-organisers: Nourridine Siewe, Ephraim Agyingi
+organisers: 
+    - Nourridine Siewe
+    - Ephraim Agyingi
+speakers:
+    - Blessing Emerinini
+    - Necibe Tuncer
+    - Sarafa Iyaniwura
+    - Nourridine Siewe
+    - Ephraim Agyingi
 ---
 
 ### Organisers
