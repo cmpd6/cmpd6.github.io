@@ -16,8 +16,7 @@ speakers:
     - Fabian Cardozo Ojeda
 ---
 
-#### Note
-Talk titles and links to abstracts will appear when the information is submitted and processed.
+(Note: talk titles and links to abstracts will appear when the information is submitted by speakers and processed.)
 
 <h3 class="font-weight-light mb-3">Description</h3>
 
