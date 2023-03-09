@@ -7,7 +7,7 @@ organisers:
     - Jonathan Forde
 speakers:
     - Jessica Conway
-    - Stanca Ciupe
+    - Stanca M. Ciupe
     - Tin Phan
     - Stacy Smith?
     - Erica Rutter
