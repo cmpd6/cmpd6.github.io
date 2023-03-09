@@ -9,7 +9,7 @@ speakers:
     - Lorenzo Pellis
     - Veronika Zarnitsyna
     - Nicola Mulberry
-    - Hayriye Guldubak
+    - Hayriye Gulbudak
 ---
 
 <h3 class="font-weight-light mb-3">Description</h3>
@@ -22,4 +22,4 @@ This minisymposium presents some recent approaches to analyse aspects and specia
 - Lorenzo Pellis (joint work with Helena Stage, Katrina Lythgoe, Christophe Fraser), Multi-scale time-since-infection models in evolutionary epidemiology
 - Veronika Zarnitsyna (Emory University), Competing Heterogeneities in Vaccine Efficacy Estimation
 - Nicola Mulberry (Simon Fraser University), A nested model for pneumococcal population dynamics
-- Hayriye Guldubak (UL Lafayette), Extrapolating vaccine e?ect to epidemiological impacts in an immuno-epidemiological Dengue vaccination model structured by host antibody level
+- Hayriye Gulbudak (UL Lafayette), Extrapolating vaccine e?ect to epidemiological impacts in an immuno-epidemiological Dengue vaccination model structured by host antibody level

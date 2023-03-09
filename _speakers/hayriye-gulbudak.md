@@ -10,5 +10,3 @@ minisymposium: true
 minisymposium_title: vector-borne-disease-dynamics
 hide: false
 ---
-
-## 
