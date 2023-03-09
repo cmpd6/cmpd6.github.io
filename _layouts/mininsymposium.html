@@ -12,9 +12,11 @@
   </h2>
 
   <div>
-    {% for organiser in symposium.organisers %}
-      - {{ organiser }}
-    {% endfor %}
+    <ul>
+      {% for organiser in symposium.organisers %}
+        <li> {{ organiser }} </li>
+      {% endfor %}
+    </ul>
   </div>
 
   {{ content }}
