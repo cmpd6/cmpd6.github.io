@@ -3,8 +3,8 @@ first_name: Loïc
 last_name: Louison
 name: Loïc Louison
 institution: Université de Guyane
+institution_country: France
 email: loic.louison@univ-guyane.fr
-plenary: no
 minisymposium: no
 hide: no
 ---

@@ -3,8 +3,8 @@ first_name: Yasuhiro
 last_name: Takeuchi
 name: Yasuhiro Takeuchi
 institution: Aoyama Gakuin University
+institution_country: Japan
 email: takeuchi@math.aoyama.ac.jp
-plenary: no
 minisymposium: no
 hide: no
 ---

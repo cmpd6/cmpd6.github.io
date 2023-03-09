@@ -3,9 +3,9 @@ first_name: Anuraag
 last_name: Bukkuri
 name: Anuraag Bukkuri
 institution: Moffitt Cancer Center and Lund University
+institution_country: USA
 email: anuraag.bukkuri@moffitt.org
 web_page: https://sites.google.com/view/anuraag-bukkuri/
-plenary: no
 minisymposium: no
 hide: no
 ---

@@ -3,8 +3,8 @@ first_name: Marcel
 last_name: Fang
 name: Marcel Fang
 institution: Sorbonne Université & INRIA, France
+institution_country: France
 email: marcel.fang@inria.fr
-plenary: no
 minisymposium: no
 hide: no
 ---

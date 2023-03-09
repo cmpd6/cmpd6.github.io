@@ -3,8 +3,8 @@ first_name: Sonja
 last_name: Türpitz
 name: Sonja Türpitz
 institution: Friedrich Schiller University Jena, Germany
+institution_country: Germany
 email: sonja.tuerpitz@uni-jena.de
-plenary: no
 minisymposium: no
 hide: no
 ---

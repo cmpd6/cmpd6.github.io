@@ -5,8 +5,8 @@ name: Ephraim Agyingi
 institution: Rochester Institute of Technology, Rochester, New York, USA
 institution_country: USA
 email: eoasma@rit.edu
-plenary: no
 minisymposium: yes
+minisymposium_title: within-between-host-models
 hide: no
 ---
 

@@ -3,6 +3,14 @@ layout: page
 name: Bridging the scale from within-host to epidemic models
 title: Bridging the scale from within-host to epidemic models
 hide: no
+organisers:
+    - Andrea Pugliese
+    - Lorenzo Pellis
+speakers:
+    - Lorenzo Pellis
+    - Veronika Zarnitsyna
+    - Nicola Mulberry
+    - Hayriye Guldubak
 ---
 
 ### Organisers

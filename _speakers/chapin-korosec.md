@@ -6,7 +6,6 @@ institution: York University
 institution_country: Canada
 email: chapinSKorosec@gmail.com
 web_page: https://chapinkorosec.ca/
-plenary: no
 minisymposium: no
 hide: no
 ---

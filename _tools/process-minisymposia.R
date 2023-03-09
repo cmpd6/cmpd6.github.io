@@ -28,6 +28,9 @@ process_yml_header = function(fqfn) {
   return(yaml_fields)
 }
 
+# Are we testing (i.e., exporting to the working directory) or in production?
+TESTING = FALSE
+
 ## MINISYMPOSIA
 minisymposia = read.csv("CMPD6-minisymposia.csv", skip = 1)
 colnames(minisymposia) = c("date",
@@ -104,7 +107,10 @@ for (i in 1:dim(minisymposia)[1]) {
     # Prepare save of file
     file_name = sprintf("%s.md",
                         tolower(gsub(" ", "-", minisymposia$symposium_title[i])))
-    write(OUT, file = sprintf("../_minisymposia/%s", file_name))
-    #write(OUT, file = sprintf("%s", file_name))
+    if (TESTING) {
+      write(OUT, file = sprintf("%s", file_name))
+    } else {
+      write(OUT, file = sprintf("../_minisymposia/%s", file_name))
+    }
   }
 }

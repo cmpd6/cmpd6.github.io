@@ -2,6 +2,7 @@
 library(yaml)
 library(dplyr)
 library(stringr)
+library(countrycode)
 
 # Process yaml header
 # The markdown files used have just a yaml header; the markdown part
@@ -77,6 +78,27 @@ for (i in 1:dim(abstract_files)[1]) {
     }
   }
 }
+# Try to infer country for people missing country
+for (i in 1:dim(abstract_files)[1]) {
+  if (is.na(abstract_files$institution_country[i])) {
+    writeLines(paste0("No country for ", abstract_files$name[i],
+                      " (email ",
+                      abstract_files$email[i],")"))
+    # Places for which it is not obvious
+    if (grepl("moffitt.org", abstract_files$email[i]) ||
+        grepl(".edu", abstract_files$email[i])) {
+      email_ctry = "USA"
+    } else {
+      tmp_email = strsplit(abstract_files$email[i], "\\.")
+      end_email = tmp_email[[1]][length(tmp_email[[1]])]
+      email_ctry = countrycode(end_email,
+                               origin = "iso2c",
+                               destination = "country.name")
+    }
+    writeLines(paste0("Found ", email_ctry))
+    abstract_files$institution_country[i] = email_ctry
+  }
+}
 
 ## MINISYMPOSIA
 # (Not processing here, but we need the information)
@@ -85,30 +107,34 @@ minisymposium_files = data.frame(
                          pattern = glob2rx("*.md"))
 )
 minisymposium_files$fqfn = sprintf("../_minisymposia/%s", minisymposium_files$file_name)
+# Each minisymposium is a list in the following list
 minisymposium_info = list()
-fields = c()
+# We keep track of the minisymposium names in a vector for easy access
+minisymposium_files$title = rep(NA, dim(minisymposium_files)[1])
+# fields = c()
 for (i in 1:dim(minisymposium_files)[1]) {
   curr_minisymposium = process_yml_header(minisymposium_files$fqfn[i])
   minisymposium_info[[i]] = list()
   minisymposium_info[[i]] = curr_minisymposium
-  fields = c(fields,names(curr_minisymposium))
+  minisymposium_files$title[i] = curr_minisymposium$title
+#  fields = c(fields,names(curr_minisymposium))
 }
 # Prepare the fields
-fields = unique(fields)
+# fields = unique(fields)
 # Make columns for all the fields we have found
-for (f in fields) {
-  minisymposium_files = cbind(minisymposium_files,
-                         rep(NA, dim(minisymposium_files)[1]))
-  colnames(minisymposium_files)[dim(minisymposium_files)[2]] = f
-}
-# Fill in the information
-for (i in 1:dim(minisymposium_files)[1]) {
-  for (n in names(minisymposium_info[[i]])) {
-    if (minisymposium_info[[i]][n] != "NULL") {
-      minisymposium_files[i, n] = minisymposium_info[[i]][n]
-    }
-  }
-}
+# for (f in fields) {
+#   minisymposium_files = cbind(minisymposium_files,
+#                          rep(NA, dim(minisymposium_files)[1]))
+#   colnames(minisymposium_files)[dim(minisymposium_files)[2]] = f
+# }
+# # Fill in the information
+# for (i in 1:dim(minisymposium_files)[1]) {
+#   for (n in names(minisymposium_info[[i]])) {
+#     if (minisymposium_info[[i]][n] != "NULL") {
+#       minisymposium_files[i, n] = minisymposium_info[[i]][n]
+#     }
+#   }
+# }
 
 
 ## Comparisons
@@ -131,6 +157,7 @@ for (i in 1:dim(abstracts)[1]) {
     if (nchar(abstracts$web_page[i])>0) {
       presenter$web_page = abstracts$web_page[i]
     }
+    presenter$plenary = FALSE
   } else {
     # We already have a file. We check if the csv contains more information
     # and if so, add it
@@ -148,18 +175,22 @@ for (i in 1:dim(abstracts)[1]) {
     if (nchar(abstracts$web_page[i])>0) {
       presenter$web_page = abstracts$web_page[i]
     }
+    # # Check some info from the existing files themselves
+    # tmp = process_yml_header(abstract_files$fqfn[idx_presenter])
+    # # Plenaries can only already exist, so set to FALSE unless it is
+    # # indeed a plenary
+    # if (!tmp$plenary) {
+    #   presenter$plenary = FALSE
+    # }
   }
   ## COMMON INFO
-  # Remember to change the following in the file for a plenary,
-  # I am not checking here
-  presenter$plenary = FALSE
   # Type of talk
   if (abstracts$type_of_talk[i] == "Contributed Talk") {
     presenter$minisymposium = FALSE
   } else if (abstracts$type_of_talk[i] == "I am presenting as part of a minisymposium") {
     presenter$minisymposium = TRUE
     # We find the minisymposium
-    minisymp_title = gsub("-\t", "", abstracts$minisymposium_name[i])
+    minisymp_title = abstracts$minisymposium_name[i]
     minisymp_idx = which(minisymposium_files$title == minisymp_title)
     if (length(minisymp_idx)>0) {
       presenter$minisymposium_title = 

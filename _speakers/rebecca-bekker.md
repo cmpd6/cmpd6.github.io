@@ -5,8 +5,8 @@ name: Rebecca Bekker
 institution: H. Lee Moffitt Cancer Center and Research Institute
 institution_country: USA
 email: Rebecca.Bekker@moffitt.org
-plenary: no
 minisymposium: yes
+minisymposium_title: math-comp-modelling-immuno
 hide: no
 ---
 

@@ -3,8 +3,8 @@ first_name: Toshiyuki
 last_name: Namba
 name: Toshiyuki Namba
 institution: Osaka Metropolitan University
+institution_country: Japan
 email: tnamba@omu.ac.jp
-plenary: no
 minisymposium: no
 hide: no
 ---

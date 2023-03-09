@@ -3,6 +3,13 @@ layout: page
 name: Delay-differential equations in applications
 title: Delay-differential equations in applications
 hide: no
+organisers:
+    - Jacques Bélair
+speakers:
+    - Jacques Bélair
+    - Morgan Craig
+    - Huaiping Zhu
+    - Guihong Fan
 ---
 
 ### Organisers
