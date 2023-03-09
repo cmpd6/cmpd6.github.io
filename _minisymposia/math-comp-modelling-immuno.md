@@ -1,5 +1,4 @@
 ---
-layout: page
 name: Mathematical and computational approaches to modelling immunology
 title: Mathematical and computational approaches to modelling immunology
 organisers: 
@@ -18,14 +17,7 @@ speakers:
     - Chapin Korosec
 ---
 
-### Organisers
-
-- Suzan Farhang Sardroodi
-- Morgan Craig
-- Jane Heffernan
-- Samaneh Gholami
-
-### Description
+<h3 class="font-weight-light mb-3">Description</h3>
 
 Mathematical and computational immunology is a rapidly evolving field dealing with the application of mathematical and computational methods to explore the structure, dynamics, organization, and regulation
 of the immune system in health and disease. Mathematical and computational immunology provides qualitative and quantitative assessments of various immune processes across multiple scales and in various contexts, including cancer and host-pathogen responses. The advances in genetics and biochemistry that have taken place over the last 10 years have led to significant progress in experimental and clinical

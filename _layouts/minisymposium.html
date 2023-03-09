@@ -1,0 +1,63 @@
+{%- assign symposium = page -%}
+
+{%- unless symposium.hide -%}
+  {%- include partials/header.html -%}
+
+  <p class="h6">
+    {{ site.data.lang[site.conference.lang].symposium.title | default: "Minisymposium" }}
+  </p>
+
+  <h2 class="font-weight-light mb-2">
+    {{ symposium.title }}
+  </h2>
+
+  <h3 class="font-weight-light mb-3">Organisers</h3>
+  <ul>
+    {% for organiser in symposium.organisers %}
+      <li>
+      {% for person in site.data.participants %}
+        {% if person.name == organiser %}
+          {% if person.web_page %}
+            <a href="{{ person.web_page }}"> {{ organiser }} </a>
+          {% else %}
+            {{ organiser }}
+          {% endif %}
+          {% if person.institution %}
+            ({{ person.institution }})
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h3 class="font-weight-light mb-3">Speakers</h3>
+  <ul>
+    {% for speaker in symposium.speakers %}
+      <li> 
+        {% for person in site.data.participants %}
+          {% if person.name == speaker %}
+            {% if person.web_page %}
+              <a href="{{ person.web_page }}"> {{ speaker }} </a>
+            {% else %}
+              {{ speaker }}
+            {% endif %}
+            {% if person.institution %}
+              ({{ person.institution }})
+            {% endif %}
+          {% endif %} 
+        {% endfor %}
+      </li>
+    {% endfor %}
+  </ul>
+
+  {{ content }}
+
+  <p class="d-print-none mt-5">
+    <a href="{{ page.collection | prepend: '/' | prepend: site.baseurl }}" class="btn btn-light">
+      <i class="fas fa-users"></i>&nbsp;Back to minisymposium list
+    </a>
+  </p>
+
+  {%- include partials/footer.html -%}
+{%- endunless -%}
