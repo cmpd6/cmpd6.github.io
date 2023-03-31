@@ -14,6 +14,7 @@ Things to do in Winnipeg (some ideas):
 - The [Exchange District](https://www.exchangedistrict.org/) is a National Historic Site of Canada comprising many historic buildings as well as Winnipeg's theatre district.
 - The [Manitoba Museum](https://manitobamuseum.ca/), located within the Exchange District, is a human and natural history museum. It is home to the collection of the Hudson Bay Company and a replica of the [Nonsuch](https://www.hbcheritage.ca/things/technology/the-nonsuch).
 - The recently opened [The Leaf](https://www.assiniboinepark.ca/leaf/lifegrows) and the [Assiniboine Park Zoo](https://www.assiniboinepark.ca/zoo/visit/hours-and-rates) are both located within [Assiniboine Park](https://www.assiniboinepark.ca/), a large urban park and forest.
+- Look for [murals](https://themuralsofwinnipeg.com): Winnipeg has hundreds of murals scattered throughout the city
 
 Outside of Winnipeg, for those who would want to spend a bit more time in the area:
 - [Lake Winnipeg](https://en.wikipedia.org/wiki/Lake_Winnipeg). Eleventh largest freshwater lake in the world, its southern end is about 50 kilometres north of Winnipeg. The part closest to Winnipeg usually thaws by mid-May.
