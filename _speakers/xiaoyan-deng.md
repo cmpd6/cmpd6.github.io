@@ -6,7 +6,6 @@ institution: Université de Montréal
 institution_country: Canada
 email: xiaoyan.deng@umontreal.ca
 minisymposium: yes
-minisymposium_title: within-between-host-models
 hide: no
 ---
 

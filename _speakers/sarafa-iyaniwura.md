@@ -7,7 +7,6 @@ institution_country: USA
 email: iyaniwura@lanl.gov
 web_page: https://iyaniwura.github.io/
 minisymposium: yes
-minisymposium_title: within-between-host-models
 hide: no
 ---
 

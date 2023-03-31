@@ -6,7 +6,6 @@ institution: University of Alberta
 institution_country: Canada
 email: rt5@ualberta.ca
 minisymposium: yes
-minisymposium_title: modelling-cancer-microenvironment
 hide: no
 ---
 

@@ -30,7 +30,7 @@ process_yml_header = function(fqfn) {
 }
 
 # Are we testing (i.e., exporting to the working directory) or in production?
-TESTING = FALSE
+TESTING = TRUE
 
 ## ABSTRACTS
 # Get list of abstracts from csv file

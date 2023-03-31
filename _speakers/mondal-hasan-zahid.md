@@ -6,7 +6,6 @@ institution: University of Florida
 institution_country: USA
 email: mondalhasanzahid@ufl.edu
 minisymposium: yes
-minisymposium_title: modelling-cancer-microenvironment
 hide: no
 ---
 

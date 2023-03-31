@@ -6,7 +6,6 @@ institution: Rochester Institute of Technology, Rochester, New York, USA
 institution_country: USA
 email: eoasma@rit.edu
 minisymposium: yes
-minisymposium_title: within-between-host-models
 hide: no
 ---
 

@@ -2,20 +2,17 @@
 first_name: Nourridine
 last_name: Siewe
 name: Nourridine Siewe
-institution: Rochester Institute of Technology
+institution: School of Mathematical Sciences, Rochester Institute of Technology
 institution_country: USA
 email: nxssma@rit.edu
 web_page: https://www.rit.edu/directory/nxssma-nourridine-siewe
 minisymposium: yes
-minisymposium_title: within-between-host-models
 hide: no
 ---
 
-## Breast cancer exosomal microRNAs facilitate pre-metastatic niche formation in the bone: A mathematical model
+## TGF-β inhibition can overcome cancer primary resistance to PD-1 blockade: a mathematical model
 
-Pre-metastatic niche is a location where cancer cells, separating from a primary tumor, find “fertile soil” for growth and proliferation, ensuring successful metastasis. Exosomal miRNAs of breast cancer are known to enter the bone and degrade it, which facilitates cancer cells invasion into the bone interior and ensures its successful colonization. In this paper we use a mathematical
-model to first describe, in health, the continuous remodeling of the bone by bone forming osteoblasts, bone resorbing osteoclasts, and the RANKL-OPG-RANK signaling system, which
-keeps the balance between bone formation and bone resorption. We next demonstrate how breast cancer exosomal miRNAs disrupt this balance, either by increasing or by decreasing the ratio of osteoclasts/osteoblasts, which results in abnormal high bone resorption or abnormal high bone forming, respectively, and in bone weakening in both cases. Finally we consider the case of
-abnormally high resorption and evaluate the effect of drugs, which may increase bone density to normal level, thus protecting the bone from invasion by cancer cells.
+Background and methods. Immune checkpoint inhibitors have demonstrated, over the recent years, impressive clinical response in cancer patients, but some patients do not respond at all to checkpoint blockade, exhibiting primary resistance. Primary resistance to PD-1 blockade is reported to occur under conditions of immunosuppressive tumor environment, a condition caused by myeloid derived suppressor cells (MDSCs), and by T cells exclusion, due to increased level of T regulatory cells (Tregs). Since TGF-β activates Tregs, TGF-β inhibitor may overcome primary resistance to anti-PD1. Indeed, recent mice experiments show that combining anti-PD-1 with anti-TGF-β yields significant therapeutic improvements compared to anti-TGF-β alone.
+ Results. The present paper introduces two cancer-specific parameters and, correspondingly, develops a mathematical model which explains how primary resistance to PD-1 blockade occurs, in terms of the two cancer-specific parameters, and how, in combination with anti-TGF-β, anti-PD-1 provides significant benefits. The model is represented by a system of partial differential equations and the simulations are in agreement with the recent mice experiments. In some cancer patients, treatment with anti-PD-1 results in rapid progression of the disease, known as hyperprogression disease (HPD). The mathematical model can also explain how this situation arises, and it predicts that HPD may be reversed by combining anti-TGF-β to anti-PD-1. Conclusion. The model is used to demonstrate how the two cancer-specific parameters may serve as biomarkers in predicting the efficacy of combination therapy with PD-1 and TGF-β inhibitors.
 
 

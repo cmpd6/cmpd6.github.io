@@ -5,7 +5,7 @@ name: Preeti Deolia
 institution: 'Atal Bihari Vajpayee-Indian Institute of Information Technology and
   Management, Gwalior '
 institution_country: India
-email: preeti@iiitm.ac.in
+email: 'preeti@iiitm.ac.in preetidyolia@gmail.com '
 minisymposium: no
 hide: no
 ---
