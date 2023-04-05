@@ -3,9 +3,8 @@ first_name: Xiaochen
 last_name: Long
 name: Xiaochen Long
 institution: Rice University
-institution_country: .na
+institution_country: USA
 email: xl81@rice.edu
-plenary: no
 minisymposium: yes
 hide: no
 ---

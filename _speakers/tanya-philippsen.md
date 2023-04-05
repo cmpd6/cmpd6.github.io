@@ -3,10 +3,9 @@ first_name: Tanya
 last_name: Philippsen
 name: Tanya Philippsen
 institution: University of Victoria
-institution_country: .na
+institution_country: Canada
 email: tanya.philippsen@gmail.com
 web_page: https://onlineacademiccommunity.uvic.ca/twitski/
-plenary: no
 minisymposium: yes
 hide: no
 ---

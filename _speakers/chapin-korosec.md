@@ -4,7 +4,7 @@ last_name: Korosec
 name: Chapin Korosec
 institution: York University
 institution_country: Canada
-email: chapinSKorosec@gmail.com
+email: chapinskorosec@gmail.com
 web_page: https://chapinkorosec.ca/
 minisymposium: no
 hide: no

@@ -3,9 +3,8 @@ first_name: Amanda
 last_name: Bleichrodt
 name: Amanda Bleichrodt
 institution: Georgia State University
-institution_country: .na
+institution_country: USA
 email: ableichrodt1@student.gsu.edu
-plenary: no
 minisymposium: yes
 hide: no
 ---

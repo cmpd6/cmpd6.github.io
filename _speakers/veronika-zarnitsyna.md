@@ -4,9 +4,8 @@ last_name: Zarnitsyna
 name: Veronika Zarnitsyna
 institution: Department of Microbiology and Immunology, Emory University School of
   Medicine
-institution_country: .na
+institution_country: USA
 email: veronika.i.zarnitsyna@emory.edu
-plenary: no
 minisymposium: yes
 hide: no
 ---

@@ -3,9 +3,8 @@ first_name: Amy
 last_name: Veprauskas
 name: Amy Veprauskas
 institution: University of Louisiana at Lafayette
-institution_country: .na
+institution_country: USA
 email: amy.veprauskas@louisiana.edu
-plenary: no
 minisymposium: yes
 hide: no
 ---

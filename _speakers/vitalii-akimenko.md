@@ -4,7 +4,7 @@ last_name: Akimenko
 name: Vitalii Akimenko
 institution: University of Manitoba
 institution_country: Canada
-email: Vitalii.Akimenko@umanitoba.ca
+email: vitalii.akimenko@umanitoba.ca
 minisymposium: no
 hide: no
 ---

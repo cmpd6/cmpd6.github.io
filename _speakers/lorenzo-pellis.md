@@ -3,10 +3,9 @@ first_name: Lorenzo
 last_name: Pellis
 name: Lorenzo Pellis
 institution: The University of Manchester
-institution_country: .na
+institution_country: UK
 email: lorenzo.pellis@manchester.ac.uk
 web_page: https://research.manchester.ac.uk/en/persons/lorenzo.pellis
-plenary: no
 minisymposium: yes
 hide: no
 ---

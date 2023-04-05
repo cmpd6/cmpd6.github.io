@@ -3,9 +3,8 @@ first_name: Suzan
 last_name: Farhang-Sardroodi
 name: Suzan Farhang-Sardroodi
 institution: Department of Mathematics, university of Manitoba
-institution_country: .na
-email: Suzan.Farhangsardroodi@umanitoba.ca
-plenary: no
+institution_country: Canada
+email: suzan.farhangsardroodi@umanitoba.ca
 minisymposium: yes
 hide: no
 ---

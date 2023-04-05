@@ -3,9 +3,8 @@ first_name: Paul
 last_name: Salceanu
 name: Paul Salceanu
 institution: UNIVERSITY OF LOUISIANA AT LAFAYETTE
-institution_country: .na
-email: SALCEANU@LOUISIANA.EDU
-plenary: no
+institution_country: USA
+email: salceanu@louisiana.edu
 minisymposium: yes
 hide: no
 ---

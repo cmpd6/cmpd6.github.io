@@ -3,9 +3,8 @@ first_name: Asami
 last_name: Anzai
 name: Asami Anzai
 institution: Kyoto University
-institution_country: .na
+institution_country: Japan
 email: anzai.asami.43c@st.kyoto-u.ac.jp
-plenary: no
 minisymposium: yes
 hide: no
 ---

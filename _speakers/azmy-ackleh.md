@@ -3,10 +3,9 @@ first_name: Azmy
 last_name: Ackleh
 name: Azmy Ackleh
 institution: University of Louisiana at Lafayette
-institution_country: .na
+institution_country: USA
 email: azmy.ackleh@louisiana.edu
 web_page: https://userweb.ucs.louisiana.edu/~asa5773/
-plenary: no
 minisymposium: yes
 hide: no
 ---

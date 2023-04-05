@@ -4,7 +4,7 @@ last_name: Liao
 name: Kang-Ling Liao
 institution: Mathematics, University of Manitoba
 institution_country: Canada
-email: Kang-Ling.Liao@umanitoba.ca
+email: kang-ling.liao@umanitoba.ca
 minisymposium: yes
 hide: no
 ---

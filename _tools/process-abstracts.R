@@ -44,6 +44,7 @@ colnames(abstracts) = c("type_of_talk", "minisymposium_name",
                         "sent")
 abstracts$first_name = str_trim(str_to_title(abstracts$first_name))
 abstracts$last_name = str_trim(str_to_title(abstracts$last_name))
+abstracts$email = tolower(abstracts$email)
 
 # Get list of posted abstracts
 abstract_files = data.frame(
@@ -78,6 +79,9 @@ for (i in 1:dim(abstract_files)[1]) {
     }
   }
 }
+# Emails to lowercase
+abstract_files$email = tolower(abstract_files$email)
+
 # Try to infer country for people missing country
 for (i in 1:dim(abstract_files)[1]) {
   if (is.na(abstract_files$institution_country[i])) {
@@ -86,8 +90,13 @@ for (i in 1:dim(abstract_files)[1]) {
                       abstract_files$email[i],")"))
     # Places for which it is not obvious
     if (grepl("moffitt.org", abstract_files$email[i]) ||
-        grepl(".edu", abstract_files$email[i])) {
+        grepl(".edu", abstract_files$email[i]) ||
+        grepl("fredhutch.org", abstract_files$email[i])) {
       email_ctry = "USA"
+    } else if (grepl("ac.uk", abstract_files$email[i])) {
+      email_ctry = "UK"
+    } else if (grepl("tanya.philippsen@gmail.com", abstract_files$email[i])) {
+      email_ctry = "Canada"
     } else {
       tmp_email = strsplit(abstract_files$email[i], "\\.")
       end_email = tmp_email[[1]][length(tmp_email[[1]])]

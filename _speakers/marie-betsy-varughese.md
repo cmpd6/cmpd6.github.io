@@ -3,9 +3,8 @@ first_name: Marie Betsy
 last_name: Varughese
 name: Marie Betsy Varughese
 institution: Alberta Health
-institution_country: .na
+institution_country: Canada
 email: marie.varughese@gov.ab.ca
-plenary: no
 minisymposium: yes
 hide: no
 ---

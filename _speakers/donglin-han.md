@@ -3,9 +3,8 @@ first_name: Donglin
 last_name: Han
 name: Donglin Han
 institution: University of Alberta
-institution_country: .na
+institution_country: Canada
 email: donglin3@ualberta.ca
-plenary: no
 minisymposium: yes
 hide: no
 ---

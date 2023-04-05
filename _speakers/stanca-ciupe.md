@@ -3,9 +3,8 @@ first_name: Stanca
 last_name: Ciupe
 name: Stanca Ciupe
 institution: Virginia Tech
-institution_country: .na
+institution_country: USA
 email: stanca@vt.edu
-plenary: no
 minisymposium: yes
 hide: no
 ---

@@ -4,7 +4,7 @@ last_name: Bekker
 name: Rebecca Bekker
 institution: H. Lee Moffitt Cancer Center and Research Institute
 institution_country: USA
-email: Rebecca.Bekker@moffitt.org
+email: rebecca.bekker@moffitt.org
 minisymposium: yes
 hide: no
 ---

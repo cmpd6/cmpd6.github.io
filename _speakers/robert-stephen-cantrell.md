@@ -3,9 +3,8 @@ first_name: Robert Stephen
 last_name: Cantrell
 name: Robert Stephen Cantrell
 institution: University of Miami
-institution_country: .na
+institution_country: USA
 email: rsc@math.miami.edu
-plenary: no
 minisymposium: yes
 hide: no
 ---

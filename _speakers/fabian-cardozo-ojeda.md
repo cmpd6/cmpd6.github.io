@@ -3,9 +3,8 @@ first_name: Fabian
 last_name: Cardozo-Ojeda
 name: Fabian Cardozo-Ojeda
 institution: Fred Hutchinson Cancer Center
-institution_country: .na
+institution_country: USA
 email: ecojeda@fredhutch.org
-plenary: no
 minisymposium: yes
 hide: no
 ---

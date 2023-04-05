@@ -3,10 +3,9 @@ first_name: Connell
 last_name: Mccluskey
 name: Connell Mccluskey
 institution: Wilfrid Laurier University
-institution_country: .na
+institution_country: Canada
 email: cmccluskey@wlu.ca
 web_page: https://www.wlu.ca/academics/faculties/faculty-of-science/faculty-profiles/connell-mccluskey/index.html
-plenary: no
 minisymposium: yes
 hide: no
 ---

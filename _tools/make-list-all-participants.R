@@ -96,6 +96,9 @@ abstract_files = abstract_files %>%
   filter(file_name != "template_speaker.md")
 abstract_files$fqfn = sprintf("../_speakers/%s", abstract_files$file_name)
 
+## ABSTRACT FILE
+csv_abstracts = read.csv("CMPD6-abstracts.csv")
+
 for (i in 1:dim(abstract_files)[1]) {
   curr_speaker = process_yml_header(abstract_files$fqfn[i])
   # Add an empty row to the data frame

@@ -3,9 +3,8 @@ first_name: Katsuma
 last_name: Hayashi
 name: Katsuma Hayashi
 institution: Kyoto University
-institution_country: .na
+institution_country: Japan
 email: hayashi.katsuma.7w@kyoto-u.ac.jp
-plenary: no
 minisymposium: yes
 hide: no
 ---

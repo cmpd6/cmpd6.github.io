@@ -3,9 +3,8 @@ first_name: Jonathan
 last_name: Forde
 name: Jonathan Forde
 institution: Hobart and William Smith Colleges
-institution_country: .na
+institution_country: USA
 email: forde@hws.edu
-plenary: no
 minisymposium: yes
 hide: no
 ---
