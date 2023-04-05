@@ -5,7 +5,6 @@ name: Nicola Mulberry
 institution: Simon Fraser University
 institution_country: Canada
 email: nicola_mulberry@sfu.ca
-plenary: no
 minisymposium: yes
 hide: no
 ---

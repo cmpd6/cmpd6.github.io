@@ -6,7 +6,6 @@ institution: Georgia Institute of Technology - School of Mathematics
 institution_country: USA
 email: blegried3@gatech.edu
 web_page: https://blegried.math.gatech.edu/Home.html
-plenary: no
 minisymposium: yes
 hide: no
 ---

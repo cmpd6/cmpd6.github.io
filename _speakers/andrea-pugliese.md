@@ -6,7 +6,6 @@ institution: Dept. of Mathematics, University of Trento
 institution_country: Italy
 email: andrea.pugliese@unitn.it
 web_page: https://andrea-pugliese.maths.unitn.it/
-plenary: no
 minisymposium: yes
 hide: no
 ---

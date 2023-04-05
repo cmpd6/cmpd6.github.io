@@ -5,7 +5,6 @@ name: Ren-Yi Wang
 institution: Rice University
 institution_country: USA
 email: rw47@rice.edu
-plenary: no
 minisymposium: yes
 hide: no
 ---

@@ -33,6 +33,19 @@ process_yml_header = function(fqfn) {
 # existing file
 COMPLETE_REFRESH = FALSE
 
+names_list_in_df = list(
+  name = "name",
+  first_name = "first_name",
+  last_name = "last_name",
+  institution = "institution",
+  institution_country  = "institution_country",
+  email = "email",
+  web_page = "web_page",
+  plenary = "plenary",
+  minisymposium = "ms_1",
+  minisymposium2 = "ms_2"     
+)
+
 if (COMPLETE_REFRESH) {
   # What do the names of entries in the files correspond to in the data frame.
   # Obtained by running something like the following
@@ -42,19 +55,6 @@ if (COMPLETE_REFRESH) {
   #   list_fields = c(list_fields, names(curr_speaker))
   # }
   # list_fields = unique(list_fields)
-  names_list_in_df = list(
-    name = "name",
-    first_name = "first_name",
-    last_name = "last_name",
-    institution = "institution",
-    institution_country  = "institution_country",
-    email = "email",
-    web_page = "web_page",
-    plenary = "plenary",
-    minisymposium = "ms_1",
-    minisymposium2 = "ms_2"     
-  )
-  
   all_participants = 
     data.frame(
       first_name = character(), 

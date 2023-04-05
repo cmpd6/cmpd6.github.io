@@ -6,7 +6,6 @@ institution: Department of Mathematics and Statistics, University of Minnesota D
 institution_country: USA
 email: hjain@umn.edu
 web_page: https://harshvj.wixsite.com/mysite
-plenary: no
 minisymposium: yes
 hide: no
 ---

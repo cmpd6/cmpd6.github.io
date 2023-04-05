@@ -6,7 +6,6 @@ institution: The University of Ottawa
 institution_country: Canada
 email: stacey.smith@uottawa.ca
 web_page: https://mysite.science.uottawa.ca/rsmith43/
-plenary: no
 minisymposium: yes
 hide: no
 ---

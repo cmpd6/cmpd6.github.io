@@ -5,7 +5,6 @@ name: Bernard Cazelles
 institution: Sorbonne Université
 institution_country: France
 email: cazelles@biologie.ens.fr
-plenary: no
 minisymposium: no
 hide: no
 ---

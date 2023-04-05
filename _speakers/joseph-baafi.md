@@ -5,7 +5,6 @@ name: Joseph Baafi
 institution: Memorial University of Newfoundland
 institution_country: Canada
 email: jbaafi@mun.ca
-plenary: no
 minisymposium: no
 hide: no
 ---

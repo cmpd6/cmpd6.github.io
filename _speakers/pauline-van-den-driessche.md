@@ -1,9 +1,9 @@
 ---
 first_name: Pauline
-last_name: van den Driessche
-name: Pauline van den Driessche
+last_name: Van Den Driessche
+name: Pauline Van Den Driessche
 institution: Department of Math and Stats, University of Victoria, BC, Canada
-institution_country: Canada
+institution_country: .na
 email: van den Driessche
 plenary: no
 minisymposium: yes

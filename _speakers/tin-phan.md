@@ -5,7 +5,6 @@ name: Tin Phan
 institution: Los Alamos National Laboratory
 institution_country: USA
 email: ttphan@lanl.gov
-plenary: no
 minisymposium: yes
 hide: no
 ---

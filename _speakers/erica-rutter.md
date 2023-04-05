@@ -1,14 +1,16 @@
 ---
-name: Erica Rutter
 first_name: Erica
 last_name: Rutter
-institution: University of California Merced
+name: Erica Rutter
+institution: University of California, Merced
 institution_country: USA
-email: erutter2@ucmerced.edu
-plenary: false
-minisymposium: true
-minisymposium_title: modelling-cancer-microenvironment
-hide: false
+email: erutter2@ucmerced.ed
+minisymposium: yes
+hide: no
 ---
 
-## Estimating Heterogeneity in Cancer
+## Global Sensitivity Analysis of a Structured Model of COVID-19 Transmission on a College Campus
+
+When the COVID-19 pandemic hit, college campuses nationwide switched to online and hybrid courses. At the same time, public health measures were implemented such as social distancing and encouraging mask use in public. We created a data-driven model of COVID-19 spread across a campus with subpopulations representing on-campus undergraduate students, off-campus undergraduate students, graduate students, and faculty/staff. We use this model to investigate the effectiveness of various non-pharmaceutical interventions on controlling COVID-19 spread on campus. Global sensitivity analysis techniques are applied to determine and rank the impact of masks, online courses, and vaccination on total campus spread.
+
+

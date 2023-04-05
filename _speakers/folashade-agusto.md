@@ -1,14 +1,16 @@
 ---
-name: Folashade Agusto
 first_name: Folashade
 last_name: Agusto
-institution: The University of Kansas
+name: Folashade Agusto
+institution: University of Kansas
 institution_country: USA
-plenary: true
-hide: false
-web_page: https://eeb.ku.edu/people/folashade-agusto
+email: fbagusto@gmail.com
+minisymposium: yes
+hide: no
 ---
 
-## From cultural practices to risky behaviors to public sentiment: Modeling human behavior and disease transmission
+## Exploring the effects of prescribed fire and rising temperature on tick-borne diseases
 
-What is human behavior? Human behavior refers to the way humans act and interact with each other. It is moderated by factors like cultural values, individual attitudes, politics, religion, and genetic make-up. In this seminar, I will present three different epidemic models that includes human behavior from Ebola, to Methicillin Resistant Staphylococcus aureus (MRSA), and to COVID-19. One of these behaviors is influenced by cultural practices, another by risky behaviors, and the third is moderated by public sentiment. I will show how we accounted for these behaviors from simply using a parameter to using approaches from social sciences to using Twitter data to quantify functional forms for public sentiment. I will close by exploring the role of these behaviors in disease propagation.
+In recent times tick ranges have been expanding due in part to rising temperatures as a consequence of climate change, thereby increasing the risks and prevalence of tick-borne illnesses across the country. Thus, it is vital to find practical ways of managing tick populations. Prescribed fires are a common form of land management practices; it is time and cost-efficient when applied across large amounts of land. In this seminar, I investigate the effects of prescribed fire intensity and the duration between burns on the prevalence of tick-borne illnesses as temperature rises. Using stage-structured tick-host models with impulsive differential equations our results indicate that prescribed fire intensity has a larger impact in reducing disease prevalence than frequency between burns. Exploring the use of prescribed burns in preventing the establishment of ticks in new areas shows that fewer burns are ineffective at preventing their establishment because ticks can recover relatively quickly following a burn but frequent, long-term prescribed burns can slow and possibly prevent their establishment.
+
+

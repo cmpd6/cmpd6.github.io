@@ -6,7 +6,6 @@ institution: Department of Mathematics & Statistics, University of Massachusetts
 institution_country: USA
 email: lshahriyari@umass.edu
 web_page: https://www.umassmed.edu/cancer-center/research/research-faculty-staff/leili-shahriyari/
-plenary: no
 minisymposium: yes
 hide: no
 ---

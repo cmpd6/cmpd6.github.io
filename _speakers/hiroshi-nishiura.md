@@ -6,7 +6,6 @@ institution: Kyoto University
 institution_country: Japan
 email: nishiura.hiroshi.5r@kyoto-u.ac.jp
 web_page: http://plaza.umin.ac.jp/~infepi/hnishiura.htm
-plenary: no
 minisymposium: yes
 hide: no
 ---

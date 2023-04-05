@@ -5,7 +5,6 @@ name: Chinwendu Emilian Madubueze
 institution: York university Toronto, Ontario
 institution_country: Canada
 email: ce.madubueze@gmail.com
-plenary: no
 minisymposium: no
 hide: no
 ---
