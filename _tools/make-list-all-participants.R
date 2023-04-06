@@ -167,7 +167,8 @@ for (i in 1:dim(all_participants)[1]) {
                         all_participants$email[i],")"))
       # Places for which it is not obvious
       if (grepl("moffitt.org", all_participants$email[i]) ||
-          grepl(".edu", all_participants$email[i])) {
+          grepl(".edu", all_participants$email[i]) ||
+          grepl("fredhutch.org", all_participants$email)) {
         email_ctry = "USA"
       } else {
         tmp_email = strsplit(all_participants$email[i], "\\.")
