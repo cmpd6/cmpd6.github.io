@@ -348,16 +348,16 @@ days:
 
   - name: Room B
     talks:
-      - name: ''
+      - name: 'Jacques Bélair 2 TBD'
         time_start: '10:00'
         time_end: '10:30'
       - name: 'Delays in the cell cycle: implications in immune responses'
         time_start: '10:30'
         time_end: '11:00'
-      - name: ''
+      - name: 'Huaiping Zhu 2 TBD'
         time_start: '11:00'
         time_end: '11:30'
-      - name: ''
+      - name: 'Fan TBD'
         time_start: '11:30'
         time_end: '12:00'
 
