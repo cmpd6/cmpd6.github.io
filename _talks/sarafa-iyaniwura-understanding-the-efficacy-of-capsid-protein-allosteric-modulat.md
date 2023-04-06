@@ -6,6 +6,7 @@ name: Understanding the efficacy of capsid protein allosteric modulators using a
 categories:
 - Minisymposium lectures
 name_ms: within-host-and-between-host-mathematical-models-of-biological-dynamics
+ms_number: E4
 hide: no
 ---
 As the search for a cure for the Hepatitis B virus (HBV) continues, pharmaceutical companies have continued to develop drugs that target different stages of the intracellular life-cycle of the

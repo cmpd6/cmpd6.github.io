@@ -1,12 +1,11 @@
 ---
-speakers: Clotilde Djuikem
+speakers:
+- Clotilde Djuikem
 name: Impulsive modelling of rust dynamics and predator releases
-categories: Contributed talks
+categories:
+- Contributed talks
 hide: no
 ---
-
-## Impulsive modelling of rust dynamics and predator releases
-
 Authors: Clotilde Djuikem 1 , Frédéric Grognard 1 , Suzanne Touzeau 2,1
  1-Université Côte d’Azur, Inria, INRAE, CNRS, Université Paris Sorbonne, BIOCORE, France
  2-Université Côte d’Azur, Inria, INRAE, ISA, France

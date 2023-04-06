@@ -6,6 +6,7 @@ name: 'TGF-β inhibition can overcome cancer primary resistance to PD-1 blockade
 categories:
 - Minisymposium lectures
 name_ms: ''
+ms_number: C3
 hide: no
 ---
 Background and methods. Immune checkpoint inhibitors have demonstrated, over the recent years, impressive clinical response in cancer patients, but some patients do not respond at all to checkpoint blockade, exhibiting primary resistance. Primary resistance to PD-1 blockade is reported to occur under conditions of immunosuppressive tumor environment, a condition caused by myeloid derived suppressor cells (MDSCs), and by T cells exclusion, due to increased level of T regulatory cells (Tregs). Since TGF-β activates Tregs, TGF-β inhibitor may overcome primary resistance to anti-PD1. Indeed, recent mice experiments show that combining anti-PD-1 with anti-TGF-β yields significant therapeutic improvements compared to anti-TGF-β alone.

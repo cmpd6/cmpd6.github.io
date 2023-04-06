@@ -6,6 +6,7 @@ name: Reconstructing the temporal dynamics of clustering from cluster surveillan
 categories:
 - Minisymposium lectures
 name_ms: real-time-epidemiology-in-various-geographic-scales
+ms_number: E6
 hide: no
 ---
 Background:

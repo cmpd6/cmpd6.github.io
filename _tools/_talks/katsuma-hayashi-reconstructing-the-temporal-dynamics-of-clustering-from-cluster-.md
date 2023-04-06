@@ -1,14 +1,14 @@
 ---
-speakers: Katsuma Hayashi
+speakers:
+- Katsuma Hayashi
 name: Reconstructing the temporal dynamics of clustering from cluster surveillance
   of COVID-19
-categories: Minisymposium lectures
+categories:
+- Minisymposium lectures
 name_ms: real-time-epidemiology-in-various-geographic-scales
+ms_number: E6
 hide: no
 ---
-
-## Reconstructing the temporal dynamics of clustering from cluster surveillance of COVID-19
-
 Background:
  Clusters, defined as a group of cases that share common place of transmission, have characterized local dynamics of COVID-19 transmission, and Japan is one of a few countries that continued to survey clustering events classified by social settings. Japanese government referred to cluster data to design and implement public health and social measures(PHSM), but little has been clarified with respect to the transmission mechanisms of epidemic that propagates with certain types of clusters. Here we aimed to analyze the temporal dynamics of clustering using the cluster surveillance data in Japan. 
  

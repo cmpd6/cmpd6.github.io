@@ -1,7 +1,7 @@
 ---
 speakers:
 - Anuraj Singh
-name: 'Resonance and bifurcation in a discrete-time predator–prey system'
+name: Resonance and bifurcation in a discrete-time predator–prey system
 categories:
 - Contributed talks
 hide: no

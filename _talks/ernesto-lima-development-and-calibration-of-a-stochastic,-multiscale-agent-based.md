@@ -6,6 +6,7 @@ name: Development and calibration of a stochastic, multiscale agent-based model 
 categories:
 - Minisymposium lectures
 name_ms: modelling-the-cancer-microenvironment
+ms_number: C1
 hide: no
 ---
 Agent-based models (ABMs) are a powerful tool for simulating tumor growth. However, they suffer from high computational costs—especially if the stochastic nature of phenotypic transitions is included in the formulation of the model. To address these limitations, we have developed two multiscale ABMs, one avascular and one vascular, and calibrated them to experimental data.

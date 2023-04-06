@@ -5,6 +5,7 @@ name: Immuno-epidemiological co-a ection model of HIV infection and opioid addic
 categories:
 - Minisymposium lectures
 name_ms: within-host-and-between-host-mathematical-models-of-biological-dynamics
+ms_number: E4
 hide: no
 ---
 In this study, we present a multi-scale co-affection model of HIV infection and opioid addiction. The population scale epidemiological model is linked to the within-host model which describes the HIV and opioid dynamics in a co-affected individual. CD4 cells and viral load data obtained from morphine addicted SIV-infected monkeys are used to validate the within-host model. AIDS diagnoses, HIV death and opioid mortality data are used to fit the between-host model. When the rates of viral clearance and morphine uptake are fixed, the within-host model is structurally identifiable. If in addition the morphine saturation and clearance rates are also fixed the model becomes practical identifiable.

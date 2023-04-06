@@ -6,6 +6,7 @@ name: 'Breast cancer exosomal microRNAs facilitate pre-metastatic niche formatio
 categories:
 - Minisymposium lectures
 name_ms: within-host-and-between-host-mathematical-models-of-biological-dynamics
+ms_number: E4
 hide: no
 ---
 Pre-metastatic niche is a location where cancer cells, separating from a primary tumor, find “fertile soil” for growth and proliferation, ensuring successful metastasis. Exosomal miRNAs of breast cancer are known to enter the bone and degrade it, which facilitates cancer cells invasion into the bone interior and ensures its successful colonization. In this paper we use a mathematical

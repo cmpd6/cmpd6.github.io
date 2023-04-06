@@ -1,14 +1,13 @@
 ---
-speakers: Chapin Korosec
+speakers:
+- Chapin Korosec
 name: 'Longitudinal immunological outcomes from three doses of COVID-19 vaccines in
   people living with HIV: antibodies, memory-B cells, cytokines, and a novel within-host
-  immunological model '
-categories: Contributed talks
+  immunological model'
+categories:
+- Contributed talks
 hide: no
 ---
-
-## Longitudinal immunological outcomes from three doses of COVID-19 vaccines in people living with HIV: antibodies, memory-B cells, cytokines, and a novel within-host immunological model 
-
 Chapin S. Korosec [1,2], Vitaliy Matveev [3], Mario Ostrowski [3],  Jane M. Heffernan [1,2]
 
 [1] Modelling Infection and Immunity Lab, Mathematics and Statistics, York University, 4700 Keele St, Toronto, M3J 1P3, ON, Canada

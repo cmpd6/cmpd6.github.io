@@ -1,10 +1,9 @@
 ---
-speakers: Zhisheng Shuai
+speakers:
+- Zhisheng Shuai
 name: Heterogeneity and Aggregation in Modeling Infectious Diseases
-categories: Plenary
+categories:
+- Plenaries
 hide: no
 ---
-
-## Heterogeneity and Aggregation in Modeling Infectious Diseases
-
 

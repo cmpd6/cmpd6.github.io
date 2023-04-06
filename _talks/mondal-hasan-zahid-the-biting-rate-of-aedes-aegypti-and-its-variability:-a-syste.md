@@ -3,6 +3,8 @@ speakers:
 - Mondal Hasan Zahid
 name: 'The biting rate of Aedes aegypti and its variability: A systematic review (1970
   - 2022)'
+categories:
+- Contributed talks
 hide: no
 ---
 Background

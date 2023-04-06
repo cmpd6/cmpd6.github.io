@@ -6,6 +6,7 @@ name: Night-time population consistently explains the transmission dynamics of c
 categories:
 - Minisymposium lectures
 name_ms: real-time-epidemiology-in-various-geographic-scales
+ms_number: E6
 hide: no
 ---
 Background: Mobility data are crucial for understanding the dynamics of coronavirus disease 2019 (COVID-19), but the consistency of the usefulness of these data over time has been questioned. The present study aimed to reveal the relationship between the transmissibility of COVID-19 in Tokyo, Osaka, and Aichi prefectures and the daily night-time population in metropolitan areas belonging to each prefecture. 

@@ -1,13 +1,13 @@
 ---
-speakers: Asami Anzai
+speakers:
+- Asami Anzai
 name: Estimating importation cases using mobility data
-categories: Minisymposium lectures
+categories:
+- Minisymposium lectures
 name_ms: real-time-epidemiology-in-various-geographic-scales
+ms_number: E6
 hide: no
 ---
-
-## Estimating importation cases using mobility data
-
 Background
  Mobility restrictions were commonly used to limit interaction with other people and stop the spatial spread of the COVID-19 infection. A statistical model was developed to estimate the number of imported cases in each Japanese prefecture using epidemiological data and inter-prefectural mobility.
  Methods

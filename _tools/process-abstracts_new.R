@@ -79,7 +79,7 @@ for (i in 1:dim(abstracts_csv)[1]) {
   # We store the information for the current presentation in a list
   abstract = list()
   abstract$speakers = list(abstracts_csv$full_name[i])
-  abstract$name = abstracts_csv$talk_title[i]
+  abstract$name = str_trim(abstracts_csv$talk_title[i])
   if (abstracts_csv$plenary[i] == "P") {
     abstract$categories = list("Plenaries")
   } else if (nchar(abstracts_csv$minisymposium[i])>0) {
@@ -90,6 +90,7 @@ for (i in 1:dim(abstracts_csv)[1]) {
     name_ms = gsub(" ", "-", name_ms)
     name_ms = gsub("--", "", name_ms)
     abstract$name_ms = name_ms
+    abstract$ms_number = abstracts_csv$minisymposium[i]
   } else if (nchar(abstracts_csv$contributed[i])>0) {
     abstract$categories = list("Contributed talks")
   }

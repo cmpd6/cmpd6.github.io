@@ -6,6 +6,7 @@ name: Modelling Radiation Cancer Treatment with Ordinary and Fractional Differen
 categories:
 - Minisymposium lectures
 name_ms: modelling-the-cancer-microenvironment
+ms_number: C1
 hide: no
 ---
 Fractional calculus has recently been applied to mathematical modelling of tumour growth, but it’s use introduces complexities that may not be warranted. Mathematical modelling with differential equations is a standard approach to study and predict

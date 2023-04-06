@@ -1,14 +1,14 @@
 ---
-speakers: Ernesto Lima
+speakers:
+- Ernesto Lima
 name: Development and calibration of a stochastic, multiscale agent-based model for
   predicting tumor and vasculature growth
-categories: Minisymposium lectures
+categories:
+- Minisymposium lectures
 name_ms: modelling-the-cancer-microenvironment
+ms_number: C1
 hide: no
 ---
-
-## Development and calibration of a stochastic, multiscale agent-based model for predicting tumor and vasculature growth
-
 Agent-based models (ABMs) are a powerful tool for simulating tumor growth. However, they suffer from high computational costs—especially if the stochastic nature of phenotypic transitions is included in the formulation of the model. To address these limitations, we have developed two multiscale ABMs, one avascular and one vascular, and calibrated them to experimental data.
  
  The avascular model is a coarse-grained two-scale ABM (cgABM) calibrated with time-resolved microscopy measurements of BT474 human breast carcinoma cells grown with different initial conditions. The model consists of a reaction-diffusion type model capturing the spatiotemporal evolution of glucose and growth factors in the tumor microenvironment, coupled with a lattice-free ABM to simulate individual cell dynamics. We perform a global sensitivity analysis to identify the relative importance of model parameters, followed by a Bayesian calibration that accounts for the stochasticity of the cgABM. The results show that the cgABM can reliably predict the spatiotemporal evolution of breast cancer cells observed by microscopy data.

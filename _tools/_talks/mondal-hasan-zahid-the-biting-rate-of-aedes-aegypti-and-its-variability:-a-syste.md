@@ -1,12 +1,12 @@
 ---
-speakers: Mondal Hasan Zahid
+speakers:
+- Mondal Hasan Zahid
 name: 'The biting rate of Aedes aegypti and its variability: A systematic review (1970
   - 2022)'
+categories:
+- Contributed talks
 hide: no
 ---
-
-## The biting rate of Aedes aegypti and its variability: A systematic review (1970 - 2022)
-
 Background
 
 Transmission models have a long history in the study of mosquito-borne disease dynamics. The mosquito biting rate (MBR) is an important parameter in these models, however, estimating its value empirically is complex. Modeling studies obtain biting rate values from various types of studies, each of them having its strengths and limitations. Thus, understanding these study designs and the factors that contribute to MBR estimates and their variability is an important step towards standardizing these estimates. We do this for an important arbovirus vector Aedes aegypti. 

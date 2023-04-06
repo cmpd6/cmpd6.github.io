@@ -5,6 +5,7 @@ name: 'Digital twins of cancer patients: a step toward personalized treatments'
 categories:
 - Minisymposium lectures
 name_ms: ''
+ms_number: C3
 hide: no
 ---
 The creation of digital twins (DTs) of cancer patients can assist us in predicting the evolution of an individual's cancer through modeling each tumor’s characteristics and response to treatment. We therefore take advantage of new advances in computational approaches and combine mechanistic, machine learning, and stochastic modeling approaches to create a DT platform, which utilizes biological, biomedical, and EHR data sets. For each patient, the DT receives their information as input and predicts the evolution of their cancer.

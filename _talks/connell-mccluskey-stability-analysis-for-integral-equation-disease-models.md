@@ -5,6 +5,7 @@ name: Stability Analysis for Integral Equation Disease Models
 categories:
 - Minisymposium lectures
 name_ms: recent-advances-in-modelling-infectious-diseases
+ms_number: E1
 hide: no
 ---
 In the last 20 years, there has been great progress in global stability calculations for many compartmental disease models that are written in terms of ordinary differential equations (ODE) or delay differential equations (DDE). For a model with many compartments, the calculation becomes tricky, because there are many terms that have to cancel out or be bounded by other terms. Nevertheless, numerical evidence often suggests that the given system is stable.
