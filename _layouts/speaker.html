@@ -3,29 +3,13 @@
 {%- unless speaker.hide -%}
   {%- include partials/header.html -%}
 
-  <h3 class="font-weight-light mb-3">
-    {% if speaker.plenary == true %}
-      (Plenary speaker)
-    {% else %} 
-      (Speaker)
-    {% endif %}
-  </h3>
+  <p class="h6">
+    {{ site.data.lang[site.conference.lang].speaker.title | default: "Speaker" }}
+  </p>
 
   <h1 class="font-weight-light mb-3">
-    {% if speaker.web_page %}
-      <a href="{{ speaker.web_page }}">
-        {{ speaker.first_name }} {{ speaker.last_name }}
-      </a>
-    {% else %}
-      {{ speaker.first_name }} {{ speaker.last_name }}
-    {% endif %}
+    {{ speaker.first_name }} {{ speaker.last_name }}
   </h1>
-
-  {% if speaker.institution %} 
-    <h2 class="font-weight-light mb-3">
-      {{ speaker.institution }}
-    </h2>
-  {% endif %}
 
   {{ content }}
 
@@ -119,9 +103,10 @@
 
   <p class="d-print-none mt-5">
     <a href="{{ page.collection | prepend: '/' | prepend: site.baseurl }}" class="btn btn-light">
-      <i class="fas fa-users"></i>&nbsp; Back to speaker list
+      <i class="fas fa-users"></i>&nbsp;{{ site.data.lang[site.conference.lang].overview | default: "Overview" }}
     </a>
   </p>
 
   {%- include partials/footer.html -%}
 {%- endunless -%}
+

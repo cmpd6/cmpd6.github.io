@@ -29,49 +29,6 @@
                 {% include partials/list_speakers.html %}
               </p>
 
-              {% if talk.hide -%}
-                {%- assign talk_scheduled = false -%}
-                {%- for d in site.data.program.days -%}
-                  {%- include partials/get_day_hash.html -%}
-                  {%- for r in d.rooms -%}
-                    {%- assign room = site.rooms | where: 'name', r.name | first -%}
-                    {%- for t in r.talks -%}
-                      {%- if talk.name == t.name -%}
-                        <p class="mb-0">
-
-                          {%- if site.conference.live -%}
-                            {%- include partials/get_talk_timestamp.html -%}
-                            <span class="live-hide" data-start="{{ timestamp_start }}" data-end="{{ timestamp_end }}">
-                          {%- endif -%}
-
-                          {%- include partials/get_time_pronoun.html -%}
-                          {%- include partials/get_talk_time.html -%}
-                          {{- time_pronoun }} {% include partials/show_talk_time.html %}
-
-                          {%- if site.conference.live -%}
-                            </span>
-                            {%- include partials/show_live_button.html -%}
-                          {%- endif %}
-
-                          {{ site.data.lang[site.conference.lang].pronoun.in | default: "in" }} {% include partials/show_room.html -%}
-                        </p>
-
-                        {%- assign talk_scheduled = true -%}
-                        {%- break -%}
-                      {%- endif -%}
-                    {%- endfor -%}
-
-                    {%- if talk_scheduled -%}
-                      {%- break -%}
-                    {%- endif -%}
-                  {%- endfor -%}
-
-                  {%- if talk_scheduled -%}
-                    {%- break -%}
-                  {%- endif -%}
-                {%- endfor -%}
-              {%- endif %}
-
               <p class="mb-0">
                 {%- if site.conference.live and talk.hide != true -%}
                   {% for d in site.data.program.days -%}

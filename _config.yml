@@ -28,7 +28,7 @@ exclude:
 # Collections and their defaults
 collections:
   talks:
-    output: false
+    output: true
     permalink: /:collection/:title/
   speakers:
     output: true
@@ -66,7 +66,7 @@ defaults:
       layout: room
   - scope:
       path: ""
-      type: information
+      type: informations
     values:
       layout: information
 
@@ -88,18 +88,18 @@ conference:
     links:
       - name: Committees
         relative_url: "/committees.html"
-      #- name: Program
-      #  relative_url: /program/
-      #- name: Talks
-      #  relative_url: /talks/
-      - name: Speakers
-        relative_url: /speakers/
-        layout: speaker-overview
       - name: Minisymposia
         relative_url: /minisymposia/
         layout: minisymposia-overview
-      #- name: Rooms
-      #  relative_url: /rooms/
+      - name: Speakers
+        relative_url: /speakers/
+        layout: speaker-overview
+      - name: Talks
+        relative_url: /talks/
+      - name: Program
+        relative_url: /program/
+      - name: Rooms
+        relative_url: /rooms/
       - name: Information
         relative_url: /information/
       - name: Previous Editions
@@ -175,7 +175,7 @@ conference:
       - name: Minisymposium lectures
         color: success
       - name: Contributed talks
-        color: success
+        color: dark
 
     # Hide icons on talk overview page
     hide_icons: false
@@ -208,7 +208,7 @@ conference:
     # URL of program page
     url: '/program'
     # Time steps in program table
-    time_steps: 15 # in minutes
+    time_steps: 30 # in minutes
     # Show intermediary time steps (next to full hours)
     show_alltimes: true
 
