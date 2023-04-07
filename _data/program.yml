@@ -7,7 +7,7 @@ days:
       - name: 'Coffee break Tuesday AM'
         time_start: '9:30'
         time_end: '10:00'
-      - name: 'Lunch Wednesday'
+      - name: 'Lunch Tuesday'
         time_start: '12:00'
         time_end: '13:30'
       - name: 'Coffee break Tuesday PM'
@@ -90,6 +90,17 @@ days:
 - name: Wednesday
   date: 2023-05-24
   rooms:
+  - name: Breaks
+    talks:
+      - name: 'Coffee break Tuesday AM'
+        time_start: '9:30'
+        time_end: '10:00'
+      - name: 'Lunch Tuesday'
+        time_start: '12:00'
+        time_end: '13:30'
+      - name: 'Coffee break Tuesday PM'
+        time_start: '14:30'
+        time_end: '15:00'
   - name: Schultz Theatre
     talks:
       - name: 'Discrete-time models of infectious diseases: a project in memory of Aziz-Abdul Yakubu'
