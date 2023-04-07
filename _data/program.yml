@@ -147,6 +147,9 @@ days:
       - name: 'Modeling infectious disease dynamics: the challenge of non-stationarity'
         time_start: '10:30'
         time_end: '11:00'
+      - name: 'The biting rate of Aedes aegypti and its variability: A systematic review (1970 - 2022)'
+        time_start: '11:00'
+        time_end: '11:30'
 
   - name: Room 202
     talks:
