@@ -129,7 +129,7 @@ days:
       - name: 'Heterogeneity in HIV viral rebound'
         time_start: '15:30'
         time_end: '16:00'
-      - name: 'Ke TBD'
+      - name: 'Modeling the emergence of viral resistance in SARS-CoV-2 patients treated with an anti-spike monoclonal antibody'
         time_start: '16:00'
         time_end: '16:30'
       - name: 'Predicting heterogeneous CD8+ immune memory responses in COVID-19 using a virtual patient cohort'
