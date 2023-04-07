@@ -176,6 +176,8 @@ conference:
         color: success
       - name: Contributed talks
         color: dark
+      - name: Breaks
+        color: warning
 
     # Hide icons on talk overview page
     hide_icons: false
