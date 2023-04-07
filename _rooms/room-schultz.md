@@ -1,5 +1,6 @@
 ---
 name: Schultz Theatre
+hide: false
 ---
 
-A short way description on how to find the room
+The main amphitheatre for plenaries and some regular session talks. Located at the end of a long corridor, slightly below street level.

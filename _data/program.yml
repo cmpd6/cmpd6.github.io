@@ -35,7 +35,7 @@ days:
         time_start: '17:00'
         time_end: '17:30'
 
-  - name: Room B
+  - name: Room 202
     talks:
       - name: 'Deciphering Glioma Microenvironment Entry Mechanisms of Myeloid-Derived Suppressor Cells'
         time_start: '10:00'
@@ -61,7 +61,7 @@ days:
       - name: 'Travelling waves of a new glioma invasion model'
         time_start: '17:00'
         time_end: '17:30'
-  - name: Room C
+  - name: Room 204
     talks:
       - name: 'Epidemiology of Age in COVID-19: A model with m-heterogeneous contact rates and saturated treatment function'
         time_start: '15:30'
@@ -112,7 +112,7 @@ days:
         time_start: '17:00'
         time_end: '17:30'
 
-  - name: Room B
+  - name: Room 118
     talks:
       - name: 'Wilkie TBD'
         time_start: '10:00'
@@ -139,7 +139,7 @@ days:
         time_start: '17:00'
         time_end: '17:30'
 
-  - name: Room C
+  - name: Room 204
     talks:
       - name: 'Modelling transmission dynamics of Lassa fever transmission with two environmental pathway transmissions'
         time_start: '10:00'
@@ -147,6 +147,9 @@ days:
       - name: 'Modeling infectious disease dynamics: the challenge of non-stationarity'
         time_start: '10:30'
         time_end: '11:00'
+
+  - name: Room 202
+    talks:
       - name: 'Analytical Representation of Eigensystem in Multiregional Leslie Matrix Model: Application to Sensitivity Analysis of Population Declining in Japan'
         time_start: '15:30'
         time_end: '16:00'
@@ -196,7 +199,7 @@ days:
         time_start: '17:00'
         time_end: '17:30'
 
-  - name: Room B
+  - name: Room 202
     talks:
       - name: 'Gulbudak TBD'
         time_start: '10:00'
@@ -220,7 +223,7 @@ days:
         time_start: '16:30'
         time_end: '17:00'
 
-  - name: Room C
+  - name: Room 204
     talks:
       - name: 'A quantitative evaluation of an anti-cancer vaccine for treating advanced prostate cancer'
         time_start: '10:00'
@@ -271,7 +274,7 @@ days:
         time_start: '15:30'
         time_end: '16:00'
 
-  - name: Room B
+  - name: Room 118
     talks:
       - name: 'Multi-scale time-since-infection models in evolutionary epidemiology'
         time_start: '10:00'
@@ -298,7 +301,7 @@ days:
         time_start: '17:00'
         time_end: '17:30'
 
-  - name: Room C
+  - name: Room 202
     talks:
       - name: 'Marek Kimmel TBD'
         time_start: '10:00'
@@ -346,7 +349,7 @@ days:
         time_start: '11:30'
         time_end: '12:00'
 
-  - name: Room B
+  - name: Room 118
     talks:
       - name: 'Jacques Bélair 2 TBD'
         time_start: '10:00'
