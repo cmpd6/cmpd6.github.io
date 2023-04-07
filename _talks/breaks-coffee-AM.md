@@ -1,7 +1,7 @@
 ---
 speakers:
 - Breaks
-name: Lunch Thursday
+name: Morning coffee break
 categories:
 - Breaks
 hide: no

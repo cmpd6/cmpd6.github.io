@@ -4,13 +4,13 @@ days:
   rooms:
   - name: Breaks
     talks:
-      - name: 'Coffee break Tuesday AM'
+      - name: 'Morning coffee break'
         time_start: '9:30'
         time_end: '10:00'
-      - name: 'Lunch Tuesday'
+      - name: 'Lunch break'
         time_start: '12:00'
         time_end: '13:30'
-      - name: 'Coffee break Tuesday PM'
+      - name: 'Afternoon coffee break'
         time_start: '14:30'
         time_end: '15:00'
   - name: Schultz Theatre
@@ -92,13 +92,13 @@ days:
   rooms:
   - name: Breaks
     talks:
-      - name: 'Coffee break Tuesday AM'
+      - name: 'Morning coffee break'
         time_start: '9:30'
         time_end: '10:00'
-      - name: 'Lunch Tuesday'
+      - name: 'Lunch break'
         time_start: '12:00'
         time_end: '13:30'
-      - name: 'Coffee break Tuesday PM'
+      - name: 'Afternoon coffee break'
         time_start: '14:30'
         time_end: '15:00'
   - name: Schultz Theatre
@@ -191,6 +191,17 @@ days:
 - name: Thursday
   date: 2023-05-25
   rooms:
+  - name: Breaks
+    talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
+      - name: 'Afternoon coffee break'
+        time_start: '14:30'
+        time_end: '15:00'
   - name: Schultz Theatre
     talks:
       - name: 'Heterogeneity and Aggregation in Modeling Infectious Diseases'
@@ -278,6 +289,17 @@ days:
 - name: Friday
   date: 2023-05-26
   rooms:
+  - name: Breaks
+    talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
+      - name: 'Afternoon coffee break'
+        time_start: '14:30'
+        time_end: '15:00'
   - name: Schultz Theatre
     talks:
       - name: 'Anna Marciniak-Czochra plenary'
@@ -365,6 +387,14 @@ days:
 - name: Saturday
   date: 2023-05-27
   rooms:
+  - name: Breaks
+    talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
   - name: Schultz Theatre
     talks:
       - name: 'Modelling Immunity to SARS-CoV-2'

@@ -1,7 +1,7 @@
 ---
 speakers:
 - Breaks
-name: Coffee break Wednesday AM
+name: Afternoon coffee break
 categories:
 - Breaks
 hide: no
