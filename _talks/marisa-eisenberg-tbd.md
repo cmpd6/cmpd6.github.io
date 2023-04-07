@@ -1,10 +1,9 @@
 ---
 speakers:
-- TBD
-name: Plenary 5
+- Marisa Eisenberg
+name: Marisa Eisenberg plenary
 categories:
 - Plenaries
 hide: no
 ---
-
 
