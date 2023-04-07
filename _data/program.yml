@@ -222,6 +222,9 @@ days:
       - name: 'Exploring the effects of prescribed fire and rising temperature on tick-borne diseases'
         time_start: '16:30'
         time_end: '17:00'
+      - name: 'Kribs TBD'
+        time_start: '17:00'
+        time_end: '17:30'
 
   - name: Room 204
     talks:
