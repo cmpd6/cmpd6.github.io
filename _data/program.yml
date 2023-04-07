@@ -225,10 +225,10 @@ days:
 
   - name: Room 204
     talks:
-      - name: 'A quantitative evaluation of an anti-cancer vaccine for treating advanced prostate cancer'
+      - name: 'The opposite functions and treatment outcomes of CD200-CD200R in cancer'
         time_start: '10:00'
         time_end: '10:30'
-      - name: 'The opposite functions and treatment outcomes of CD200-CD200R in cancer'
+      - name: 'A quantitative evaluation of an anti-cancer vaccine for treating advanced prostate cancer'
         time_start: '10:30'
         time_end: '11:00'
       - name: 'Digital twins of cancer patients: a step toward personalized treatments'
