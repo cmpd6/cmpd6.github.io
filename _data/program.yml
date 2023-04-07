@@ -7,7 +7,7 @@ days:
       - name: 'Coffee break Tuesday AM'
         time_start: '9:30'
         time_end: '10:00'
-      - name: 'Lunch break Tuesday'
+      - name: 'Lunch Wednesday'
         time_start: '12:00'
         time_end: '13:30'
       - name: 'Coffee break Tuesday PM'
