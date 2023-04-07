@@ -114,7 +114,7 @@ days:
 
   - name: Room 118
     talks:
-      - name: 'Wilkie TBD'
+      - name: 'Modelling the Evolution of the Immune Response to Cancer'
         time_start: '10:00'
         time_end: '10:30'
       - name: 'Black Holes in TIME: the Effect of GRID Radiation on the Tumor-Immune Micro-environment'
