@@ -359,7 +359,7 @@ days:
 
   - name: Room 202
     talks:
-      - name: 'Marek Kimmel TBD'
+      - name: 'Site frequency spectra and estimation of clonal dynamics of tumors'
         time_start: '10:00'
         time_end: '10:30'
       - name: 'Inferring phylogenetic birth-death models from extant lineages through time'
