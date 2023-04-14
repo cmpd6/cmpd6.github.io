@@ -29,6 +29,7 @@ process_yml_header = function(fqfn) {
   return(yaml_fields)
 }
 
+setwd(here::here())
 # Are we testing (i.e., exporting to the working directory) or in production?
 TESTING = FALSE
 
