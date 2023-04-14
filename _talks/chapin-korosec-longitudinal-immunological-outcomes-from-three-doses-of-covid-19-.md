@@ -5,7 +5,9 @@ name: 'Longitudinal immunological outcomes from three doses of COVID-19 vaccines
   people living with HIV: antibodies, memory-B cells, cytokines, and a novel within-host
   immunological model'
 categories:
-- Contributed talks
+- Minisymposium lectures
+name_ms: ''
+ms_number: C2
 hide: no
 ---
 Chapin S. Korosec [1,2], Vitaliy Matveev [3], Mario Ostrowski [3],  Jane M. Heffernan [1,2]
