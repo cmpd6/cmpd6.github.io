@@ -66,7 +66,7 @@ days:
       - name: 'Kurtoglu TBD'
         time_start: '15:30'
         time_end: '16:00'
-      - name: 'Loy TBD'
+      - name: 'A NON-LOCAL KINETIC MODEL FOR CELL MIGRATION : A STUDY OF THE INTERPLAY BETWEEN CONTACT GUIDANCE AND STERIC HINDRANCE'
         time_start: '16:00'
         time_end: '16:30'
       - name: 'Travelling waves of a new glioma invasion model'
@@ -157,7 +157,9 @@ days:
       - name: 'Predicting heterogeneous CD8+ immune memory responses in COVID-19 using a virtual patient cohort'
         time_start: '16:00'
         time_end: '16:30'
-      - name: 'Korosec TBD'
+      - name: 'Longitudinal immunological outcomes from three doses of COVID-19 vaccines in
+  people living with HIV: antibodies, memory-B cells, cytokines, and a novel within-host
+  immunological model'
         time_start: '16:30'
         time_end: '17:00'
 
