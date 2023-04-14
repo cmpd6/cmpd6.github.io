@@ -33,7 +33,7 @@ days:
       - name: 'Marisa Eisenberg plenary'
         time_start: '13:30'
         time_end: '14:30'
-      - name: 'Jane Heffernan TBD'
+      - name: 'Seasonality and Influenza pH1N12009 Vaccination Impact'
         time_start: '15:00'
         time_end: '15:30'
       - name: 'Jude Kong TBD'
@@ -258,7 +258,7 @@ days:
       - name: 'Exploring the effects of prescribed fire and rising temperature on tick-borne diseases'
         time_start: '16:00'
         time_end: '16:30'
-      - name: 'Kribs TBD'
+      - name: 'Impact of tetravalent dengue vaccination with screening, ADE, and altered infectivity on dengue and Zika transmission'
         time_start: '16:30'
         time_end: '17:00'
 
