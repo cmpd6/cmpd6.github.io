@@ -1,7 +1,7 @@
 ---
 speakers:
 - Jacques Bélair
-name: MODELING THE USE OF FANGSANG SHELTER HOSPITALS IN WUHAN
+name: Modeling the use of Fangsang Shelter Hospitals in Wuhan
 categories:
 - Minisymposium lectures
 name_ms: recent-advances-in-modelling-infectious-diseases

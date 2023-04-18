@@ -1,8 +1,8 @@
 ---
 speakers:
 - Nadia Loy
-name: 'A NON-LOCAL KINETIC MODEL FOR CELL MIGRATION : A STUDY OF THE INTERPLAY BETWEEN
-  CONTACT GUIDANCE AND STERIC HINDRANCE'
+name: 'A non-local kinetic model for cell migration : a study of the interplay between
+  contact guidance and steric hindrance'
 categories:
 - Minisymposium lectures
 name_ms: modelling-the-cancer-microenvironment

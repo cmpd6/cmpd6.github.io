@@ -1,8 +1,8 @@
 ---
 speakers:
 - Tanuja Das
-name: 'EFFECT OF A NOVEL GENERALIZED INCIDENCE RATE FUNCTION IN SIR MODEL: STABILITY
-  SWITCHES AND BIFURCATIONS'
+name: 'Effect of a novel generalized incidence rate function in SIR model: stability
+  switches and bifurcations'
 categories:
 - Contributed talks
 hide: no
