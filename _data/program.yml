@@ -221,7 +221,7 @@ days:
       - name: 'Modeling PrEP-on-demand strategies to prevent HIV transmission'
         time_start: '10:00'
         time_end: '10:30'
-      - name: 'Multiscale models of SARS-CoV-2 infection'
+      - name: 'Mathematical modeling of gene and cell therapy for HIV cure'
         time_start: '10:30'
         time_end: '11:00'
       - name: 'Integrating wastewater surveillance data with epidemic models: challenges and opportunities'
@@ -242,7 +242,7 @@ days:
       - name: 'Mathematical Modelling of the Impact of Human Immune Diversity on COVID-19 transmission'
         time_start: '16:00'
         time_end: '16:30'
-      - name: 'Mathematical modeling of gene and cell therapy for HIV cure'
+      - name: 'Multiscale models of SARS-CoV-2 infection'
         time_start: '16:30'
         time_end: '17:00'
 
