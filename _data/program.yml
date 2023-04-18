@@ -66,7 +66,7 @@ days:
       - name: 'Kurtoglu TBD'
         time_start: '15:30'
         time_end: '16:00'
-      - name: 'A NON-LOCAL KINETIC MODEL FOR CELL MIGRATION : A STUDY OF THE INTERPLAY BETWEEN CONTACT GUIDANCE AND STERIC HINDRANCE'
+      - name: 'A non-local kinetic model for cell migration : a study of the interplay between contact guidance and steric hindrance'
         time_start: '16:00'
         time_end: '16:30'
       - name: 'Travelling waves of a new glioma invasion model'
