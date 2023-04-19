@@ -182,9 +182,6 @@ days:
 
   - name: Room 202
     talks:
-      - name: 'Lunch break'
-        time_start: '12:00'
-        time_end: '13:30'
       - name: 'Afternoon coffee break'
         time_start: '14:30'
         time_end: '15:00'
