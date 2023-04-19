@@ -389,19 +389,14 @@ days:
 - name: Saturday
   date: 2023-05-27
   rooms:
-  - name: Breaks
-    talks:
-      - name: 'Morning coffee break'
-        time_start: '9:30'
-        time_end: '10:00'
-      - name: 'Lunch break'
-        time_start: '12:00'
-        time_end: '13:30'
   - name: Schultz Theatre
     talks:
       - name: 'Modelling Immunity to SARS-CoV-2'
         time_start: '8:30'
         time_end: '9:30'
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'A Multiple-Strain Susceptible-Infected Model with Diffusion Formulated on the Space of Radon Measures'
         time_start: '10:00'
         time_end: '10:30'
@@ -414,9 +409,15 @@ days:
       - name: 'The interplay between dispersal and Allee effects in discrete-time population models'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
 
   - name: Room 118
     talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'Population models with state-dependant delays'
         time_start: '10:00'
         time_end: '10:30'
@@ -429,4 +430,7 @@ days:
       - name: 'Delayed model for the transmission and control of COVID-19 with Fangcang Shelter Hospitals'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
 
