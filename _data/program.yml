@@ -2,22 +2,14 @@ days:
 - name: Tuesday
   date: 2023-05-23
   rooms:
-  - name: Breaks
-    talks:
-      - name: 'Morning coffee break'
-        time_start: '9:30'
-        time_end: '10:00'
-      - name: 'Lunch break'
-        time_start: '12:00'
-        time_end: '13:30'
-      - name: 'Afternoon coffee break'
-        time_start: '14:30'
-        time_end: '15:00'
   - name: Schultz Theatre
     talks:
       - name: 'Modeling the role of human behavior and perception of risks on disease transmission'
         time_start: '8:30'
         time_end: '9:30'
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'Role of case introductions in the community spread of infectious diseases'
         time_start: '10:00'
         time_end: '10:30'
@@ -30,9 +22,15 @@ days:
       - name: Retrospective estimation of proportion of total infections of COVID-19 during the first wave in Alberta
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
       - name: 'Marisa Eisenberg plenary'
         time_start: '13:30'
         time_end: '14:30'
+      - name: 'Afternoon coffee break'
+        time_start: '14:30'
+        time_end: '15:00'
       - name: 'Seasonality and Influenza pH1N12009 Vaccination Impact'
         time_start: '15:00'
         time_end: '15:30'
@@ -48,6 +46,9 @@ days:
 
   - name: Room 202
     talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'Deciphering Glioma Microenvironment Entry Mechanisms of Myeloid-Derived Suppressor Cells'
         time_start: '10:00'
         time_end: '10:30'
@@ -60,6 +61,12 @@ days:
       - name: 'Development and calibration of a stochastic, multiscale agent-based model for predicting tumor and vasculature growth'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
+      - name: 'Afternoon coffee break'
+        time_start: '14:30'
+        time_end: '15:00'
       - name: 'Modelling Radiation Cancer Treatment with Ordinary and Fractional Differential Equations'
         time_start: '15:00'
         time_end: '15:30'
@@ -74,6 +81,9 @@ days:
         time_end: '17:00'
   - name: Room 204
     talks:
+      - name: 'Afternoon coffee break'
+        time_start: '14:30'
+        time_end: '15:00'
       - name: 'Epidemiology of Age in COVID-19: A model with m-heterogeneous contact rates and saturated treatment function'
         time_start: '15:00'
         time_end: '15:30'
