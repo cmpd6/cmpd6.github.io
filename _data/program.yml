@@ -193,22 +193,14 @@ days:
 - name: Thursday
   date: 2023-05-25
   rooms:
-  - name: Breaks
-    talks:
-      - name: 'Morning coffee break'
-        time_start: '9:30'
-        time_end: '10:00'
-      - name: 'Lunch break'
-        time_start: '12:00'
-        time_end: '13:30'
-      - name: 'Afternoon coffee break'
-        time_start: '14:30'
-        time_end: '15:00'
   - name: Schultz Theatre
     talks:
       - name: 'Heterogeneity and Aggregation in Modeling Infectious Diseases'
         time_start: '8:30'
         time_end: '9:30'
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'Modeling PrEP-on-demand strategies to prevent HIV transmission'
         time_start: '10:00'
         time_end: '10:30'
@@ -221,9 +213,15 @@ days:
       - name: 'Coupling the within-host process and between-host transmission of COVID-19 suggests vaccination and school closures are critical'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
       - name: 'The Shapes of Immunological Data during Respiratory Infections'
         time_start: '13:30'
         time_end: '14:30'
+      - name: 'Afternoon coffee break'
+        time_start: '14:30'
+        time_end: '15:00'
       - name: 'Global Sensitivity Analysis of a Structured Model of COVID-19 Transmission on a College Campus'
         time_start: '15:00'
         time_end: '15:30'
@@ -239,6 +237,9 @@ days:
 
   - name: Room 202
     talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'An Immuno-Epidemiological Vector-Host Model with Within-Vector Viral Kinetics'
         time_start: '10:00'
         time_end: '10:30'
@@ -251,6 +252,12 @@ days:
       - name: 'Determining Reliable Parameter Estimates for Within-host and Within-vector models of Zika Virus'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
+      - name: 'Afternoon coffee break'
+        time_start: '14:30'
+        time_end: '15:00'
       - name: 'The Ross-Mcdonald model revisited: linking transmission and within-host dynamics'
         time_start: '15:00'
         time_end: '15:30'
@@ -266,6 +273,9 @@ days:
 
   - name: Room 204
     talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'The opposite functions and treatment outcomes of CD200-CD200R in cancer'
         time_start: '10:00'
         time_end: '10:30'
@@ -278,6 +288,12 @@ days:
       - name: 'TGF-β inhibition can overcome cancer primary resistance to PD-1 blockade: a mathematical model'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
+      - name: 'Afternoon coffee break'
+        time_start: '14:30'
+        time_end: '15:00'
       - name: 'Numerical Method for the Age-structured SIPCV Epidemic Model of Healthy cells, Dysplasia, Cervical Cancer Cells and HPV Dynamics'
         time_start: '15:00'
         time_end: '15:30'
@@ -291,22 +307,14 @@ days:
 - name: Friday
   date: 2023-05-26
   rooms:
-  - name: Breaks
-    talks:
-      - name: 'Morning coffee break'
-        time_start: '9:30'
-        time_end: '10:00'
-      - name: 'Lunch break'
-        time_start: '12:00'
-        time_end: '13:30'
-      - name: 'Afternoon coffee break'
-        time_start: '15:30'
-        time_end: '17:00'
   - name: Schultz Theatre
     talks:
       - name: 'Anna Marciniak-Czochra plenary'
         time_start: '8:30'
         time_end: '9:30'
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'Data Assimilation of Quorum Sensing Regulation of Bacteria-Phage Interaction in Biofilm'
         time_start: '10:00'
         time_end: '10:30'
@@ -319,6 +327,9 @@ days:
       - name: 'Breast cancer exosomal microRNAs facilitate pre-metastatic niche formation in the bone: A mathematical model'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
       - name: 'Modeling immune system priming: the miracle that saved Sub-Sahara Africa from COVID-19'
         time_start: '13:30'
         time_end: '14:00'
@@ -331,9 +342,15 @@ days:
       - name: 'Predictive modelling and forecasting of the mosquito abundance and risk of West Nile virus in Ontario Canada'
         time_start: '15:00'
         time_end: '15:30'
+      - name: 'Afternoon coffee break'
+        time_start: '15:30'
+        time_end: '17:00'
 
   - name: Room 118
     talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'Multi-scale time-since-infection models in evolutionary epidemiology'
         time_start: '10:00'
         time_end: '10:30'
@@ -346,6 +363,9 @@ days:
       - name: 'Extrapolating vaccine effect to epidemiological impacts in an immuno-epidemiological Dengue vaccination model structured by host antibody level'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
       - name: 'Estimating importation cases using mobility data'
         time_start: '13:30'
         time_end: '14:00'
@@ -358,9 +378,15 @@ days:
       - name: 'Reconstructing the temporal dynamics of clustering from cluster surveillance of COVID-19'
         time_start: '15:00'
         time_end: '15:30'
+      - name: 'Afternoon coffee break'
+        time_start: '15:30'
+        time_end: '17:00'
 
   - name: Room 202
     talks:
+      - name: 'Morning coffee break'
+        time_start: '9:30'
+        time_end: '10:00'
       - name: 'Site frequency spectra and estimation of clonal dynamics of tumors'
         time_start: '10:00'
         time_end: '10:30'
@@ -373,6 +399,9 @@ days:
       - name: 'Analysis of A Countable-Type Branching Process Model for the Tug-of-War Cancer Cell Dynamics'
         time_start: '11:30'
         time_end: '12:00'
+      - name: 'Lunch break'
+        time_start: '12:00'
+        time_end: '13:30'
       - name: 'Unexpected coexistence and extinction in an intraguild predation system'
         time_start: '13:30'
         time_end: '14:00'
@@ -384,7 +413,10 @@ days:
         time_end: '15:00'
       - name: 'Considering Subpopulations in Modelling Facultative Mutualism Reveals a New Approach to Model Interspecific Interactions'
         time_start: '15:00'
-        time_end: '15:40'
+        time_end: '15:30'
+      - name: 'Afternoon coffee break'
+        time_start: '15:30'
+        time_end: '17:00'
 
 - name: Saturday
   date: 2023-05-27
