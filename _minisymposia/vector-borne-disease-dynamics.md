@@ -5,11 +5,17 @@ organisers:
     - Abba Gumel
     - Fabio Milner
 speakers:
+    - Folashade Agusto
     - Hayriye Gulbudak
     - Abba Gumel
+    - Christopher Kribs
     - Fabio Milner
+    - Jemal Mohammed-Awel
+    - Andrea Pugliese
+    - Miranda Teboh-Ewugkem
     - Necibe Tuncer
     - Jorge Velasco-Hernandez
+    - Huaiping Zhu
 ---
 
 (Note: talk titles and links to abstracts will appear when the information is submitted by speakers and processed.)
