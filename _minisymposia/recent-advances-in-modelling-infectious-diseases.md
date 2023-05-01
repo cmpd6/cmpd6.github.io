@@ -9,19 +9,19 @@ organisers:
 speakers:
     - Julien Arino
     - Jacques Bélair
+    - Tanuja Das
     - Abba Gumel
     - Donglin Han
     - Jane Heffernan
     - Jude Kong
-    - Junling Ma
     - Connell McCluskey
-    - Weston Roda
+    - Tania Philippsen
     - Pauline van den Driessche
     - Marie Betsy Varughese
     - Jorge Velasco-Hernandez
     - Amy Veprauskas
-    - James Watmough
-    - Huaiping Zhu
+    - Xuyuan Wang
+    - Pei Yuan
 ---
 
 (Note: talk titles and links to abstracts will appear when the information is submitted by speakers and processed.)
