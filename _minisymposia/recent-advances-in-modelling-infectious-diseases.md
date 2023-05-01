@@ -15,7 +15,7 @@ speakers:
     - Jane Heffernan
     - Jude Kong
     - Connell McCluskey
-    - Tania Philippsen
+    - Tanya Philippsen
     - Pauline van den Driessche
     - Marie Betsy Varughese
     - Jorge Velasco-Hernandez
