@@ -87,6 +87,8 @@ for (i in 1:dim(abstracts_csv)[1]) {
     abstracts_csv$institution_country[i] = email_ctry
   }
 }
+abstracts_csv = abstracts_csv %>%
+  arrange(last_name, first_name)
 ```
 
 ```{r}
@@ -97,23 +99,34 @@ for (i in 1:dim(abstracts_csv)[1]) {
 ### GENERATE ABSTRACT LIST
 ###
 for (i in 1:dim(abstracts_csv)[1]) {
-  cat("\n## ", abstracts_csv$full_name[i])
-  cat(" - ", str_trim(abstracts_csv$talk_title[i]))
+  if (i == 1) {
+      cat("\\vskip\\medskipamount\n
+  \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
+  \\vskip\\medskipamount\n
+  \\nointerlineskip\n\n")
+  }
+  cat("\n## ", abstracts_csv$full_name[i], "\n")
+  cat(abstracts_csv$institution[i], "\n\n")
+  cat("## ", str_trim(abstracts_csv$talk_title[i]))
   if (abstracts_csv$plenary[i] == "P") {
-    cat("\n\n### Plenary presentation")
+    cat("\n\n#### Plenary presentation")
   } else if (nchar(abstracts_csv$minisymposium[i])>0) {
-    cat("\n\n### Part of minisymposium ")
+    cat("\n\n#### Part of minisymposium ")
     # This is an MS lecture, save which MS it is
     name_ms = tolower(abstracts_csv$name_ms[i])
     name_ms = str_trim(gsub("-\t", " ", name_ms))
     cat(name_ms)
     cat(abstracts_csv$minisymposium[i])
   } else if (nchar(abstracts_csv$contributed[i])>0) {
-    cat("\n\n### Contributed talk")
+    cat("\n\n#### Contributed talk")
   }
   if (nchar(abstracts_csv$talk_abstract[i])>0) {
     cat("\n\n", make_LaTeX_friendly(abstracts_csv$talk_abstract[i]))
   }
   cat(" \n")
+  cat("\\vskip\\medskipamount\n
+  \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
+  \\vskip\\medskipamount\n
+  \\nointerlineskip\n\n")
 }
 ```
