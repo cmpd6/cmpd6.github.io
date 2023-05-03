@@ -100,10 +100,12 @@ abstracts_csv = abstracts_csv %>%
 ###
 for (i in 1:dim(abstracts_csv)[1]) {
   if (i == 1) {
+    if (knitr::is_latex_output()) {
       cat("\\vskip\\medskipamount\n
-  \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
-  \\vskip\\medskipamount\n
-  \\nointerlineskip\n\n")
+      \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
+      \\vskip\\medskipamount\n
+      \\nointerlineskip\n\n")
+    }
   }
   cat("\n## ", abstracts_csv$full_name[i], "\n")
   cat(abstracts_csv$institution[i], "\n\n")
