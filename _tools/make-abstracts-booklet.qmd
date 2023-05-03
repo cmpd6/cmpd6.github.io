@@ -1,0 +1,119 @@
+---
+title: "CMPD6 abstracts"
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+execute:
+  echo: false
+---
+
+
+```{r}
+#| echo: false
+#| message: false
+#| results: 'hide'
+# Process list of abstracts
+library(yaml)
+library(dplyr)
+library(stringr)
+library(countrycode)
+
+# Process yaml header
+# The markdown files used have just a yaml header; the markdown part
+# often causes read_yml to crash. So we process only the header
+process_yml_header = function(fqfn) {
+  yaml_part = NULL
+  con = file(fqfn, "r")
+  line = readLines(con, n = 1)
+  if (line == "---") {
+    in_yaml = TRUE
+    while ( in_yaml ) {
+      line = readLines(con, n = 1)
+      if ( length(line) == 0 ) {
+        break
+      } else if (line == "---") {
+        in_yaml = FALSE
+      } else {
+        yaml_part = paste0(yaml_part, line, "\n")
+      }
+    }
+  }
+  close(con)
+  yaml_fields = read_yaml(text = yaml_part)
+  return(yaml_fields)
+}
+# Make stuff LaTeX compatible (e.g., & to \&)
+make_LaTeX_friendly = function(ch) {
+  ch = gsub("&", "\\&", ch)
+  ch = gsub("/assets/images/", "../assets/images/", ch)
+  return(ch)
+}
+# Are we testing (i.e., exporting to the working directory) or in production?
+TESTING = TRUE
+## ABSTRACTS
+# Get list of abstracts from csv file
+abstracts_csv = read.csv("CMPD6-abstracts.csv")
+# A bit of cleaning of the file
+abstracts_csv$first_name = str_trim(str_to_title(abstracts_csv$first_name))
+abstracts_csv$last_name = str_trim(str_to_title(abstracts_csv$last_name))
+abstracts_csv$email = str_trim(tolower(abstracts_csv$email))
+abstracts_csv$full_name = sprintf("%s %s", 
+                                 abstracts_csv$first_name,
+                                 abstracts_csv$last_name)
+
+# Try to infer country for people missing country
+abstracts_csv$institution_country = rep(NA, dim(abstracts_csv)[1])
+for (i in 1:dim(abstracts_csv)[1]) {
+  if (is.na(abstracts_csv$institution_country[i])) {
+    # Places for which it is not obvious
+    if (grepl("moffitt.org", abstracts_csv$email[i]) ||
+        grepl(".edu", abstracts_csv$email[i]) ||
+        grepl(".gov", abstracts_csv$email[i]) ||
+        grepl("fredhutch.org", abstracts_csv$email[i])) {
+      email_ctry = "USA"
+    } else if (grepl("ac.uk", abstracts_csv$email[i])) {
+      email_ctry = "UK"
+    } else if (grepl("tanya.philippsen@gmail.com", abstracts_csv$email[i])) {
+      email_ctry = "Canada"
+    } else {
+      tmp_email = strsplit(abstracts_csv$email[i], "\\.")
+      end_email = tmp_email[[1]][length(tmp_email[[1]])]
+      email_ctry = invisible(countrycode(end_email,
+                                         origin = "iso2c",
+                                         destination = "country.name"))
+    }
+    abstracts_csv$institution_country[i] = email_ctry
+  }
+}
+```
+
+```{r}
+#| echo: false
+#| message: false
+#| results: 'asis'
+###
+### GENERATE ABSTRACT LIST
+###
+for (i in 1:dim(abstracts_csv)[1]) {
+  cat("\n## ", abstracts_csv$full_name[i])
+  cat(" - ", str_trim(abstracts_csv$talk_title[i]))
+  if (abstracts_csv$plenary[i] == "P") {
+    cat("\n\n### Plenary presentation")
+  } else if (nchar(abstracts_csv$minisymposium[i])>0) {
+    cat("\n\n### Part of minisymposium ")
+    # This is an MS lecture, save which MS it is
+    name_ms = tolower(abstracts_csv$name_ms[i])
+    name_ms = str_trim(gsub("-\t", " ", name_ms))
+    cat(name_ms)
+    cat(abstracts_csv$minisymposium[i])
+  } else if (nchar(abstracts_csv$contributed[i])>0) {
+    cat("\n\n### Contributed talk")
+  }
+  if (nchar(abstracts_csv$talk_abstract[i])>0) {
+    cat("\n\n", make_LaTeX_friendly(abstracts_csv$talk_abstract[i]))
+  }
+  cat(" \n")
+}
+```
