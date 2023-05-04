@@ -12,13 +12,17 @@ To go from the bus stop where all buses unload to the Schultz Theatre, you could
 
 To leave campus by bus, you will need to pick a stop. For instance, there are 3 buses going directly downtown: Blue, 47 and 60. The Blue has a [dedicated stop](https://winnipegtransit.com/stops/60675/?filterVariants=BLUE-1-D), while the 47 and 60 are at [another stop](https://winnipegtransit.com/stops/60674/?filterVariants=36-1-C,36-1-M,47-0-R,47-0-K,60-1-D). There are two or three additional stops serving other lines. All stops are close to one another.
 
+## Beware the geese!
+
+The UM campus is currently home to nesting Canada geese and it is possible that some will still be nesting or nursing during the conference. For their and *your* safety, it is wise to give them some space. Normally, campus services [alert to the presence of geese](https://news.umanitoba.ca/geese-whos-back/), but since geese tend to wander around..
+
 ## Orientation within St John's College
 
 - Ground floor.
     - **Schultz Theatre**. All plenaries, and one of the parallel sessions.
     - **Schultz Atrium**. Just outside the Theatre. Coffee breaks and reception on the first day.
     - **Room 118**. Some parallel sessions. Just down the corridor from Schultz.
-    - **Room **. Collaboration room. Always open to conference participants.
+    - **Room**. Collaboration room. Always open to conference participants.
     - **Daily Bread Cafe**. Lunches will be served there.
 - Second floor. (Stairs are located at various places throughout the building. The building is accessible so you can also find elevators.)
     - **Room 202**. Some parallel sessions.
