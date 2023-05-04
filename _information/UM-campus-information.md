@@ -12,7 +12,7 @@ To go from the bus stop where all buses unload to the Schultz Theatre, you could
 
 ## Beware the geese!
 
-The UM campus is currently home to nesting Canada geese and it is possible that some will still be nesting or nursing during the conference. For their and *your* safety, it is wise to give them some space. Normally, campus services [alert to the presence of geese](https://news.umanitoba.ca/geese-whos-back/), but since geese tend to wander around..
+The UM campus is currently home to nesting Canada geese and it is likely that some will still be nesting or nursing during the conference. For their and *your* safety, it is wise to give them some space. Normally, campus services [alert to the presence of geese](https://news.umanitoba.ca/geese-whos-back/), but since geese tend to wander around..
 
 ## Orientation within St John's College
 
