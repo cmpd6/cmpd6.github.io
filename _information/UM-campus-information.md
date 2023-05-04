@@ -32,7 +32,7 @@ See a map of the [Schultz Theatre area](/assets/images/SchultzTheatre-100level.p
 
 ## Other amenities on campus
 
-The [University Centre](https://goo.gl/maps/NLVYd5M6a4sfBo1DA) is accessible easily from the Schultz Theatre either through the parkade (for the non-Canadians, this is a multistorey car park or parking garage) and has a few shops: bookstore, Starbucks, pharmacy/post office and small convenience store on the basement level, student cafe with pool tables and two students pubs on the third floor. You can also find a student union office selling bus tickets here (at the basement level).
+The [University Centre](https://goo.gl/maps/NLVYd5M6a4sfBo1DA) is accessible easily from the Schultz Theatre either through the parkade (for the non-Canadians, this is a multistorey car park or parking garage) and has a few shops: bookstore, Starbucks, pharmacy/post office and small convenience store on the basement level, student cafe with pool tables and two students pubs on the third floor. You can also find a student union office selling bus tickets/cards here (at the basement level).
 
 **Note:** the UM campus has a strange floor numbering system due to the fact that a large number of the buildings where teaching occurs are connected by an underground tunnel system. Because entry into buildings is often through tunnels, this level is considered the first floor even if it is technically a basement. So street level entry is at the "second" floor.
 
