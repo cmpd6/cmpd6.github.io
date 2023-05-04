@@ -6,7 +6,7 @@ layout: information
 
 ## Finding the conference site within campus
 
-All conference lectures and events will be held at [St John's College](https://umanitoba.ca/st-johns-college/) ([Google Map link](https://goo.gl/maps/11WF5JJ3zfo5Qxqv5)). The entrance on Ralph Campbell Road is very close to the Schultz Theatre, where all plenary lectures and one session will always take place and in the lobby of which coffee breaks will be held.
+All conference lectures and events will be held at [St John's College](https://umanitoba.ca/st-johns-college/) ([Google Map link](https://goo.gl/maps/11WF5JJ3zfo5Qxqv5)). The SJC entrance on Ralph Campbell Road is very close to the Schultz Theatre, where all plenary lectures and one session will always take place and in the lobby of which coffee breaks will be held.
 
 To go from the bus stop where all buses unload to the Schultz Theatre, you could for instance [follow this path](https://goo.gl/maps/umC4NnLS8schi4tH9).
 
