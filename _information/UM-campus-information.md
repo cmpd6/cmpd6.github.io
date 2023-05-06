@@ -10,6 +10,8 @@ All conference lectures and events will be held at [St John's College](https://u
 
 To go from the bus stop where all buses unload to the Schultz Theatre, you could for instance [follow this path](https://goo.gl/maps/umC4NnLS8schi4tH9).
 
+See a simplified [campus map](/assets/images/FG-campus-map-Apr-2022.png). On this map, St John's College is highlighted in red, with the Schultz Theatre area appearing in orange; the yellow area is the university bus station; the building highlighted in green is the *University Centre* (see below); the building highlighted in blue is *Machray Hall*, home to the Science Library, and the Departments of Statistics (3rd floor) and Mathematics (4th and 5th floor).
+
 ## Beware the geese!
 
 The UM campus is currently home to nesting Canada geese and it is likely that some will still be nesting or nursing during the conference. For their and *your* safety, it is wise to give them some space. Normally, campus services [alert to the presence of geese](https://news.umanitoba.ca/geese-whos-back/), but since geese tend to wander around..
