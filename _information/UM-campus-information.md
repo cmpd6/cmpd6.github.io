@@ -10,7 +10,7 @@ All conference lectures and events will be held at [St John's College](https://u
 
 To go from the bus stop where all buses unload to the Schultz Theatre, you could for instance [follow this path](https://goo.gl/maps/umC4NnLS8schi4tH9).
 
-See a simplified [campus map](/assets/images/FG-campus-map-Apr-2022.png). On this map, St John's College is highlighted in red, with the Schultz Theatre area appearing in orange; the yellow area near the bottom right is the university bus station; the building highlighted in green is the *University Centre* (see below); the building highlighted in blue is *Machray Hall*, home to the Science Library, and the Departments of Statistics (3rd floor) and Mathematics (4th and 5th floor).
+See a simplified [campus map](/assets/images/FG-campus-map-Apr-2022.png). On this map, St John's College is highlighted in red, with the Schultz Theatre area appearing in orange; the yellow area near the bottom right is the university bus station; the building highlighted in green is the *University Centre* (see *Other amenities on campus* below); the building highlighted in blue is *Machray Hall*, home to the Science Library, and the Departments of Statistics (3rd floor) and Mathematics (4th and 5th floor).
 
 ## Beware the geese!
 
@@ -20,7 +20,7 @@ The UM campus is currently home to nesting Canada geese and it is likely that so
 
 - Ground floor.
     - **Schultz Theatre**. All plenaries, and one of the parallel sessions.
-    - **Schultz Atrium**. Just outside the Theatre. Coffee breaks and reception on the first day (Tuesday 23 May).
+    - **Schultz Atrium**. Just outside the Theatre. All coffee breaks, as well as welcome reception on the first day (Tuesday 23 May).
     - **Room 118**. Some parallel sessions. Just down the corridor from Schultz.
     - **Quiet Room** and **Common Room**. Collaboration rooms. Always open to conference participants. Continue down the corridor past room 118.
     - **Daily Bread Café** (DBC). Lunches will be served there. The DBC is booked for the conference's exclusive use during lunches and is available for all the rest of the time. You can purchase snacks, foods and bevarages (alcoholic and not) there at all times.
