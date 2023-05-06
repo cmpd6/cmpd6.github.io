@@ -275,7 +275,7 @@ days:
       - name: 'An Immuno-Epidemiological Vector-Host Model with Within-Vector Viral Kinetics'
         time_start: '10:00'
         time_end: '10:30'
-      - name: 'Abba Gumel TBD'
+      - name: 'Mathematics of Wolbachia-based biocontrol of mosquito-borne diseases'
         time_start: '10:30'
         time_end: '11:00'
       - name: 'A mosquito-bird-human model for West Nile virus disease transmission'
