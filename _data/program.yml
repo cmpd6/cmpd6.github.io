@@ -371,9 +371,9 @@ days:
       - name: 'Predictive modelling and forecasting of the mosquito abundance and risk of West Nile virus in Ontario Canada'
         time_start: '14:30'
         time_end: '15:00'
-      - name: 'Afternoon coffee break'
+      - name: 'Barbecue at Daily Bread Café'
         time_start: '15:30'
-        time_end: '17:00'
+        time_end: '18:30'
 
   - name: Room 118
     talks:
@@ -407,9 +407,9 @@ days:
       - name: 'Reconstructing the temporal dynamics of clustering from cluster surveillance of COVID-19'
         time_start: '15:00'
         time_end: '15:30'
-      - name: 'Afternoon coffee break'
+      - name: 'Barbecue at Daily Bread Café'
         time_start: '15:30'
-        time_end: '17:00'
+        time_end: '18:30'
 
   - name: Room 202
     talks:
@@ -443,9 +443,9 @@ days:
       - name: 'Considering Subpopulations in Modelling Facultative Mutualism Reveals a New Approach to Model Interspecific Interactions'
         time_start: '15:00'
         time_end: '15:30'
-      - name: 'Afternoon coffee break'
+      - name: 'Barbecue at Daily Bread Café'
         time_start: '15:30'
-        time_end: '17:00'
+        time_end: '18:30'
 
 - name: Saturday
   date: 2023-05-27
