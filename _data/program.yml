@@ -4,6 +4,9 @@ days:
   rooms:
   - name: Schultz Theatre
     talks:
+      - name: 'Conference opening'
+        time_start: '8:15'
+        time_end: '8:30'
       - name: 'Modeling the role of human behavior and perception of risks on disease transmission'
         time_start: '8:30'
         time_end: '9:30'
@@ -25,7 +28,7 @@ days:
       - name: 'Lunch break'
         time_start: '12:00'
         time_end: '13:30'
-      - name: 'Marisa Eisenberg plenary'
+      - name: 'Identifiability and infectious disease interventions: exploring when uncertainty matters'
         time_start: '13:30'
         time_end: '14:30'
       - name: 'Afternoon coffee break'
