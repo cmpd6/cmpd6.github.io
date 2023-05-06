@@ -7,3 +7,4 @@ categories:
 hide: no
 ---
 
+The CMPD6 opening will start at 8:15.
