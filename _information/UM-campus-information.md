@@ -20,7 +20,7 @@ The UM campus is currently home to nesting Canada geese and it is likely that so
     - **Schultz Theatre**. All plenaries, and one of the parallel sessions.
     - **Schultz Atrium**. Just outside the Theatre. Coffee breaks and reception on the first day (Tuesday 23 May).
     - **Room 118**. Some parallel sessions. Just down the corridor from Schultz.
-    - **Room**. Collaboration room. Always open to conference participants. Continue down the corridor past room 118.
+    - **Quiet Room** and **Common Room**. Collaboration rooms. Always open to conference participants. Continue down the corridor past room 118.
     - **Daily Bread Café** (DBC). Lunches will be served there. The DBC is booked for the conference's exclusive use during lunches and is available for all the rest of the time. You can purchase snacks, foods and bevarages (alcoholic and not) there at all times.
 - Second floor. (Stairs are located at various places throughout the building. The building is accessible so you can also find elevators.)
     - **Room 202**. Some parallel sessions.
@@ -28,7 +28,7 @@ The UM campus is currently home to nesting Canada geese and it is likely that so
 
 All plenaries will be held in the Schultz Theatre. One of the parallel session will also run there throughout the conference. The other one or two (depending on the day/time) session(s) will be held in a subset of rooms 118, 202 and 204.
 
-See a map of the [Schultz Theatre area](/assets/images/SchultzTheatre-100level.png), remainder of [first floor of SJC](/assets/images/StJohnsCollege-100level.png) and [second floor of SJC](/assets/images/StJohnsCollege-200level.png)
+See a map of the [Schultz Theatre area](/assets/images/SchultzTheatre-100level.png), remainder of [first floor of SJC](/assets/images/St-Johns-College-100-level.png) and [second floor of SJC](/assets/images/St-Johns-College-200-level.png).
 
 ## Other amenities on campus
 
