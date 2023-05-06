@@ -20,7 +20,7 @@ The UM campus is currently home to nesting Canada geese and it is likely that so
 
 - Ground floor.
     - **Schultz Theatre**. All plenaries, and one of the parallel sessions.
-    - **Schultz Atrium**. Just outside the Theatre. All coffee breaks, as well as welcome reception on the first day (Tuesday 23 May).
+    - **Schultz Atrium**. Just outside the Theatre. All coffee breaks, as well as the welcome reception on the first day (Tuesday 23 May).
     - **Room 118**. Some parallel sessions. Just down the corridor from Schultz.
     - **Quiet Room** and **Common Room**. Collaboration rooms. Always open to conference participants. Continue down the corridor past room 118.
     - **Daily Bread Café** (DBC). Lunches will be served there. The DBC is booked for the conference's exclusive use during lunches and is available for all the rest of the time. You can purchase snacks, foods and bevarages (alcoholic and not) there at all times.
