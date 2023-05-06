@@ -24,7 +24,7 @@ The UM campus is currently home to nesting Canada geese and it is likely that so
     - **Room 118**. Some parallel sessions. Just down the corridor from Schultz.
     - **Quiet Room** and **Common Room**. Collaboration rooms. Always open to conference participants. Continue down the corridor past room 118.
     - **Daily Bread Café** (DBC). Lunches will be served there. The DBC is booked for the conference's exclusive use during lunches and is available for all the rest of the time. You can purchase snacks, foods and bevarages (alcoholic and not) there at all times.
-- Second floor. (Stairs are located at various places throughout the building. The building is accessible so you can also find elevators.)
+- Second floor. (Stairs are located at various places throughout the building. There also is an elevator near the stair close to the Quiet Room.)
     - **Room 202**. Some parallel sessions.
     - **Room 204**. Some parallel sessions.
 
