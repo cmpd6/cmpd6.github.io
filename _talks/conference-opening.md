@@ -1,7 +1,7 @@
 ---
 speakers:
 - Organisers
-name: Conference opening
+name: Conference opening at 8:15
 categories:
 - Breaks
 hide: no
