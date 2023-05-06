@@ -46,6 +46,9 @@ days:
       - name: 'Stability Analysis for Integral Equation Disease Models'
         time_start: '16:30'
         time_end: '17:00'
+      - name: 'Welcome reception'
+        time_start: '17:30'
+        time_end: '20:00'
 
   - name: Room 202
     talks:
