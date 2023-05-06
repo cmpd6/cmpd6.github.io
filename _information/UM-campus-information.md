@@ -44,7 +44,7 @@ The conference will be held on the [Fort Garry](https://umanitoba.ca/about-um/ou
 
 Fast direct bus service is available from downtown to the Fort Garry Campus using the [Blue Rapid Transit Line](https://info.winnipegtransit.com/en/service/blue-rapid-transit/). Be careful to take a *University of Manitoba* destined bus, not one headed to *Saint Norbert*. 
 Other bus lines connecting downtown to the campus are the 47 and the 60 lines.
-Bus lines also allow access to areas closer to the campus.
+Bus lines also allow access to areas closer to the campus. You can use Google Maps or the [Winnipeg Transit website](https://winnipegtransit.com/navigo?mode=depart_after&dateTime=now) to obtain bus information. Bus fares are $3.15 in cash (drivers do not give change) or $2.80 using tickets or e-cash (the latter requires to buy a $5.00 card).
 
 To leave campus by bus, you will need to pick a stop. For instance, there are 3 buses going directly downtown: Blue, 47 and 60. The Blue has a [dedicated stop](https://winnipegtransit.com/stops/60675/?filterVariants=BLUE-1-D), while the 47 and 60 are at [another stop](https://winnipegtransit.com/stops/60674/?filterVariants=36-1-C,36-1-M,47-0-R,47-0-K,60-1-D). There are two or three additional stops serving other lines. All stops are close to one another.
 
