@@ -1,6 +1,5 @@
 "first_name","last_name","name","email","web_page","email2","department","institution","institution_address","institution_country","plenary","ms_1","ms_2","ms_3","ct_1","ct_2","ct_3","so_1","so_2","local_organiser","scientific_committee"
-"Azmy S.","Ackleh","Azmy S. Ackleh","azmy.ackleh@louisiana.edu","",,"","University of Louisiana at Lafayette","","USA",,,,,,,,,,,
-"Azmy","Ackleh","Azmy Ackleh","azmy.ackleh@louisiana.edu","https://userweb.ucs.louisiana.edu/~asa5773/",,"","University of Louisiana at Lafayette","","",FALSE,TRUE,,,,,,,,,
+"Azmy S.","Ackleh","Azmy S. Ackleh","azmy.ackleh@louisiana.edu","https://userweb.ucs.louisiana.edu/~asa5773/",,"","University of Louisiana at Lafayette","","USA",FALSE,TRUE,,,,,,,,,
 "Folashade","Agusto","Folashade Agusto","fbagusto@ku.edu","https://eeb.ku.edu/people/folashade-agusto",,"","The University of Kansas","","USA",TRUE,,,,,,,,,,
 "Ephraim","Agyingi","Ephraim Agyingi","eoasma@rit.edu","",,"","Rochester Institute of Technology","Rochester, New York","USA",,TRUE,,,,,,,,,
 "Vitalii","Akimenko","Vitalii Akimenko","Vitalii.Akimenko@umanitoba.ca","",,"","University of Manitoba","","Canada",FALSE,FALSE,,,,,,,,,
@@ -28,8 +27,7 @@
 "Preeti","Deolia","Preeti Deolia","preeti@iiitm.ac.in","",,"","Atal Bihari Vajpayee-Indian Institute of Information Technology and Management, Gwalior ","","India",,FALSE,,,,,,,,,
 "Clotilde","Djuikem","Clotilde Djuikem","clotilde.djuikem@inria.fr","https://djuikem-clotilde.netlify.app/",,"","Université Côte d’Azur, Inria, INRAE, CNRS, Université Paris Sorbonne, BIOCORE","","France",,FALSE,,,,,,,,,
 "Marisa","Eisenberg","Marisa Eisenberg","marisae@umich.edu","http://websites.umich.edu/~marisae/index.html",,"","University of Michigan, Ann Arbor","","USA",TRUE,,,,,,,,,,
-"Blessing","Emerenini","Blessing Emerenini","boesma@rit.edu",,,,"Rochester Institute of Technology",,"USA",,,,,,,,,,,
-"Blessing","Emerinini","Blessing Emerinini","","",,"","Rochester Institute of Technology","","USA",,TRUE,,,,,,,,,
+"Blessing","Emerenini","Blessing Emerenini","boesma@rit.edu",,,,"Rochester Institute of Technology",,"USA",,TRUE,,,,,,,,,
 "Guihong","Fan","Guihong Fan","fan_guihong@columbusstate.edu","https://www.columbusstate.edu/profiles/fan-guihong",,"","Columbus State University","","USA",,,,,,,,,,,
 "Marcel","Fang","Marcel Fang","marcel.fang@inria.fr","",,"","Sorbonne Université & INRIA","","France",,FALSE,,,,,,,,,
 "Suzan","Farhang Sardroodi","Suzan Farhang Sardroodi","Suzan.Farhangsardroodi@umanitoba.ca","",,"","University of Manitoba","","Canada",,,,,,,,,,,
