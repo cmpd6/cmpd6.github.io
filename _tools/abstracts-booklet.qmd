@@ -55,9 +55,11 @@ TESTING = TRUE
 ## PARTICIPANTS
 # Get list of participants from csv file
 participants_csv = read.csv("CMPD6-all-participants.csv")
+participants_csv$email = tolower(participants_csv$email)
 ## ABSTRACTS
 # Get list of abstracts from csv file
 abstracts_csv = read.csv("CMPD6-abstracts.csv")
+abstracts_csv$email = tolower(abstracts_csv$email)
 # A bit of cleaning of the file
 abstracts_csv$first_name = str_trim(str_to_title(abstracts_csv$first_name))
 abstracts_csv$last_name = str_trim(str_to_title(abstracts_csv$last_name))
@@ -65,33 +67,26 @@ abstracts_csv$email = str_trim(tolower(abstracts_csv$email))
 abstracts_csv$full_name = sprintf("%s %s", 
                                  abstracts_csv$first_name,
                                  abstracts_csv$last_name)
-
-# Try to infer country for people missing country
-abstracts_csv$institution_country = rep(NA, dim(abstracts_csv)[1])
-for (i in 1:dim(abstracts_csv)[1]) {
-  if (is.na(abstracts_csv$institution_country[i])) {
-    # Places for which it is not obvious
-    if (grepl("moffitt.org", abstracts_csv$email[i]) ||
-        grepl(".edu", abstracts_csv$email[i]) ||
-        grepl(".gov", abstracts_csv$email[i]) ||
-        grepl("fredhutch.org", abstracts_csv$email[i])) {
-      email_ctry = "USA"
-    } else if (grepl("ac.uk", abstracts_csv$email[i])) {
-      email_ctry = "UK"
-    } else if (grepl("tanya.philippsen@gmail.com", abstracts_csv$email[i])) {
-      email_ctry = "Canada"
-    } else {
-      tmp_email = strsplit(abstracts_csv$email[i], "\\.")
-      end_email = tmp_email[[1]][length(tmp_email[[1]])]
-      email_ctry = invisible(countrycode(end_email,
-                                         origin = "iso2c",
-                                         destination = "country.name"))
-    }
-    abstracts_csv$institution_country[i] = email_ctry
-  }
-}
-abstracts_csv = abstracts_csv %>%
+## Merge tables
+all_info = merge(x = participants_csv, y = abstracts_csv,
+                 by.x = "email", by.y = "email", 
+                 all.y = TRUE)
+colnames(all_info)[which(colnames(all_info) == "first_name.y")] =
+  "first_name"
+colnames(all_info)[which(colnames(all_info) == "last_name.y")] = 
+  "last_name"
+# Rewrite abstracts table
+abstracts = all_info %>%
   arrange(last_name, first_name)
+# Keep only talks
+idx_talks = which(abstracts$plenary.x == TRUE)
+idx_talks = union(idx_talks, which(abstracts$plenary.y == TRUE))
+idx_talks = 
+  union(idx_talks, which(nchar(abstracts$minisymposium) > 0))
+idx_talks = 
+  union(idx_talks, which(nchar(abstracts$contributed) > 0))
+idx_talks = sort(idx_talks)
+abstracts = abstracts[idx_talks,]
 ```
 
 ```{r}
@@ -101,34 +96,41 @@ abstracts_csv = abstracts_csv %>%
 ###
 ### GENERATE ABSTRACT LIST
 ###
-for (i in 1:dim(abstracts_csv)[1]) {
+cat(" ")
+for (i in 1:dim(abstracts)[1]) {
   if (i == 1) {
     if (knitr::is_latex_output()) {
-      cat("\n\n\\vskip\\medskipamount\n
+      cat("\\vskip\\medskipamount\n
       \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
       \\vskip\\medskipamount\n
       \\nointerlineskip\n\n")
     }
   }
-  cat("\n## ", abstracts_csv$full_name[i], "\n")
-  cat(abstracts_csv$institution[i], "\n\n")
-  cat("## ", str_trim(abstracts_csv$talk_title[i]))
-  if (abstracts_csv$plenary[i] == "P") {
+  cat("\n## ", abstracts$full_name[i], "\n")
+  if (!is.na(abstracts$department[i])) {
+    if (nchar(abstracts$department[i])>0) {
+      cat(paste0(abstracts$department[i], ", "))
+    }
+  }
+  cat(paste0(abstracts$institution.y[i], ", ",
+             abstracts$institution_country[i]), "\n\n")
+  cat("## ", str_trim(abstracts$talk_title[i]))
+  if (abstracts$plenary.y[i] == "P") {
     cat("\n\n#### Plenary presentation")
-  } else if (nchar(abstracts_csv$minisymposium[i])>0) {
+  } else if (nchar(abstracts$minisymposium[i])>0) {
     cat("\n\n#### Part of minisymposium ")
     # This is an MS lecture, save which MS it is
-    name_ms = tolower(abstracts_csv$name_ms[i])
+    name_ms = tolower(abstracts$name_ms[i])
     name_ms = str_trim(gsub("-\t", " ", name_ms))
     cat(name_ms)
-    cat(abstracts_csv$minisymposium[i])
-  } else if (nchar(abstracts_csv$contributed[i])>0) {
+    cat(abstracts$minisymposium[i])
+  } else if (nchar(abstracts$contributed[i])>0) {
     cat("\n\n#### Contributed talk")
   }
-  if (nchar(abstracts_csv$talk_abstract[i])>0) {
-    cat("\n\n", make_LaTeX_friendly(abstracts_csv$talk_abstract[i]))
+  if (nchar(abstracts$talk_abstract[i])>0) {
+    cat("\n\n", make_LaTeX_friendly(abstracts$talk_abstract[i]))
   }
-  cat(" \n")
+  cat("\n")
   cat("\\vskip\\medskipamount\n
   \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
   \\vskip\\medskipamount\n
