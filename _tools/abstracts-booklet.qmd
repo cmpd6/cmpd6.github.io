@@ -2,9 +2,15 @@
 title: "CMPD6 abstracts"
 format:
   pdf:
-    toc: false
+    toc: true
     number-sections: false
     colorlinks: true
+    geometry:
+      - top=20mm
+      - bottom=20mm
+      - left=20mm
+      - right=20mm
+      - heightrounded
 execute:
   echo: false
 ---
@@ -89,6 +95,13 @@ idx_talks = sort(idx_talks)
 abstracts = abstracts[idx_talks,]
 ```
 
+
+\vskip\medskipamount
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+\newpage
+
 ```{r}
 #| echo: false
 #| message: false
@@ -96,25 +109,19 @@ abstracts = abstracts[idx_talks,]
 ###
 ### GENERATE ABSTRACT LIST
 ###
-cat(" ")
 for (i in 1:dim(abstracts)[1]) {
-  if (i == 1) {
-    if (knitr::is_latex_output()) {
-      cat("\\vskip\\medskipamount\n
-      \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
-      \\vskip\\medskipamount\n
-      \\nointerlineskip\n\n")
-    }
-  }
-  cat("\n## ", abstracts$full_name[i], "\n")
+  cat("\n## ", abstracts$full_name[i], " - ",
+      str_trim(abstracts$talk_title[i]),
+      "\n")
+  cat(abstracts$full_name[i], "\n\n")
   if (!is.na(abstracts$department[i])) {
     if (nchar(abstracts$department[i])>0) {
-      cat(paste0(abstracts$department[i], ", "))
+      cat(paste0(abstracts$department[i], "\n\n"))
     }
   }
   cat(paste0(abstracts$institution.y[i], ", ",
              abstracts$institution_country[i]), "\n\n")
-  cat("## ", str_trim(abstracts$talk_title[i]))
+  # cat("## ", str_trim(abstracts$talk_title[i]))
   if (abstracts$plenary.y[i] == "P") {
     cat("\n\n#### Plenary presentation")
   } else if (nchar(abstracts$minisymposium[i])>0) {
