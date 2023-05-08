@@ -6,11 +6,10 @@ format:
     number-sections: false
     colorlinks: true
     geometry:
-      - top=20mm
+      - top=15mm
       - bottom=20mm
-      - left=20mm
-      - right=20mm
-      - heightrounded
+      - left=15mm
+      - right=15mm
 execute:
   echo: false
 ---
@@ -58,6 +57,21 @@ make_LaTeX_friendly = function(ch) {
 }
 # Are we testing (i.e., exporting to the working directory) or in production?
 TESTING = TRUE
+## MINISYMPOSIA
+minisymposia = data.frame(file_name = list.files(path = "../_minisymposia",
+                                                 pattern = glob2rx("*.md")))
+short_name = c()
+long_name = c()
+for (i in 1:dim(minisymposia)[1]) {
+  ms_dir = gsub("_tools","_minisymposia", getwd())
+  tmp = process_yml_header(sprintf("%s/%s",
+                                   ms_dir,
+                                   minisymposia$file_name[i]))
+  short_name = c(short_name, gsub(".md", "", minisymposia$file_name[i]))
+  long_name = c(long_name, tmp$name)
+}
+minisymposia$short_name = short_name
+minisymposia$long_name = long_name
 ## PARTICIPANTS
 # Get list of participants from csv file
 participants_csv = read.csv("CMPD6-all-participants.csv")
@@ -68,7 +82,7 @@ abstracts_csv = read.csv("CMPD6-abstracts.csv")
 abstracts_csv$email = tolower(abstracts_csv$email)
 # A bit of cleaning of the file
 abstracts_csv$first_name = str_trim(str_to_title(abstracts_csv$first_name))
-abstracts_csv$last_name = str_trim(str_to_title(abstracts_csv$last_name))
+abstracts_csv$last_name = str_trim(abstracts_csv$last_name)
 abstracts_csv$email = str_trim(tolower(abstracts_csv$email))
 abstracts_csv$full_name = sprintf("%s %s", 
                                  abstracts_csv$first_name,
@@ -102,6 +116,7 @@ abstracts = abstracts[idx_talks,]
 \nointerlineskip
 \newpage
 
+
 ```{r}
 #| echo: false
 #| message: false
@@ -110,9 +125,16 @@ abstracts = abstracts[idx_talks,]
 ### GENERATE ABSTRACT LIST
 ###
 for (i in 1:dim(abstracts)[1]) {
-  cat("\n## ", abstracts$full_name[i], " - ",
-      str_trim(abstracts$talk_title[i]),
-      "\n")
+  cat("\n## ", abstracts$full_name[i])
+  if (abstracts$plenary.y[i] == "P") {
+    cat(" (P talk) - ")
+  } else if (nchar(abstracts$minisymposium[i])>0) {
+    cat(" (MS talk) - ")
+  } else if (nchar(abstracts$contributed[i])>0) {
+    cat(" (C talk) - ")
+  }
+  cat(str_trim(abstracts$talk_title[i]), "\n")
+  # Prepare information about speakers
   table_info_speaker = c(abstracts$full_name[i])
   if (!is.na(abstracts$department[i])) {
     if (nchar(abstracts$department[i])>0) {
@@ -124,19 +146,24 @@ for (i in 1:dim(abstracts)[1]) {
   print(knitr::kable(table_info_speaker, format = "latex", 
                      col.names = NULL, label = NA,
                      booktabs = TRUE))
-  # cat("## ", str_trim(abstracts$talk_title[i]))
+  # Now gather info for the talk table
+  table_info_talk = c()
   if (abstracts$plenary.y[i] == "P") {
-    cat("\n\n#### Plenary presentation")
+    table_info_talk = c(table_info_talk, "Plenary presentation")
   } else if (nchar(abstracts$minisymposium[i])>0) {
-    cat("\n\n#### Part of minisymposium ")
-    # This is an MS lecture, save which MS it is
-    name_ms = tolower(abstracts$name_ms[i])
-    name_ms = str_trim(gsub("-\t", " ", name_ms))
-    cat(name_ms)
-    cat(abstracts$minisymposium[i])
+    table_info_talk = c(table_info_talk, "Minisymposium presentation")
+    tmp = str_trim(gsub("- ", "", abstracts$name_ms[i]))
+    table_info_talk = c(table_info_talk, paste0("(", tmp, ")"))
   } else if (nchar(abstracts$contributed[i])>0) {
-    cat("\n\n#### Contributed talk")
+    table_info_talk = c(table_info_talk, "Contributed presentation")
   }
+  # Print talk info
+  print(knitr::kable(table_info_talk, format = "latex", 
+                     col.names = NULL, label = NA,
+                     booktabs = TRUE))
+  # Throw in just a bit of space
+  cat("\\vskip0.5cm")
+  # Print abstract
   if (nchar(abstracts$talk_abstract[i])>0) {
     cat("\n\n", make_LaTeX_friendly(abstracts$talk_abstract[i]))
   }
@@ -144,6 +171,7 @@ for (i in 1:dim(abstracts)[1]) {
   cat("\\vskip\\medskipamount\n
   \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
   \\vskip\\medskipamount\n
-  \\nointerlineskip\n\n")
+  \\nointerlineskip\n
+  \\pagebreak[2]\n\n")
 }
 ```
