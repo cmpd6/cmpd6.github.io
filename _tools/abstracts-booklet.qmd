@@ -113,14 +113,17 @@ for (i in 1:dim(abstracts)[1]) {
   cat("\n## ", abstracts$full_name[i], " - ",
       str_trim(abstracts$talk_title[i]),
       "\n")
-  cat(abstracts$full_name[i], "\n\n")
+  table_info_speaker = c(abstracts$full_name[i])
   if (!is.na(abstracts$department[i])) {
     if (nchar(abstracts$department[i])>0) {
-      cat(paste0(abstracts$department[i], "\n\n"))
+      table_info_speaker = c(table_info_speaker, abstracts$department[i])
     }
   }
-  cat(paste0(abstracts$institution.y[i], ", ",
-             abstracts$institution_country[i]), "\n\n")
+  table_info_speaker = c(table_info_speaker, abstracts$institution.y[i])
+  table_info_speaker = c(table_info_speaker, abstracts$institution_country[i])
+  print(knitr::kable(table_info_speaker, format = "latex", 
+                     col.names = NULL, label = NA,
+                     booktabs = TRUE))
   # cat("## ", str_trim(abstracts$talk_title[i]))
   if (abstracts$plenary.y[i] == "P") {
     cat("\n\n#### Plenary presentation")
