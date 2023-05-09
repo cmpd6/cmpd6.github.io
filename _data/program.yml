@@ -341,7 +341,7 @@ days:
   rooms:
   - name: Schultz Theatre
     talks:
-      - name: 'Anna Marciniak-Czochra plenary'
+      - name: 'Evolution of stem cell populations:  Mechanistic mathematical modelling vs single cell data'
         time_start: '8:30'
         time_end: '9:30'
       - name: 'Morning coffee break'
