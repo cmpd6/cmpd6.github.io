@@ -37,7 +37,7 @@ days:
       - name: 'Seasonality and Influenza pH1N12009 Vaccination Impact'
         time_start: '15:00'
         time_end: '15:30'
-      - name: 'Jude Kong TBD'
+      - name: 'Mpox dynamic model: incorporating adaptive behavioural changes, different control strategies in the MSM community & under-reporting'
         time_start: '15:30'
         time_end: '16:00'
       - name: 'Modelling for informing public health policy on prevention and control of COVID-19 epidemics in Toronto, Canada'
