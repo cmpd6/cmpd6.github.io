@@ -4,6 +4,10 @@ title_short: Accomodation
 layout: information
 ---
 
+## Update (11 May)
+
+Room availability seems low the week of the conference, for some reason that we do not understand. Note, however, that it seems some hotels have rooms set aside for services like hotels.com or Expedia, as it is possible through these services to book rooms in hotels that appear full on their own websites.
+
 ## Hotels with specific rates for the conference
 
 Some rooms have been set aside with U of M rates at several hotels in Winnipeg. These are on a first-come, first-served basis, after which the corporate rate will not be available anymore, even if the hotels still have rooms.
