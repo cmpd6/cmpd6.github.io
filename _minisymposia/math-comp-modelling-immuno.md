@@ -10,7 +10,6 @@ speakers:
     - Kathleen Wilkie
     - Rebecca Bekker
     - Benedict Anchang
-    - Sana Jahedi
     - Jessica Conway
     - Ruian Ke
     - Xiaoyan Deng
