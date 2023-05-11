@@ -12,8 +12,6 @@ speakers:
     - Hayriye Gulbudak
 ---
 
-(Note: talk titles and links to abstracts will appear when the information is submitted by speakers and processed.)
-
 <h3 class="font-weight-light mb-3">Description</h3>
 
 Epidemic dynamics clearly depends on time-course of infection and immunity within individuals. Another important factor in epidemic dynamics is pathogen evolution whose dynamics depends on within-host processes and between-host transmission.

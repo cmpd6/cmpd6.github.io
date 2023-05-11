@@ -17,8 +17,6 @@ speakers:
     - Chapin Korosec
 ---
 
-(Note: talk titles and links to abstracts will appear when the information is submitted by speakers and processed.)
-
 <h3 class="font-weight-light mb-3">Description</h3>
 
 Mathematical and computational immunology is a rapidly evolving field dealing with the application of mathematical and computational methods to explore the structure, dynamics, organization, and regulation

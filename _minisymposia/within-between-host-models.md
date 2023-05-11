@@ -12,8 +12,6 @@ speakers:
     - Ephraim Agyingi
 ---
 
-(Note: talk titles and links to abstracts will appear when the information is submitted by speakers and processed.)
-
 <h3 class="font-weight-light mb-3">Description</h3>
 
 The purpose of this special session is to bring together a variety of researchers in within-host and between-host modeling of complex biological systems to report on recent advances in their respective areas and discuss some interesting problems arising in the intersection of these and related areas.  

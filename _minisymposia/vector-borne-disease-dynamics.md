@@ -12,13 +12,10 @@ speakers:
     - Fabio Milner
     - Jemal Mohammed-Awel
     - Andrea Pugliese
-    - Miranda Teboh-Ewugkem
     - Necibe Tuncer
     - Jorge Velasco-Hernandez
     - Huaiping Zhu
 ---
-
-(Note: talk titles and links to abstracts will appear when the information is submitted by speakers and processed.)
 
 <h3 class="font-weight-light mb-3">Description</h3>
 
