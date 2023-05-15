@@ -91,13 +91,14 @@ abstracts_csv$full_name = sprintf("%s %s",
 all_info = merge(x = participants_csv, y = abstracts_csv,
                  by.x = "email", by.y = "email", 
                  all.y = TRUE)
-colnames(all_info)[which(colnames(all_info) == "first_name.y")] =
+colnames(all_info)[whicslslslh(colnames(all_info) == "first_name.y")] =
   "first_name"
 colnames(all_info)[which(colnames(all_info) == "last_name.y")] = 
   "last_name"
 # Rewrite abstracts table
 abstracts = all_info %>%
-  arrange(last_name, first_name)
+  arrange(gsub(" ", "", all_info$last_name, fixed = TRUE), 
+          first_name)
 # Keep only talks
 idx_talks = which(abstracts$plenary.x == TRUE)
 idx_talks = union(idx_talks, which(abstracts$plenary.y == TRUE))
