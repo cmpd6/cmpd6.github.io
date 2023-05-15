@@ -23,6 +23,8 @@ Please use the links at the top of the page to navigate the program. A (pdf) boo
 
 Please refer to [this page](https://cmpd6.github.io/information/UM-campus-information/) for information about the U of M campus and the location of the conference venue on campus.
 
+Information about the duration of lectures and A/V equipment can be found [here](https://cmpd6.github.io/information/equipment-presentations/). Room summaries ([here](https://cmpd6.github.io/rooms/)) also have room A/V equipment information.
+
 ### Registration information
 
 The information on payment and registration has been moved [here](https://cmpd6.github.io/information/registration-payment/). Please bear in mind that we are not able to process registration fees on site.
