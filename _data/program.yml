@@ -19,7 +19,7 @@ days:
       - name: 'Modeling a traffic light warning system for acute respiratory infections'
         time_start: '10:30'
         time_end: '11:00'
-      - name: 'Mathematical Assessment of the Role of Pre-Exposure Prophylaxis on the HIV Pandemic'
+      - name: 'Pathogen dynamic in a tick-host system: A discrete-time modeling approach'
         time_start: '11:00'
         time_end: '11:30'
       - name: Retrospective estimation of proportion of total infections of COVID-19 during the first wave in Alberta
@@ -135,7 +135,7 @@ days:
       - name: 'Afternoon coffee break'
         time_start: '14:30'
         time_end: '15:00'
-      - name: 'Pathogen dynamic in a tick-host system: A discrete-time modeling approach'
+      - name: 'Mathematical Assessment of the Role of Pre-Exposure Prophylaxis on the HIV Pandemic'
         time_start: '15:00'
         time_end: '15:30'
       - name: 'A retrospective modelling analysis of the effect of control measures on the transmission of SARS-CoV-2 in Canada'
