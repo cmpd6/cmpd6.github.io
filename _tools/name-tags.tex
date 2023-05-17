@@ -1,0 +1,92 @@
+% From https://github.com/LSSTDESC/name-tag-guru
+
+% Ti use transparent with xelatex
+\RequirePackage{pdfmanagement-testphase}
+\DeclareDocumentMetadata{}
+
+\documentclass[letterpaper,10pt]{article}
+
+%% To include CJK character, one needs to use xelatex to compile
+%% and also to have a CJK font installed (current set to `Noto Sans CJK TC`)
+%% Otherwise, comment out the following two lines.
+%\usepackage{xeCJK}
+%\setCJKmainfont{Noto Sans CJK TC}
+
+%% basic font settings
+\usepackage[T1]{fontenc}
+\usepackage[default]{raleway}
+\providecommand{\raleway}{} % in case we are not using xeLaTex
+\newcommand*{\latinfont}{\raleway}
+\hyphenpenalty=10000
+
+%% essential packages
+\usepackage[boxed]{ticket} %Remove the [boxed] option to remove the badge boundary for printing
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{graphicx} % provides \includegraphics
+\usepackage{adjustbox} % provides \maxsizebox
+
+%% To make background partially transparent
+\usepackage{transparent}
+
+%% to use colored text for highlighting
+\newcommand*{\highlight}{\textcolor}
+%% OR, to use contour for highlighting, uncomment below
+%\usepackage[outline]{contour}
+%\contourlength{5pt}
+%\newcommand*{\highlight}{\contour}
+
+%% other useful commands
+\newcommand*{\cbox}[1]{\makebox[0pt]{\maxsizebox{3.8in}{!}{#1}}}
+\newcommand*{\lbox}[1]{\makebox[0pt][l]{\maxsizebox{3.8in}{!}{#1}}}
+\newcommand*{\rbox}[1]{\makebox[0pt][r]{\maxsizebox{3.8in}{!}{#1}}}
+\newcommand*{\largefont}{\fontsize{68pt}{0pt}\selectfont}
+\newcommand*{\smallfont}{\fontsize{26pt}{0pt}\selectfont}
+\newcommand*{\infofont}{\fontsize{22pt}{0pt}\selectfont}
+
+%% page setting, currently set to match Avery Name Badges #74459
+\hoffset=-0.75in %adjusting page margin
+\voffset=-0.125in %adjusting page margin
+\unitlength=0.01in
+\ticketSize{400}{300} % in unitlength
+\ticketDistance{0}{0} %in unitlength
+\ticketNumbers{2}{3} % how many badges per page
+
+%% ticket default setting
+\renewcommand*{\ticketdefault}{%
+  \put(10,2){\lbox{{\transparent{0.2}\includegraphics[width=\textwidth]{SkylineWinnipgeLong}}}}%
+  \put(205,29){\cbox{\latinfont\small Computational and Mathematical Population Dynamics 6}}% Update dates as needed
+  \put(205,15){\cbox{\latinfont\footnotesize University of Manitoba, 23--27 May 2023}}% Update location as needed
+}
+
+%% participant style setting
+\newcommand*{\participant}[5]{\ticket{%
+  \put(200,210){\cbox{#5{\latinfont\bfseries\largefont #1}}}%
+  \put(200,155){\cbox{#5{\latinfont\bfseries\smallfont #2}}}%
+  \put(200,106){\cbox{\latinfont\infofont #3}}%
+  \put(200,62){\cbox{\latinfont\infofont #4}}%
+}}
+
+%% empty ticket (with background)
+\newcommand*{\emptyticket}{\ticket{}}
+
+%% local people or other highlight commands
+\newcommand*{\local}{\highlight{orange}}
+\newcommand*{\contact}{\highlight{CornflowerBlue}}
+
+
+%% backside printing (comment out for front side)
+\hoffset=1.1in
+\backside
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% insert below the participant list
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{participants}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% end of the participant list
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% empty tickets below
+%\emptyticket{}
+%\emptyticket{}
+\end{document}
