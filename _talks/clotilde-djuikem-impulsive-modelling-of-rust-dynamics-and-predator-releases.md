@@ -18,5 +18,3 @@ the simpler dynamics during the dry season. Biological control using predators t
 plantation. This work hence provides qualitative and quantitative bases for the deployment of predator-based biocontrol, a promising alternative to fungicides for rust control.
  
 Keywords: crop protection, coffee leaf rust, hybrid model, seasonality, Floquet theory, stability
-
-

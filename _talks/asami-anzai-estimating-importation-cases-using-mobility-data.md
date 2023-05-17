@@ -19,5 +19,3 @@ Results
  
 Conclusions
  Our findings indicate the need to account for the weight of an inter-prefectural mobility network when implementing human mobility-related countermeasures. If the mobility rate were maintained lower than the observed rate, the number of imported cases could have been maintained at lower levels than the observed, potentially preventing the unnecessary spatial spread of COVID-19 in late 2020.
-
-
