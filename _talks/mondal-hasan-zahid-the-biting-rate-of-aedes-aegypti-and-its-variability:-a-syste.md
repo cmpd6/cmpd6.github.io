@@ -18,6 +18,3 @@ We perform a systematic review using search terms such as ‘biting rate’ and 
 Conclusions/Significance
 
 Our review reinforces the importance of engaging with vector biology when using mosquito biting data in transmission modeling studies. For Ae. aegypti, this includes understanding the variation of the gonotrophic cycle duration and the number of bites per gonotrophic cycle, as well as recognizing the potential for spatial and temporal variability. To address these variabilities, we advocate for site-specific data and the development of a standardized approach to estimate the biting rate.
-
-
-

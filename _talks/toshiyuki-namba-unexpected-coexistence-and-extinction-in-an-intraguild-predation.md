@@ -10,6 +10,3 @@ Intraguild predation (IGP) is predation on consumers (IGprey) by predators (IGpr
 
 At the CMPD5, We showed that the quality of the resource and consumer as diets to the predator is the essential parameter to determine the dynamics of the IGP system and verified that the consumer never becomes extinct when it is not beneficial to the predator. Furthermore, not the consumer but the predator may become extinct when the consumer is not profitable for the predator. In this presentation, we challenge the supposed necessary condition for coexistence, that consumers must be superior in resource competition. We will show that large amplitude oscillations in the resource-predator system allow the consumer to increase and coexist with predators even if the former is inferior in resource competition Furthermore, if the resource-consumer system is oscillatory, the predator is forced
 to become extinct when environmental productivity is high. Therefore, the fates of the consumer and predator in the oscillatory systems are very different from those in the stationary systems. To fully understand the intraguild predation system, it is necessary to examine nonlinear dynamics in detail.
-
-
-
