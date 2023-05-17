@@ -4,7 +4,7 @@ speakers:
 name: 'Black Holes in TIME: the Effect of GRID Radiation on the Tumor-Immune Micro-environment'
 categories:
 - Minisymposium lectures
-name_ms: mathematical-and-computational-approaches-to-modelling-immunology
+name_ms: within-between-host-models
 ms_number: C2
 hide: no
 ---
