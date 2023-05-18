@@ -1,9 +1,10 @@
 ---
-name: Pauline Van Den Driessche
+name: Pauline van den Driessche
 first_name: Pauline
-last_name: Van Den Driessche
+last_name: van den Driessche
 email: vandendr@uvic.ca
-institution: Department of Math and Stats, University of Victoria, BC, Canada
+department: Mathematics and Statistics
+institution: University of Victoria, BC
 institution_country: Canada
 hide: no
 ---
