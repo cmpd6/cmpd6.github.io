@@ -43,7 +43,7 @@ days:
       - name: 'Modelling for informing public health policy on prevention and control of COVID-19 epidemics in Toronto, Canada'
         time_start: '16:00'
         time_end: '16:30'
-      - name: 'Stability Analysis for Integral Equation Disease Models'
+      - name: 'Dynamics of COVID-19 Variants of Concern'
         time_start: '16:30'
         time_end: '17:00'
       - name: 'Welcome reception'
