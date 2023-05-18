@@ -1,0 +1,233 @@
+---
+title: "CMPD6 abstracts"
+format:
+  pdf:
+    toc: true
+    number-sections: false
+    colorlinks: true
+    geometry:
+      - top=15mm
+      - bottom=20mm
+      - left=15mm
+      - right=15mm
+execute:
+  echo: false
+---
+
+
+```{r}
+#| echo: false
+#| message: false
+#| results: 'hide'
+# Process list of abstracts
+library(yaml)
+library(dplyr)
+library(stringr)
+library(countrycode)
+
+# Process yaml header
+# The markdown files used have just a yaml header; the markdown part
+# often causes read_yml to crash. So we process only the header
+process_yml_header = function(fqfn) {
+  yaml_part = NULL
+  con = file(fqfn, "r")
+  line = readLines(con, n = 1)
+  if (line == "---") {
+    in_yaml = TRUE
+    while ( in_yaml ) {
+      line = readLines(con, n = 1)
+      if ( length(line) == 0 ) {
+        break
+      } else if (line == "---") {
+        in_yaml = FALSE
+      } else {
+        yaml_part = paste0(yaml_part, line, "\n")
+      }
+    }
+  }
+  close(con)
+  yaml_fields = read_yaml(text = yaml_part)
+  return(yaml_fields)
+}
+# Strip yaml header
+strip_yaml_header = function(fqfn) {
+  yaml_part = NULL
+  newline = "
+  \n\n
+  "
+  con = file(fqfn, "r")
+  line = readLines(con, n = 1)
+  if (line == "---") {
+    in_yaml = TRUE
+    while ( in_yaml ) {
+      line = readLines(con, n = 1)
+      if ( length(line) == 0 ) {
+        break
+      } else if (line == "---") {
+        in_yaml = FALSE
+      } else {
+        yaml_part = paste0(yaml_part, line, newline)
+      }
+    }
+  }
+  tmp = as.list(readLines(con, n = -1))
+  close(con)
+  OUT = ""
+  for (i in 1:length(tmp)) {
+    OUT = paste(OUT, tmp[[i]], "\n\n")
+  }
+  return(OUT)
+}
+# Make stuff LaTeX compatible (e.g., & to \&)
+make_LaTeX_friendly = function(ch) {
+  ch = gsub("&", "\\&", ch)
+  ch = gsub("/assets/images/", "../assets/images/", ch)
+  return(ch)
+}
+## TALKS
+talks = data.frame(file_name = list.files(path = "../_talks",
+                                          pattern = glob2rx("*.md")))
+talks$speaker_name = rep(NA, dim(talks)[1])
+talks$talk_title = rep(NA, dim(talks)[1])
+talks$talk_category = rep(NA, dim(talks)[1])
+talks$name_ms = rep(NA, dim(talks)[1])
+talks$abstract = rep(NA, dim(talks)[1])
+for (i in 1:dim(talks)[1]) {
+  tmp = process_yml_header(sprintf("../_talks/%s",
+                                   talks$file_name[i]))
+  talks$speaker_name[i] = tmp$speakers
+  talks$talk_title[i] = tmp$name
+  if (exists("categories", tmp)) {
+    talks$talk_category[i] = tmp$categories
+  }
+  if (exists("name_ms", tmp)) {
+    talks$name_ms[i] = tmp$name_ms
+  }
+  talks$abstract = strip_yaml_header(sprintf("../_talks/%s",
+                                             talks$file_name[i]))
+}
+talks = talks %>%
+  filter(speaker_name != "Breaks") %>%
+  filter(speaker_name != "Organisers")
+## SPEAKERS
+speakers = data.frame(file_name = list.files(path = "../_speakers",
+                                             pattern = glob2rx("*.md")))
+speakers$name = rep(NA, dim(speakers)[1])
+speakers$first_name = rep(NA, dim(speakers)[1])
+speakers$last_name = rep(NA, dim(speakers)[1])
+speakers$web_site = rep(NA, dim(speakers)[1])
+speakers$email = rep(NA, dim(speakers)[1])
+speakers$institution = rep(NA, dim(speakers)[1])
+speakers$institution_country = rep(NA, dim(speakers)[1])
+for (i in 1:dim(speakers)[1]) {
+  tmp = process_yml_header(sprintf("../_speakers/%s",
+                                   speakers$file_name[i]))
+  speakers$name[i] = tmp$name
+  speakers$first_name[i] = tmp$first_name
+  speakers$last_name[i] = tmp$last_name
+  if (exists("web_site", tmp)) {
+    speakers$web_site[i] = tmp$web_site
+  }
+  if (exists("email", tmp)) {
+    speakers$email[i] = tmp$email
+  }
+  speakers$institution[i] = tmp$institution
+  speakers$institution_country[i] = tmp$institution_country
+}
+# Drop the file name from this info
+speakers = speakers %>% 
+  select(!file_name)
+## MINISYMPOSIA
+minisymposia = data.frame(file_name = list.files(path = "../_minisymposia",
+                                                 pattern = glob2rx("*.md")))
+minisymposia$short_name = rep(NA, dim(minisymposia)[1])
+minisymposia$long_name = rep(NA, dim(minisymposia)[1])
+for (i in 1:dim(minisymposia)[1]) {
+  ms_dir = gsub("_tools","_minisymposia", getwd())
+  tmp = process_yml_header(sprintf("%s/%s",
+                                   ms_dir,
+                                   minisymposia$file_name[i]))
+  minisymposia$short_name[i] = gsub(".md", "", minisymposia$file_name[i])
+  minisymposia$long_name[i] = tmp$name
+}
+# Drop the file name from this info
+minisymposia = minisymposia %>% 
+  select(!file_name)
+# Change name of long name for ms
+colnames(minisymposia)[2] = "ms_full_name"
+## MERGE INFO FOR ABSTRACTS
+abstracts = merge(x = talks, y = speakers,
+                  by.x = "speaker_name", by.y = "name")
+abstracts = merge(x = abstracts, y = minisymposia,
+                  by.x = "name_ms", by.y = "short_name",
+                  all.x = TRUE)
+abstracts = abstracts %>%
+  arrange(last_name, first_name)
+```
+
+
+\vskip\medskipamount
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+\newpage
+
+
+```{r}
+#| echo: false
+#| message: false
+#| results: 'asis'
+###
+### GENERATE ABSTRACT LIST
+###
+for (i in 1:dim(abstracts)[1]) {
+  cat("\n## ", abstracts$speaker_name[i])
+  if (abstracts$talk_category[i] == "Plenaries") {
+    cat(" (P talk) - ")
+  } else if (abstracts$talk_category[i] == "Minisymposium lectures") {
+    cat(" (MS talk) - ")
+  } else if (abstracts$talk_category[i] == "Contributed talks") {
+    cat(" (C talk) - ")
+  }
+  cat(str_trim(abstracts$talk_title[i]), "\n")
+  # Prepare information about speakers
+  table_info_speaker = c(abstracts$full_name[i])
+  # if (!is.na(abstracts$department[i])) {
+  #   if (nchar(abstracts$department[i])>0) {
+  #     table_info_speaker = c(table_info_speaker, abstracts$department[i])
+  #   }
+  # }
+  table_info_speaker = c(table_info_speaker, abstracts$institution[i])
+  table_info_speaker = c(table_info_speaker, abstracts$institution_country[i])
+  print(knitr::kable(table_info_speaker, format = "latex", 
+                     col.names = NULL, label = NA,
+                     booktabs = TRUE))
+  # Now gather info for the talk table
+  table_info_talk = c()
+  if (abstracts$talk_category[i] == "Plenaries") {
+    table_info_talk = c(table_info_talk, "Plenary presentation")
+  } else if (abstracts$talk_category[i] == "Minisymposium lectures") {
+    table_info_talk = c(table_info_talk, "Minisymposium presentation")
+    tmp = str_trim(gsub("- ", "", abstracts$ms_full_name[i]))
+    table_info_talk = c(table_info_talk, paste0("(", tmp, ")"))
+  } else if (abstracts$talk_category[i] == "Contributed talks") {
+    table_info_talk = c(table_info_talk, "Contributed presentation")
+  }
+  # Print talk info
+  print(knitr::kable(table_info_talk, format = "latex", 
+                     col.names = NULL, label = NA,
+                     booktabs = TRUE))
+  # Throw in just a bit of space
+  cat("\\vskip0.5cm")
+  # Print abstract
+  if (nchar(abstracts$abstract[i])>0) {
+    cat("\n\n", make_LaTeX_friendly(abstracts$abstract[i]))
+  }
+  cat("\n")
+  cat("\\vskip\\medskipamount\n
+  \\leaders\\vrule width \\textwidth\\vskip0.4pt\n
+  \\vskip\\medskipamount\n
+  \\nointerlineskip\n
+  \\pagebreak[2]\n\n")
+}
+```
