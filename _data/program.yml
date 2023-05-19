@@ -269,6 +269,10 @@ days:
       - name: 'Multiscale models of SARS-CoV-2 infection'
         time_start: '16:30'
         time_end: '17:00'
+      - name: 'Barbecue at Daily Bread Café'
+        time_start: '17:00'
+        time_end: '19:30'
+
 
   - name: Room 202
     talks:
@@ -302,6 +306,9 @@ days:
       - name: 'Impact of tetravalent dengue vaccination with screening, ADE, and altered infectivity on dengue and Zika transmission'
         time_start: '16:00'
         time_end: '16:30'
+      - name: 'Barbecue at Daily Bread Café'
+        time_start: '17:00'
+        time_end: '19:30'
 
   - name: Room 204
     talks:
@@ -332,6 +339,9 @@ days:
       - name: 'Angiogenesis in Cancer: A Tragedy of Commons'
         time_start: '15:30'
         time_end: '16:00'
+      - name: 'Barbecue at Daily Bread Café'
+        time_start: '17:00'
+        time_end: '19:30'
 
 - name: Friday
   date: 2023-05-26
@@ -368,9 +378,6 @@ days:
       - name: 'Predictive modelling and forecasting of the mosquito abundance and risk of West Nile virus in Ontario Canada'
         time_start: '15:30'
         time_end: '16:00'
-      - name: 'Barbecue at Daily Bread Café'
-        time_start: '16:00'
-        time_end: '18:30'
 
   - name: Room 118
     talks:
@@ -404,9 +411,6 @@ days:
       - name: 'Reconstructing the temporal dynamics of clustering from cluster surveillance of COVID-19'
         time_start: '15:30'
         time_end: '16:00'
-      - name: 'Barbecue at Daily Bread Café'
-        time_start: '16:00'
-        time_end: '18:30'
 
   - name: Room 202
     talks:
@@ -440,9 +444,6 @@ days:
       - name: 'Resonance and bifurcation in a discrete-time predator-prey system'
         time_start: '15:30'
         time_end: '16:00'
-      - name: 'Barbecue at Daily Bread Café'
-        time_start: '16:00'
-        time_end: '18:30'
 
 - name: Saturday
   date: 2023-05-27
