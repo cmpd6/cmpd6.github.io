@@ -1,6 +1,6 @@
 ---
-name: Stochastic population models - Theory and applications in Cancer Research
-title: Stochastic population models - Theory and applications in Cancer Research
+name: 'Stochastic population models: Theory and applications in Cancer Research'
+title: 'Stochastic population models: Theory and applications in Cancer Research'
 organisers: 
     - Marek Kimmel
 speakers:

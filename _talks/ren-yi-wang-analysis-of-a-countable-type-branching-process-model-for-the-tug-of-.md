@@ -5,7 +5,7 @@ name: Analysis of A Countable-Type Branching Process Model for the Tug-of-War Ca
   Cell Dynamics
 categories:
 - Minisymposium lectures
-name_ms: stochastic-population-models:-theory-and-applications-in-cancer-research
+name_ms: stochastic-population-models-theory-and-applications-in-cancer-research
 ms_number: C4
 hide: no
 ---

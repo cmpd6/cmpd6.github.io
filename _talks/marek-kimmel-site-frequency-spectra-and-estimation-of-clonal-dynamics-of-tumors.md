@@ -4,7 +4,7 @@ speakers:
 name: Site frequency spectra and estimation of clonal dynamics of tumors
 categories:
 - Minisymposium lectures
-name_ms: stochastic-population-models:-theory-and-applications-in-cancer-research
+name_ms: stochastic-population-models-theory-and-applications-in-cancer-research
 ms_number: C4
 hide: no
 ---

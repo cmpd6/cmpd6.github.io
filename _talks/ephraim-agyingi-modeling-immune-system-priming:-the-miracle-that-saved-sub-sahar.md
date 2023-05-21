@@ -5,7 +5,7 @@ name: 'Modeling immune system priming: the miracle that saved Sub-Sahara Africa 
   COVID-19'
 categories:
 - Minisymposium lectures
-name_ms: within-between-host-models
+name_ms: within-host-and-between-host-mathematical-models-of-biological-dynamics
 ms_number: E4
 hide: no
 ---

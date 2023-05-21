@@ -4,7 +4,7 @@ speakers:
 name: Inferring phylogenetic birth-death models from extant lineages through time
 categories:
 - Minisymposium lectures
-name_ms: stochastic-population-models:-theory-and-applications-in-cancer-research
+name_ms: stochastic-population-models-theory-and-applications-in-cancer-research
 ms_number: C4
 hide: no
 ---

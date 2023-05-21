@@ -2,7 +2,9 @@
 title: "CMPD6 abstracts"
 format:
   pdf:
+    latex-tinytex: false
     toc: true
+    keep-tex: true
     number-sections: false
     colorlinks: true
     geometry:
@@ -10,6 +12,9 @@ format:
       - bottom=20mm
       - left=15mm
       - right=15mm
+    latex-max-runs: 4
+    include-in-header:
+      file: booklet-header.tex
 execute:
   echo: false
 ---
@@ -80,8 +85,10 @@ strip_yaml_header = function(fqfn) {
 }
 # Make stuff LaTeX compatible (e.g., & to \&)
 make_LaTeX_friendly = function(ch) {
-  ch = gsub("&", "\\&", ch)
+  ch = gsub("&", "\\\\&", ch)
   ch = gsub("/assets/images/", "../assets/images/", ch)
+  ch = gsub("β", "\\beta", ch)
+  ch = gsub("_", "\\\\_", ch)
   return(ch)
 }
 ## TALKS
@@ -165,6 +172,9 @@ abstracts = abstracts %>%
   arrange(last_name, first_name)
 ```
 
+\newpage
+
+# List of abstracts
 
 \vskip\medskipamount
 \leaders\vrule width \textwidth\vskip0.4pt
@@ -181,15 +191,11 @@ abstracts = abstracts %>%
 ### GENERATE ABSTRACT LIST
 ###
 for (i in 1:dim(abstracts)[1]) {
-  cat("\n## ", abstracts$speaker_name[i])
-  if (abstracts$talk_category[i] == "Plenaries") {
-    cat(" (P talk) - ")
-  } else if (abstracts$talk_category[i] == "Minisymposium lectures") {
-    cat(" (MS talk) - ")
-  } else if (abstracts$talk_category[i] == "Contributed talks") {
-    cat(" (C talk) - ")
-  }
-  cat(str_trim(abstracts$talk_title[i]), "\n")
+  cat("\\begin{absolutelynopagebreak}\n")
+  title_str = sprintf("\\subsection{%s - %s}",
+                      abstracts$speaker_name[i],
+                      abstracts$talk_title[i])
+  cat(make_LaTeX_friendly(str_trim(title_str)), "\n")
   # Prepare information about speakers
   table_info_speaker = c(abstracts$full_name[i])
   # if (!is.na(abstracts$department[i])) {
@@ -229,5 +235,47 @@ for (i in 1:dim(abstracts)[1]) {
   \\vskip\\medskipamount\n
   \\nointerlineskip\n
   \\pagebreak[2]\n\n")
+  cat("\\end{absolutelynopagebreak}\n\n")
+}
+```
+
+\newpage
+
+# List of participants
+
+```{r}
+#| echo: false
+#| message: false
+#| results: 'asis'
+all_participants = read.csv("CMPD6-registrations.csv")
+all_participants = all_participants[,c("First.Name",
+                                       "Last.Name",
+                                       "Department",
+                                       "Organization",
+                                       "Country",
+                                       "Email")]
+colnames(all_participants) = c("first_name",
+                               "last_name",
+                               "department",
+                               "institution",
+                               "country",
+                               "email")
+for (i in 1:dim(all_participants)[1]) {
+  cat("\\begin{absolutelynopagebreak}")
+  cat(all_participants$first_name[i], " ", all_participants$last_name[i], 
+      "\\newline\n")
+  if (length(all_participants$department[i])>0) {
+    cat("\\mbox{}\\quad ", 
+        make_LaTeX_friendly(all_participants$department[i]), "\\newline\n")
+  }
+  cat("\\mbox{}\\quad ", 
+      make_LaTeX_friendly(all_participants$institution[i]), "\\newline\n")
+  cat("\\mbox{}\\quad ", all_participants$country[i],"\\newline\n")
+  cat("\\mbox{}\\quad \\href{mailto:", 
+      make_LaTeX_friendly(str_trim(all_participants$email[i])), 
+      "}{", 
+      make_LaTeX_friendly(str_trim(all_participants$email[i])), 
+      "}\n")
+  cat("\\end{absolutelynopagebreak}\\vskip0.2cm\n")
 }
 ```
