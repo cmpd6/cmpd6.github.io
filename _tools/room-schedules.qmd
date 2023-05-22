@@ -1,0 +1,178 @@
+---
+format:
+  pdf:
+    latex-tinytex: false
+    number-sections: false
+    colorlinks: true
+    pagestyle: empty
+    geometry:
+      - top=15mm
+      - bottom=20mm
+      - left=15mm
+      - right=15mm
+    latex-max-runs: 4
+    include-in-header:
+      file: booklet-header.tex
+execute:
+  echo: false
+---
+
+
+```{r}
+#| echo: false
+#| message: false
+#| results: 'hide'
+# Process list of abstracts
+library(yaml)
+library(dplyr)
+library(stringr)
+library(countrycode)
+
+# Process yaml header
+# The markdown files used have just a yaml header; the markdown part
+# often causes read_yml to crash. So we process only the header
+process_yml_header = function(fqfn) {
+  yaml_part = NULL
+  con = file(fqfn, "r")
+  line = readLines(con, n = 1)
+  if (line == "---") {
+    in_yaml = TRUE
+    while ( in_yaml ) {
+      line = readLines(con, n = 1)
+      if ( length(line) == 0 ) {
+        break
+      } else if (line == "---") {
+        in_yaml = FALSE
+      } else {
+        yaml_part = paste0(yaml_part, line, "\n")
+      }
+    }
+  }
+  close(con)
+  yaml_fields = read_yaml(text = yaml_part)
+  return(yaml_fields)
+}
+# Strip yaml header
+strip_yaml_header = function(fqfn) {
+  yaml_part = NULL
+  newline = "
+  \n\n
+  "
+  con = file(fqfn, "r")
+  line = readLines(con, n = 1)
+  if (line == "---") {
+    in_yaml = TRUE
+    while ( in_yaml ) {
+      line = readLines(con, n = 1)
+      if ( length(line) == 0 ) {
+        break
+      } else if (line == "---") {
+        in_yaml = FALSE
+      } else {
+        yaml_part = paste0(yaml_part, line, newline)
+      }
+    }
+  }
+  tmp = as.list(readLines(con, n = -1))
+  close(con)
+  OUT = ""
+  for (i in 1:length(tmp)) {
+    OUT = paste(OUT, tmp[[i]], "\n\n")
+  }
+  return(OUT)
+}
+# Make stuff LaTeX compatible (e.g., & to \&)
+make_LaTeX_friendly = function(ch) {
+  ch = gsub("&", "\\\\&", ch)
+  ch = gsub("/assets/images/", "../assets/images/", ch)
+  ch = gsub("β", "\\beta", ch)
+  ch = gsub("_", "\\\\_", ch)
+  return(ch)
+}
+## Load schedule
+schedule = read_yaml("../_data/program.yml")
+## TALKS
+talks = data.frame(file_name = list.files(path = "../_talks",
+                                          pattern = glob2rx("*.md")))
+talks$speaker_name = rep(NA, dim(talks)[1])
+talks$talk_title = rep(NA, dim(talks)[1])
+talks$talk_category = rep(NA, dim(talks)[1])
+talks$name_ms = rep(NA, dim(talks)[1])
+talks$abstract = rep(NA, dim(talks)[1])
+for (i in 1:dim(talks)[1]) {
+  tmp = process_yml_header(sprintf("../_talks/%s",
+                                   talks$file_name[i]))
+  talks$speaker_name[i] = tmp$speakers
+  talks$talk_title[i] = tmp$name
+  if (exists("categories", tmp)) {
+    talks$talk_category[i] = tmp$categories
+  }
+  if (exists("name_ms", tmp)) {
+    talks$name_ms[i] = tmp$name_ms
+  }
+  talks$abstract = strip_yaml_header(sprintf("../_talks/%s",
+                                             talks$file_name[i]))
+}
+talks = talks %>%
+  filter(speaker_name != "Breaks") %>%
+  filter(speaker_name != "Organisers")
+```
+
+
+\vskip\medskipamount
+\leaders\vrule width \textwidth\vskip0.4pt
+\vskip\medskipamount
+\nointerlineskip
+\newpage
+
+
+```{r}
+#| echo: false
+#| message: false
+#| results: 'asis'
+###
+### GENERATE DAILY SCHEDULES
+###
+for (d in 1:length(schedule$days)) {
+  curr_day = schedule$days[[d]]
+  for (r in 1:length(curr_day$rooms)) {
+    # Print the day
+    cat("\\begin{center}\n\\Huge CMPD6 - \n")
+    cat(curr_day$name, " ", curr_day$date, "\n\\end{center}\n")
+    curr_room = curr_day$rooms[[r]]
+    # Print the room
+    cat("\\begin{center}\n\\Huge", curr_room$name, "\n\\end{center}\n")
+    cat("\\vfill\n")
+    # Create and fill the table with the information
+    cat("\\begin{center}\n\\begin{tabular}{p{0.15\\textwidth}p{0.8\\textwidth}}\n")
+    cat("\\textbf{Time} & \\textbf{Talk} \\\\\n\\hline\n")
+    for (talk in curr_room$talks) {
+      # Talk or event?
+      if (talk$name %in% talks$talk_title) {
+        idx = which(talk$name == talks$talk_title)
+        cat(talk$time_start,"-",talk$time_end,
+            " & ",
+            paste0("\\textit{", talks$speaker_name[idx], "}"), "\\\\\n")
+        cat(" & ",
+            make_LaTeX_friendly(talk$name), "\\\\\n")
+      } else {
+        if (curr_room$name == "Schultz Theatre") {
+          if (talk$name != "Lunch break") {
+            cat(talk$time_start,"-",talk$time_end,
+                " & ",
+                make_LaTeX_friendly(talk$name), "\\\\\n")
+          } else {
+            cat(" & \\\\\n")
+          }
+        } else {
+          cat(" & \\\\\n")
+        }
+      }
+      cat("&\\\\\n")
+    }
+    cat("\\end{tabular}\n\\end{center}\n")
+    cat("\\vfill\n")
+    cat("\\newpage\n")
+  }
+}
+```
