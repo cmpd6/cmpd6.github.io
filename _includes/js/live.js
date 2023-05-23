@@ -57,7 +57,8 @@ window.conference.live = (() => {
 
     const timeNow = () => {
         // Current timestamp in seconds
-        return Math.floor(Date.now() / 1000);
+        // return Math.floor(Date.now() / 1000);
+        return Math.floor(Date.now() / 1000 - 5*60*60);
     };
 
     const timeCont = () => {
