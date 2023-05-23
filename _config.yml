@@ -144,10 +144,10 @@ conference:
   # Live indications
   live:
     date: 23.05.2023
-    timezone: GMT-5
+    timezone: GMT-7
     stop:       240  # in minutes
     streaming:
-      enable: true
+      enable: false
       pause:     60  # in minutes
       prepend:    5  # in minutes
       extend:     5  # in minutes
