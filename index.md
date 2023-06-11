@@ -17,7 +17,7 @@ The sixth edition of the Computational and Mathematical Population Dynamics conf
 
 ### Conference program
 
-Please use the links at the top of the page to navigate the program. A (pdf) book of abstracts will be available very soon.
+Please use the links at the top of the page to navigate the program. A pdf with all abstracts and the list of all participants is available [here](/assets/pdf/abstracts-booklet.pdf).
 
 ### Conference venue information
 
