@@ -1,9 +1,9 @@
-title: CMPD6
+title: MPDEE2027
 preposition: at
 description: >-
-  Computational and Mathematical Population Dynamics 6, Winnipeg, Manitoba, Canada, 23-27 May 2023.
+  Models in Population Dynamics, Ecology and Evolution (MPDEE) 2027, Winnipeg, Manitoba, Canada, June 8-12 2027.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://cmpd6.github.io" # the base hostname & protocol for the site
+url: "" # the base hostname & protocol for the site
 
 remote_theme: "DigitaleGesellschaft/jekyll-theme-conference"
 
@@ -82,9 +82,9 @@ conference:
   # Navigation bar
   navigation:
     logo:
-      name: CMPD6
+      name: MPDEE2027
       img: 'SkylineWinnipgeShortScaledTitle.png'
-      url: 'https://cmpd6.github.io/'
+      url: '/'
     links:
       - name: Committees
         relative_url: "/committees.html"
@@ -104,14 +104,10 @@ conference:
         relative_url: /information/
       - name: Previous Editions
         menu:
-          - name: 2023 (current)
+          - name: 2027 (current)
             disabled: true
-          - name: 2019
-            absolute_url: "http://www.math.fau.edu/cmpd5/"
-          - name: 2013
-            absolute_url: "https://www.math.miami.edu/~ruan/CMPD4.pdf"
-          - name: History
-            absolute_url: "/CMPD_history.html"
+          - name: 2026
+            absolute_url: "https://dbearup.github.io/mpdee26/"
 
 
   # Link Preview for Sharing
@@ -134,7 +130,7 @@ conference:
 
   # Information boxes
   info_bars:
-    - title: Computational and Mathematical Population Dynamics 6 (CMPD6), Winnipeg, 23-27 May 2023
+    - title: Models in Population Dynamics, Ecology and Evolution (MPDEE) 2027, Winnipeg, June 8-12 2027
       color: primary
       main_only: true
     - text: This is just some random content for testing purposes.
@@ -143,7 +139,7 @@ conference:
 
   # Live indications
   live:
-    date: 23.05.2023
+    date: 08.06.2027
     timezone: -5
     stop:       240  # in minutes
     streaming:
